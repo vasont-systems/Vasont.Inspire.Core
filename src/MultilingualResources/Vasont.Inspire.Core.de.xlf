@@ -1,0 +1,1882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="de" original="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX">
+        <trans-unit id="AccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>Access Denied.</source>
+          <target state="new">Access Denied.</target>
+        </trans-unit>
+        <trans-unit id="AccessDeniedHtmlErrorMessageText" translate="yes" xml:space="preserve">
+          <source>The primary cause of this error is likely due to a session timeout. You can close the application and then reopen it in a new browser window, login, and attempt to load the page again.</source>
+          <target state="new">The primary cause of this error is likely due to a session timeout. You can close the application and then reopen it in a new browser window, login, and attempt to load the page again.</target>
+        </trans-unit>
+        <trans-unit id="ActivityRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>An activity for this assignment is required.</source>
+          <target state="new">An activity for this assignment is required.</target>
+        </trans-unit>
+        <trans-unit id="ApiAuthenticationRejectedErrorText" translate="yes" xml:space="preserve">
+          <source>The user name or password specified was not valid.</source>
+          <target state="new">The user name or password specified was not valid.</target>
+        </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Inspire</source>
+          <target state="new">Inspire</target>
+        </trans-unit>
+        <trans-unit id="ApproveComponentIncompleteText" translate="yes" xml:space="preserve">
+          <source>Unable to approve component "{0}" ({1}) because it is incomplete.</source>
+          <target state="new">Unable to approve component "{0}" ({1}) because it is incomplete.</target>
+        </trans-unit>
+        <trans-unit id="ApproveComponentPendingDeleteError" translate="yes" xml:space="preserve">
+          <source>Unable to approve component "{0}" ({1}) because components that were flagged for deletion were unable to be deleted.</source>
+          <target state="new">Unable to approve component "{0}" ({1}) because components that were flagged for deletion were unable to be deleted.</target>
+        </trans-unit>
+        <trans-unit id="ArgumentMustBeGreaterThanZeroErrorFormat" translate="yes" xml:space="preserve">
+          <source>"{0}" must be greater than 0.</source>
+          <target state="new">"{0}" must be greater than 0.</target>
+        </trans-unit>
+        <trans-unit id="AttributeNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified attribute with identity "{0}" could not be found.</source>
+          <target state="new">The specified attribute with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="AttributeValidateInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete attribute "{0}" because it is used by one or more XML link types. Clear all references to attribute "{0}" and try again.</source>
+          <target state="new">Cannot delete attribute "{0}" because it is used by one or more XML link types. Clear all references to attribute "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="AttributeValidateInvalidNameErrorText" translate="yes" xml:space="preserve">
+          <source>The attribute name "{0}" is invalid. Attribute names must begin with an Alpha character, and not contain: space, ", ', &amp;, <it id="1" pos="open">&lt;, or &gt;</it>.</source>
+          <target state="new">The attribute name "{0}" is invalid. Attribute names must begin with an Alpha character, and not contain: space, ", ', &amp;, <it id="1" pos="open">&lt;, or &gt;</it>.</target>
+        </trans-unit>
+        <trans-unit id="AttributeValueInvalidText" translate="yes" xml:space="preserve">
+          <source>The attribute value "{0}" contains invalid characters. Special characters are not allowed in an attribute value and must be removed or replaced with valid XML.</source>
+          <target state="new">The attribute value "{0}" contains invalid characters. Special characters are not allowed in an attribute value and must be removed or replaced with valid XML.</target>
+        </trans-unit>
+        <trans-unit id="BackchannelUserNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A user with the external identity {0} was not found in the {1} authority during a backchannel user profile lookup request.</source>
+          <target state="new">A user with the external identity {0} was not found in the {1} authority during a backchannel user profile lookup request.</target>
+        </trans-unit>
+        <trans-unit id="BinaryContentTypeText" translate="yes" xml:space="preserve">
+          <source>Binary Content Type</source>
+          <target state="new">Binary Content Type</target>
+        </trans-unit>
+        <trans-unit id="BindingsLookupErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred during the initial application start-up attempting to communicate with IIS for bindings retrieval.</source>
+          <target state="new">An error occurred during the initial application start-up attempting to communicate with IIS for bindings retrieval.</target>
+        </trans-unit>
+        <trans-unit id="CancelledAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Project Assignment Cancelled - {0}</source>
+          <target state="new">Project Assignment Cancelled - {0}</target>
+        </trans-unit>
+        <trans-unit id="CancelledChangeRequestEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Rejected request notification</source>
+          <target state="new">Rejected request notification</target>
+        </trans-unit>
+        <trans-unit id="CantFindUserByIdErrorText" translate="yes" xml:space="preserve">
+          <source>Can't find a user with the identity of {0} within the application.</source>
+          <target state="new">Can't find a user with the identity of {0} within the application.</target>
+        </trans-unit>
+        <trans-unit id="CantFindUserByNameErrorText" translate="yes" xml:space="preserve">
+          <source>Can't find a user with the name "{0}". Invalid context lookup for user identity value. Please contact support for more information.</source>
+          <target state="new">Can't find a user with the name "{0}". Invalid context lookup for user identity value. Please contact support for more information.</target>
+        </trans-unit>
+        <trans-unit id="ChangeComponentRequestDescription" translate="yes" xml:space="preserve">
+          <source>Comment from {0}: {1}</source>
+          <target state="new">Comment from {0}: {1}</target>
+        </trans-unit>
+        <trans-unit id="ChangesetNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A Changeset was not found with the identity "{0}".</source>
+          <target state="new">A Changeset was not found with the identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="CleanupBackgroundWorkerErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred attempting to delete the folder "{0}" within the application background cleanup thread.</source>
+          <target state="new">An error occurred attempting to delete the folder "{0}" within the application background cleanup thread.</target>
+        </trans-unit>
+        <trans-unit id="CompletedAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Project Assignment Completed - {0}</source>
+          <target state="new">Project Assignment Completed - {0}</target>
+        </trans-unit>
+        <trans-unit id="CompletedChangeRequestEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Accepted request notification</source>
+          <target state="new">Accepted request notification</target>
+        </trans-unit>
+        <trans-unit id="ComponentApprovedText" translate="yes" xml:space="preserve">
+          <source>Component Approved</source>
+          <target state="new">Component Approved</target>
+        </trans-unit>
+        <trans-unit id="ComponentApproveLockFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot approve component "{0}" because it is locked by another user. Please remove component "{0}" from your selection and try again.</source>
+          <target state="new">Cannot approve component "{0}" because it is locked by another user. Please remove component "{0}" from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentApproveStateErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot approve component "{0}" because it is in Invalid state. Please remove component "{0}" from your selection and try again.</source>
+          <target state="new">Cannot approve component "{0}" because it is in Invalid state. Please remove component "{0}" from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentApproveSystemLockFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot approve component "{0}" because it is locked for {1}. Please remove component "{0}" from your selection and try again.</source>
+          <target state="new">Cannot approve component "{0}" because it is locked for {1}. Please remove component "{0}" from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentConfigurationNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Could not find a component configuration for the component type specified with identity value {0}.</source>
+          <target state="new">Could not find a component configuration for the component type specified with identity value {0}.</target>
+        </trans-unit>
+        <trans-unit id="ComponentContentNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A component content record was not found with the component identity "{0}".</source>
+          <target state="new">A component content record was not found with the component identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentEditorRootElementNotFoundText" translate="yes" xml:space="preserve">
+          <source>The component editor root element could not be found for component identity "{0}". This could be due to a network transport error or issue with the editor.</source>
+          <target state="new">The component editor root element could not be found for component identity "{0}". This could be due to a network transport error or issue with the editor.</target>
+        </trans-unit>
+        <trans-unit id="ComponentEditorStorageNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The specified editing store of the component was not found for component identity "{0}".</source>
+          <target state="new">The specified editing store of the component was not found for component identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockAlreadyExistsErrorText" translate="yes" xml:space="preserve">
+          <source>A lock already exists for component identity "{0}". Cannot lock content for editing.</source>
+          <target state="new">A lock already exists for component identity "{0}". Cannot lock content for editing.</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockDoesntExistText" translate="yes" xml:space="preserve">
+          <source>ComponentLock does not exist for Component Id: {0}</source>
+          <target state="new">ComponentLock does not exist for Component Id: {0}</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockMoveErrorText" translate="yes" xml:space="preserve">
+          <source>The component "{0}" is locked by <bpt id="1">&lt;a href="mailto:{1}"&gt;</bpt>{2}<ept id="1">&lt;/a&gt;</ept> and cannot be moved.</source>
+          <target state="new">The component "{0}" is locked by <bpt id="1">&lt;a href="mailto:{1}"&gt;</bpt>{2}<ept id="1">&lt;/a&gt;</ept> and cannot be moved.</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockPreventsUpdateText" translate="yes" xml:space="preserve">
+          <source>The component "{0}" is locked and cannot be updated.</source>
+          <target state="new">The component "{0}" is locked and cannot be updated.</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockTemporaryEditsText" translate="yes" xml:space="preserve">
+          <source>Component has Temporary Edits for Component Id: {0}</source>
+          <target state="new">Component has Temporary Edits for Component Id: {0}</target>
+        </trans-unit>
+        <trans-unit id="ComponentLockText" translate="yes" xml:space="preserve">
+          <source>Locked Components</source>
+          <target state="new">Locked Components</target>
+        </trans-unit>
+        <trans-unit id="ComponentNameText" translate="yes" xml:space="preserve">
+          <source>Component Name</source>
+          <target state="new">Component Name</target>
+        </trans-unit>
+        <trans-unit id="ComponentNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Could not find a component with the specified identity value "{0}".</source>
+          <target state="new">Could not find a component with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentNotValidText" translate="yes" xml:space="preserve">
+          <source>A component content record was invalid.</source>
+          <target state="new">A component content record was invalid.</target>
+        </trans-unit>
+        <trans-unit id="ComponentOperationDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to perform that operation on the specified component. Please contact the application administrator if this problem persists.</source>
+          <target state="new">You do not have permission to perform that operation on the specified component. Please contact the application administrator if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ComponentReadAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to read the specified component "{0}". Please contact the component owner or support if this problem persists.</source>
+          <target state="new">You do not have permission to read the specified component "{0}". Please contact the component owner or support if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ComponentRelationLinkMethodNotFound" translate="yes" xml:space="preserve">
+          <source>A component relationship was not resolved for the component "{0}" because the configured link method "{1}" is not currently supported.</source>
+          <target state="new">A component relationship was not resolved for the component "{0}" because the configured link method "{1}" is not currently supported.</target>
+        </trans-unit>
+        <trans-unit id="ComponentRelationMissingElementErrorText" translate="yes" xml:space="preserve">
+          <source>An element was not found with the matching attribute {0}="{1}". The reference is likely stale.</source>
+          <target state="new">An element was not found with the matching attribute {0}="{1}". The reference is likely stale.</target>
+        </trans-unit>
+        <trans-unit id="ComponentRelationNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find a component relation with the specified identity value "{0}".</source>
+          <target state="new">Could not find a component relation with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentRelationSaveErrorText" translate="yes" xml:space="preserve">
+          <source>An unhandled exception error occurred while attempting to store relationships for the component {0}.</source>
+          <target state="new">An unhandled exception error occurred while attempting to store relationships for the component {0}.</target>
+        </trans-unit>
+        <trans-unit id="ComponentStateText" translate="yes" xml:space="preserve">
+          <source>Component State</source>
+          <target state="new">Component State</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Could not find a component type with the specified identity value "{0}".</source>
+          <target state="new">Could not find a component type with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeText" translate="yes" xml:space="preserve">
+          <source>Component Type</source>
+          <target state="new">Component Type</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeValidateComponentFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component type "{0}" because it is referenced by one or more components. Clear all references to component type "{0}" and try again.</source>
+          <target state="new">Cannot delete component type "{0}" because it is referenced by one or more components. Clear all references to component type "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeValidateNoNameErrorText" translate="yes" xml:space="preserve">
+          <source>The component type does not have a valid name value.</source>
+          <target state="new">The component type does not have a valid name value.</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeValidateRelationFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component type "{0}" because it has one or more references in Relations. Clear all references to component type "{0}" and try again.</source>
+          <target state="new">Cannot delete component type "{0}" because it has one or more references in Relations. Clear all references to component type "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentUnlockAccessDenied" translate="yes" xml:space="preserve">
+          <source>You do not have permission to unlock the specified component. Please contact the project owner or application administrator if this problem persists.</source>
+          <target state="new">You do not have permission to unlock the specified component. Please contact the project owner or application administrator if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ComponentUnlockSystemLockDenied" translate="yes" xml:space="preserve">
+          <source>You cannot unlock a component that has a System Lock.</source>
+          <target state="new">You cannot unlock a component that has a System Lock.</target>
+        </trans-unit>
+        <trans-unit id="ComponentUpdateDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>User does not have permission to update the component "{0}".</source>
+          <target state="new">User does not have permission to update the component "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateAssignmentFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component "{0}" because it has one or more project assignments. Clear all assignments for component "{0}" and try again.</source>
+          <target state="new">Cannot delete component "{0}" because it has one or more project assignments. Clear all assignments for component "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateDeleteAccessDeniedText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to delete the component "{0}". Please remove it from your selection.</source>
+          <target state="new">You do not have permission to delete the component "{0}". Please remove it from your selection.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateInvalidFileNameErrorText" translate="yes" xml:space="preserve">
+          <source>The component file name must contain the valid globally unique identity of the related component separated by a _ character. e.g. prefix_globalID.extension.</source>
+          <target state="new">The component file name must contain the valid globally unique identity of the related component separated by a _ character. e.g. prefix_globalID.extension.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateLinkedFolderFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component "{0}" because it has one or more folder link references. Clear all folder links to this content and try again.</source>
+          <target state="new">Cannot delete component "{0}" because it has one or more folder link references. Clear all folder links to this content and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateLockFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component "{0}" because it is locked. Please unlock component "{0}" and try again.</source>
+          <target state="new">Cannot delete component "{0}" because it is locked. Please unlock component "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoBinaryContentErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not contain any binary content.</source>
+          <target state="new">The component does not contain any binary content.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoComponentTypeErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not have a valid component type value.</source>
+          <target state="new">The component does not have a valid component type value.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoFileNameErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not have a valid file name value.</source>
+          <target state="new">The component does not have a valid file name value.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoLanguageErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not have a valid language code value.</source>
+          <target state="new">The component does not have a valid language code value.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoNameErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not have a valid name value.</source>
+          <target state="new">The component does not have a valid name value.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateNoXmlContentErrorText" translate="yes" xml:space="preserve">
+          <source>The component does not contain any XML content.</source>
+          <target state="new">The component does not contain any XML content.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateProjectFolderFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component "{0}" because it was found in one or more project folders. Clear all references to component "{0}" and try again.</source>
+          <target state="new">Cannot delete component "{0}" because it was found in one or more project folders. Clear all references to component "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentValidateRelationFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component "{0}" because it has one or more references in other content. Clear all references to component "{0}" and try again.</source>
+          <target state="new">Cannot delete component "{0}" because it has one or more references in other content. Clear all references to component "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentViewerReadOnlyText" translate="yes" xml:space="preserve">
+          <source>This component is shown as read-only.</source>
+          <target state="new">This component is shown as read-only.</target>
+        </trans-unit>
+        <trans-unit id="ContentText" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <target state="new">Content</target>
+        </trans-unit>
+        <trans-unit id="CreatedByText" translate="yes" xml:space="preserve">
+          <source>Created By</source>
+          <target state="new">Created By</target>
+        </trans-unit>
+        <trans-unit id="CreationDateText" translate="yes" xml:space="preserve">
+          <source>Creation Date</source>
+          <target state="new">Creation Date</target>
+        </trans-unit>
+        <trans-unit id="CryptoAuthKeyLengthErrorText" translate="yes" xml:space="preserve">
+          <source>Authentication key must be {0} bits in length.</source>
+          <target state="new">Authentication key must be {0} bits in length.</target>
+        </trans-unit>
+        <trans-unit id="CryptoKeyLengthErrorText" translate="yes" xml:space="preserve">
+          <source>Cryptography key must be {0} bits in length.</source>
+          <target state="new">Cryptography key must be {0} bits in length.</target>
+        </trans-unit>
+        <trans-unit id="CryptoMustSpecifyCryptoTextToDecryptErrorText" translate="yes" xml:space="preserve">
+          <source>The content specified was not recognized as valid encrypted data.</source>
+          <target state="new">The content specified was not recognized as valid encrypted data.</target>
+        </trans-unit>
+        <trans-unit id="CryptoMustSpecifyTextToEncryptErrorText" translate="yes" xml:space="preserve">
+          <source>No data specified for encryption.</source>
+          <target state="new">No data specified for encryption.</target>
+        </trans-unit>
+        <trans-unit id="DbmsCurrentlyNotSupportedText" translate="yes" xml:space="preserve">
+          <source>The specified database type "{0}" is currently not supported.</source>
+          <target state="new">The specified database type "{0}" is currently not supported.</target>
+        </trans-unit>
+        <trans-unit id="DefaultContentFolderNameText" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <target state="new">Content</target>
+        </trans-unit>
+        <trans-unit id="DeleteAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Project Assignment Deleted: {0}</source>
+          <target state="new">Project Assignment Deleted: {0}</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateAccessDeniedText" translate="yes" xml:space="preserve">
+          <source>One or more components were found that cannot be deleted because the user does not have permission to delete the component.</source>
+          <target state="new">One or more components were found that cannot be deleted because the user does not have permission to delete the component.</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateAssignmentFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete components because one or more are used in project assignments. Clear all assignment references to these components or remove them from your selection and try again.</source>
+          <target state="new">Cannot delete components because one or more are used in project assignments. Clear all assignment references to these components or remove them from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateLinkedFolderFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete components because one or more were found to have folder link references. Clear all folder link references to these components or remove them from your selection and try again.</source>
+          <target state="new">Cannot delete components because one or more were found to have folder link references. Clear all folder link references to these components or remove them from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateLockFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete components because one or more are currently locked. Please unlock these components or remove them from your selection and try again.</source>
+          <target state="new">Cannot delete components because one or more are currently locked. Please unlock these components or remove them from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateProjectFolderFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete components because one or more were found in project folders. Clear all project folder references to these components or remove them from your selection and try again.</source>
+          <target state="new">Cannot delete components because one or more were found in project folders. Clear all project folder references to these components or remove them from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="DeleteComponentsValidateRelationFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete components because one or more were found to have references by other components. Clear all references to these components or remove them from your selection and try again.</source>
+          <target state="new">Cannot delete components because one or more were found to have references by other components. Clear all references to these components or remove them from your selection and try again.</target>
+        </trans-unit>
+        <trans-unit id="DeleteProjectProcedureErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to delete the project.</source>
+          <target state="new">An error occurred while attempting to delete the project.</target>
+        </trans-unit>
+        <trans-unit id="DeleteUserValidationSwitchToUpdateText" translate="yes" xml:space="preserve">
+          <source>Vaidation requires the delete action for user Id {0} be changed to update with user deactivation.</source>
+          <target state="new">Vaidation requires the delete action for user Id {0} be changed to update with user deactivation.</target>
+        </trans-unit>
+        <trans-unit id="DescriptionRequiredText" translate="yes" xml:space="preserve">
+          <source>A description is required.</source>
+          <target state="new">A description is required.</target>
+        </trans-unit>
+        <trans-unit id="DeserializeFileNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The file specified was not found.</source>
+          <target state="new">The file specified was not found.</target>
+        </trans-unit>
+        <trans-unit id="DocumentationBadRequestMessageText" translate="yes" xml:space="preserve">
+          <source>Returns an HTTP 400 Response and an object containing a dictionary of one or more issues.</source>
+          <target state="new">Returns an HTTP 400 Response and an object containing a dictionary of one or more issues.</target>
+        </trans-unit>
+        <trans-unit id="DocumentationNoContentMessageText" translate="yes" xml:space="preserve">
+          <source>Returns an HTTP 204 No Content response upon success.</source>
+          <target state="new">Returns an HTTP 204 No Content response upon success.</target>
+        </trans-unit>
+        <trans-unit id="DocumentationNotFoundMessageText" translate="yes" xml:space="preserve">
+          <source>The record or content specified could not be found.</source>
+          <target state="new">The record or content specified could not be found.</target>
+        </trans-unit>
+        <trans-unit id="DocumentationUnauthorizedMessageText" translate="yes" xml:space="preserve">
+          <source>The account must authenticate, retrieve a bearer token, and pass that token in the HTTP header of this API endpoint request.</source>
+          <target state="new">The account must authenticate, retrieve a bearer token, and pass that token in the HTTP header of this API endpoint request.</target>
+        </trans-unit>
+        <trans-unit id="DownloadInvalidModelErrorText" translate="yes" xml:space="preserve">
+          <source>Invalid Download Model specified.</source>
+          <target state="new">Invalid Download Model specified.</target>
+        </trans-unit>
+        <trans-unit id="DownloadText" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <target state="new">Download</target>
+        </trans-unit>
+        <trans-unit id="DownloadTipText" translate="yes" xml:space="preserve">
+          <source>Click to download the component file.</source>
+          <target state="new">Click to download the component file.</target>
+        </trans-unit>
+        <trans-unit id="DuplicateExportRelationText" translate="yes" xml:space="preserve">
+          <source>A duplicate export relation was created within the export configuration.</source>
+          <target state="new">A duplicate export relation was created within the export configuration.</target>
+        </trans-unit>
+        <trans-unit id="EditorConrefNotFoundText" translate="yes" xml:space="preserve">
+          <source>An invalid link was found. Component "{0}" and/or target element "{1}" were not found.</source>
+          <target state="new">An invalid link was found. Component "{0}" and/or target element "{1}" were not found.</target>
+        </trans-unit>
+        <trans-unit id="EditorContextReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is provided for context only and is not available for review.</source>
+          <target state="new">This component is provided for context only and is not available for review.</target>
+        </trans-unit>
+        <trans-unit id="EditorCoordinatorReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is not available for resolving.</source>
+          <target state="new">This component is not available for resolving.</target>
+        </trans-unit>
+        <trans-unit id="EditorHistoryReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>Viewing historical content that cannot be changed.</source>
+          <target state="new">Viewing historical content that cannot be changed.</target>
+        </trans-unit>
+        <trans-unit id="EditorLockedByReviewReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>Locked for review by <bpt id="1">&lt;a href="mailto:{0}"&gt;</bpt>{1} {2}<ept id="1">&lt;/a&gt;</ept>.</source>
+          <target state="new">Locked for review by <bpt id="1">&lt;a href="mailto:{0}"&gt;</bpt>{1} {2}<ept id="1">&lt;/a&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="EditorLockedReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is locked by <bpt id="1">&lt;a href="mailto:{0}"&gt;</bpt>{1} {2}<ept id="1">&lt;/a&gt;</ept>.</source>
+          <target state="new">This component is locked by <bpt id="1">&lt;a href="mailto:{0}"&gt;</bpt>{1} {2}<ept id="1">&lt;/a&gt;</ept>.</target>
+        </trans-unit>
+        <trans-unit id="EditorMapTypeNotSupportedErrorText" translate="yes" xml:space="preserve">
+          <source>Map types are not supported in this editor.</source>
+          <target state="new">Map types are not supported in this editor.</target>
+        </trans-unit>
+        <trans-unit id="EditorPermissionReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to modify this component.</source>
+          <target state="new">You do not have permission to modify this component.</target>
+        </trans-unit>
+        <trans-unit id="EditorReviewCancelledReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is in a cancelled review.</source>
+          <target state="new">This component is in a cancelled review.</target>
+        </trans-unit>
+        <trans-unit id="EditorReviewCompletedReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is in a completed review.</source>
+          <target state="new">This component is in a completed review.</target>
+        </trans-unit>
+        <trans-unit id="EditorReviewerReadOnlyMessageText" translate="yes" xml:space="preserve">
+          <source>This component is not available for review.</source>
+          <target state="new">This component is not available for review.</target>
+        </trans-unit>
+        <trans-unit id="EditorViewerDetailsText" translate="yes" xml:space="preserve">
+          <source>Component Details</source>
+          <target state="new">Component Details</target>
+        </trans-unit>
+        <trans-unit id="EditorViewerTitleText" translate="yes" xml:space="preserve">
+          <source>Component Viewer</source>
+          <target state="new">Component Viewer</target>
+        </trans-unit>
+        <trans-unit id="ElementNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified element with identity "{0}" could not be found.</source>
+          <target state="new">The specified element with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ElementValidateInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete element "{0}" because it is used by one or more Export Relationships. Clear all references to element "{0}" and try again.</source>
+          <target state="new">Cannot delete element "{0}" because it is used by one or more Export Relationships. Clear all references to element "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ElementValidateInvalidNameErrorText" translate="yes" xml:space="preserve">
+          <source>The element name "{0}" is invalid. Element names must begin with an Alpha character, and not contain: space, ", ', &amp;, <it id="1" pos="open">&lt;, or &gt;</it>.</source>
+          <target state="new">The element name "{0}" is invalid. Element names must begin with an Alpha character, and not contain: space, ", ', &amp;, <it id="1" pos="open">&lt;, or &gt;</it>.</target>
+        </trans-unit>
+        <trans-unit id="EmailExistsText" translate="yes" xml:space="preserve">
+          <source>The email address specified is already in use by another user.</source>
+          <target state="new">The email address specified is already in use by another user.</target>
+        </trans-unit>
+        <trans-unit id="EmailTemplateDirectoryNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder "{0}" for email message templates was not found.</source>
+          <target state="new">The specified folder "{0}" for email message templates was not found.</target>
+        </trans-unit>
+        <trans-unit id="EmptyNoteEmailText" translate="yes" xml:space="preserve">
+          <source>None.</source>
+          <target state="new">None.</target>
+        </trans-unit>
+        <trans-unit id="ErrorLabelText" translate="yes" xml:space="preserve">
+          <source>{0} Error: {1}</source>
+          <target state="new">{0} Error: {1}</target>
+        </trans-unit>
+        <trans-unit id="ErrorLogNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>No Error Log with the identity "{0}" was found.</source>
+          <target state="new">No Error Log with the identity "{0}" was found.</target>
+        </trans-unit>
+        <trans-unit id="EventLogDeleteAllFailErrorText" translate="yes" xml:space="preserve">
+          <source>A command to delete all event logs failed.</source>
+          <target state="new">A command to delete all event logs failed.</target>
+        </trans-unit>
+        <trans-unit id="ExceptionErrorText" translate="yes" xml:space="preserve">
+          <source>An internal unhandled error occurred. The message reported was "{0}".</source>
+          <target state="new">An internal unhandled error occurred. The message reported was "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ExpirationDateMustBeInFutureErrorText" translate="yes" xml:space="preserve">
+          <source>The expiration date must be in the future.</source>
+          <target state="new">The expiration date must be in the future.</target>
+        </trans-unit>
+        <trans-unit id="ExportComponentAccessText" translate="yes" xml:space="preserve">
+          <source>The user does not have permission to one or more components in the export request.</source>
+          <target state="new">The user does not have permission to one or more components in the export request.</target>
+        </trans-unit>
+        <trans-unit id="ExportConfigurationNameInUseText" translate="yes" xml:space="preserve">
+          <source>An export configuration with the name "{0}" already exists. Please select a different name.</source>
+          <target state="new">An export configuration with the name "{0}" already exists. Please select a different name.</target>
+        </trans-unit>
+        <trans-unit id="ExportConfigurationNameRequiredText" translate="yes" xml:space="preserve">
+          <source>An Export Configuration Name is required.</source>
+          <target state="new">An Export Configuration Name is required.</target>
+        </trans-unit>
+        <trans-unit id="ExportFailureEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Export Failed</source>
+          <target state="new">Export Failed</target>
+        </trans-unit>
+        <trans-unit id="ExportFilterAttributeFailedLoadErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to load the component '{0}' during an attempt to remove filtered reference elements. This may result in a bad reference link.</source>
+          <target state="new">An error occurred while attempting to load the component '{0}' during an attempt to remove filtered reference elements. This may result in a bad reference link.</target>
+        </trans-unit>
+        <trans-unit id="ExportFolderNoFilesText" translate="yes" xml:space="preserve">
+          <source>There are no files within the specified folder that can be exported.</source>
+          <target state="new">There are no files within the specified folder that can be exported.</target>
+        </trans-unit>
+        <trans-unit id="ExportNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find an export with the specified identity value "{0}".</source>
+          <target state="new">Could not find an export with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ExportRelationNullElementSelectedText" translate="yes" xml:space="preserve">
+          <source>A relationship with no element was selected and therefore no other "{0}" relation/element combinations are valid and will need to be removed.</source>
+          <target state="new">A relationship with no element was selected and therefore no other "{0}" relation/element combinations are valid and will need to be removed.</target>
+        </trans-unit>
+        <trans-unit id="ExportSuccessEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Export Completed Successfully</source>
+          <target state="new">Export Completed Successfully</target>
+        </trans-unit>
+        <trans-unit id="ExportWriteFileErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to write the file "{0}" for export.</source>
+          <target state="new">An error occurred while attempting to write the file "{0}" for export.</target>
+        </trans-unit>
+        <trans-unit id="ExportXmlContentNotFound" translate="yes" xml:space="preserve">
+          <source>During export, a component with the identity "{0}" was found that does not contain XML content.</source>
+          <target state="new">During export, a component with the identity "{0}" was found that does not contain XML content.</target>
+        </trans-unit>
+        <trans-unit id="FileNameText" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <target state="new">File Name</target>
+        </trans-unit>
+        <trans-unit id="FileNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The file "{0}" was not found.</source>
+          <target state="new">The file "{0}" was not found.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the user does not have permission to delete the folder or one of the folder's descendant subfolders.</source>
+          <target state="new">The specified folder cannot be deleted because the user does not have permission to delete the folder or one of the folder's descendant subfolders.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteComponentAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the user does not have permission to delete a component within the folder or one of the folder's descendant subfolders.</source>
+          <target state="new">The specified folder cannot be deleted because the user does not have permission to delete a component within the folder or one of the folder's descendant subfolders.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteComponentAssignedErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently assigned to a project assignment. The component assignment association must be removed before the folder can be deleted.</source>
+          <target state="new">The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently assigned to a project assignment. The component assignment association must be removed before the folder can be deleted.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteComponentLinksErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently linked to another folder.The component link(s) must be removed before the folder can be deleted.</source>
+          <target state="new">The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently linked to another folder.The component link(s) must be removed before the folder can be deleted.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteComponentLockErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently locked. The component lock must be removed before the folder can be deleted.</source>
+          <target state="new">The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently locked. The component lock must be removed before the folder can be deleted.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteComponentProjectErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently associated with one or more projects. All component project associations must be removed before the folder can be deleted.</source>
+          <target state="new">The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contains a component that is currently associated with one or more projects. All component project associations must be removed before the folder can be deleted.</target>
+        </trans-unit>
+        <trans-unit id="FolderDeleteRelationErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contain a component that has relations with other components within the system. You must move the component or remove relationships before the folder can be deleted.</source>
+          <target state="new">The specified folder cannot be deleted because the folder or one of the folder's descendant subfolders contain a component that has relations with other components within the system. You must move the component or remove relationships before the folder can be deleted.</target>
+        </trans-unit>
+        <trans-unit id="FolderMoveComponentLockErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot move the folder because one or more components are locked by another user. Make sure all components in the folder and all subfolders are not locked before you move the folder.</source>
+          <target state="new">Cannot move the folder because one or more components are locked by another user. Make sure all components in the folder and all subfolders are not locked before you move the folder.</target>
+        </trans-unit>
+        <trans-unit id="FolderNameExistsErrorText" translate="yes" xml:space="preserve">
+          <source>A folder with the name "{0}" already exists in the target location.</source>
+          <target state="new">A folder with the name "{0}" already exists in the target location.</target>
+        </trans-unit>
+        <trans-unit id="FolderNameRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A Folder Name is required.</source>
+          <target state="new">A Folder Name is required.</target>
+        </trans-unit>
+        <trans-unit id="FolderNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Could not find a folder with the specified identity value "{0}".</source>
+          <target state="new">Could not find a folder with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="FolderOperationDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to perform that operation on the specified folder.</source>
+          <target state="new">You do not have permission to perform that operation on the specified folder.</target>
+        </trans-unit>
+        <trans-unit id="GeneralWebErrorText" translate="yes" xml:space="preserve">
+          <source>An internal unhandled error occurred within the application. The error has been logged.</source>
+          <target state="new">An internal unhandled error occurred within the application. The error has been logged.</target>
+        </trans-unit>
+        <trans-unit id="HistoryCannotRestoreADeleteErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot restore a component history with delete action. Simply delete the component again.</source>
+          <target state="new">Cannot restore a component history with delete action. Simply delete the component again.</target>
+        </trans-unit>
+        <trans-unit id="HistoryCannotRestoreFolderText" translate="yes" xml:space="preserve">
+          <source>The folder "{0}" could not be restored.</source>
+          <target state="new">The folder "{0}" could not be restored.</target>
+        </trans-unit>
+        <trans-unit id="HistoryComponentAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to read the specified component "{0}" history.</source>
+          <target state="new">You do not have permission to read the specified component "{0}" history.</target>
+        </trans-unit>
+        <trans-unit id="HistoryComponentContentNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A history component snapshot content record was not found with the component identity "{0}".</source>
+          <target state="new">A history component snapshot content record was not found with the component identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="HistoryComponentNotFoundBeforeDateErrorText" translate="yes" xml:space="preserve">
+          <source>History was not found before the date "{0}" for component identity "{1}".</source>
+          <target state="new">History was not found before the date "{0}" for component identity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="HistoryComponentNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>History was not found for the changeset identity "{0}" and component identity "{1}".</source>
+          <target state="new">History was not found for the changeset identity "{0}" and component identity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="HistoryFolderAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to read the specified folder "{0}" history.</source>
+          <target state="new">You do not have permission to read the specified folder "{0}" history.</target>
+        </trans-unit>
+        <trans-unit id="HistoryFolderNotFoundBeforeDateErrorText" translate="yes" xml:space="preserve">
+          <source>History was not found before the date "{0}" for folder identity "{1}".</source>
+          <target state="new">History was not found before the date "{0}" for folder identity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="HistoryFolderNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>History was not found for the changeset identity "{0}" and folder identity "{1}".</source>
+          <target state="new">History was not found for the changeset identity "{0}" and folder identity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="HistoryRestoreAndMoveDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>User does not have permission to restore and move component {0}.</source>
+          <target state="new">User does not have permission to restore and move component {0}.</target>
+        </trans-unit>
+        <trans-unit id="HistoryRestoreTargetFolderMissingErrorText" translate="yes" xml:space="preserve">
+          <source>The history record's target folder with id "{0}" no longer exists. The current target folder shall be used instead.</source>
+          <target state="new">The history record's target folder with id "{0}" no longer exists. The current target folder shall be used instead.</target>
+        </trans-unit>
+        <trans-unit id="IdentityRequiredText" translate="yes" xml:space="preserve">
+          <source>A record identity must be specified.</source>
+          <target state="new">A record identity must be specified.</target>
+        </trans-unit>
+        <trans-unit id="ImportBinarySaveErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to store the binary component "{0}" from the source file "{1}".</source>
+          <target state="new">An error occurred while attempting to store the binary component "{0}" from the source file "{1}".</target>
+        </trans-unit>
+        <trans-unit id="ImportCancelledErrorText" translate="yes" xml:space="preserve">
+          <source>The import {0} was cancelled.</source>
+          <target state="new">The import {0} was cancelled.</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentIdsNotFound" translate="yes" xml:space="preserve">
+          <source>The import process failed because no components were found that matched the list of component identities specified.</source>
+          <target state="new">The import process failed because no components were found that matched the list of component identities specified.</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentRelationSaveErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to store component relationships for component ids "{0}". "{1}".</source>
+          <target state="new">An error occurred while attempting to store component relationships for component ids "{0}". "{1}".</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentSaveErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to store XML content within the import process. One or more components did not save during the Component repository save execution. {0}</source>
+          <target state="new">An error occurred while attempting to store XML content within the import process. One or more components did not save during the Component repository save execution. {0}</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentTypeNotFound" translate="yes" xml:space="preserve">
+          <source>The file "{0}" could not be imported because a component type was found or able to be determined.</source>
+          <target state="new">The file "{0}" could not be imported because a component type was found or able to be determined.</target>
+        </trans-unit>
+        <trans-unit id="ImportCreatePermissionDeniedText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" does not have permission to import components into the specified folder "{1}".</source>
+          <target state="new">The user "{0}" does not have permission to import components into the specified folder "{1}".</target>
+        </trans-unit>
+        <trans-unit id="ImportFailureEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Import Failed</source>
+          <target state="new">Import Failed</target>
+        </trans-unit>
+        <trans-unit id="ImportFileNotFound" translate="yes" xml:space="preserve">
+          <source>During import, the file "{0}" was not able to be found.</source>
+          <target state="new">During import, the file "{0}" was not able to be found.</target>
+        </trans-unit>
+        <trans-unit id="ImportFolderNotFoundText" translate="yes" xml:space="preserve">
+          <source>The folder identity "{0}" could not be found.</source>
+          <target state="new">The folder identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ImportInvalidXmlAsBinaryText" translate="yes" xml:space="preserve">
+          <source>The XML within the component file "{0}" is invalid and could not be parsed. The component shall be saved as a bad XML binary file for review.</source>
+          <target state="new">The XML within the component file "{0}" is invalid and could not be parsed. The component shall be saved as a bad XML binary file for review.</target>
+        </trans-unit>
+        <trans-unit id="ImportInvalidXmlText" translate="yes" xml:space="preserve">
+          <source>The file '{0}' could not be imported because it contains invalid XML.</source>
+          <target state="new">The file '{0}' could not be imported because it contains invalid XML.</target>
+        </trans-unit>
+        <trans-unit id="ImportNoFileNameSpecifiedErrorText" translate="yes" xml:space="preserve">
+          <source>The file name was not specified in the import request.</source>
+          <target state="new">The file name was not specified in the import request.</target>
+        </trans-unit>
+        <trans-unit id="ImportNoFilesInRequestErrorText" translate="yes" xml:space="preserve">
+          <source>No files were sent within the import request.</source>
+          <target state="new">No files were sent within the import request.</target>
+        </trans-unit>
+        <trans-unit id="ImportSuccessAllFilesIngoredText" translate="yes" xml:space="preserve">
+          <source>No changes were detected in the component file(s) imported and therefore no components were updated.</source>
+          <target state="new">No changes were detected in the component file(s) imported and therefore no components were updated.</target>
+        </trans-unit>
+        <trans-unit id="ImportSuccessEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Import Completed Successfully</source>
+          <target state="new">Import Completed Successfully</target>
+        </trans-unit>
+        <trans-unit id="ImportSyncErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to store synchronization data during the import process.</source>
+          <target state="new">An error occurred while attempting to store synchronization data during the import process.</target>
+        </trans-unit>
+        <trans-unit id="ImportUpdatePermissionDeniedText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to update the existing component "{0}".</source>
+          <target state="new">You do not have permission to update the existing component "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ImportWarningEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Import Completed with Issues</source>
+          <target state="new">Import Completed with Issues</target>
+        </trans-unit>
+        <trans-unit id="ImportZipFileNotValid" translate="yes" xml:space="preserve">
+          <source>The zip archive file that was imported was not a valid zip format. The archive file must be in zip format and contain one or more files to import.</source>
+          <target state="new">The zip archive file that was imported was not a valid zip format. The archive file must be in zip format and contain one or more files to import.</target>
+        </trans-unit>
+        <trans-unit id="InvalidApiKeyErrorText" translate="yes" xml:space="preserve">
+          <source>The API Key specified "{0}" was not found for the tenant.</source>
+          <target state="new">The API Key specified "{0}" was not found for the tenant.</target>
+        </trans-unit>
+        <trans-unit id="InvalidAttributeOperationErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to validate permissions on a controller. A controller type was not found.</source>
+          <target state="new">An error occurred while attempting to validate permissions on a controller. A controller type was not found.</target>
+        </trans-unit>
+        <trans-unit id="InvalidEnumerationFlagText" translate="yes" xml:space="preserve">
+          <source>The specified text value does not have a corresponding enumeration value configured.</source>
+          <target state="new">The specified text value does not have a corresponding enumeration value configured.</target>
+        </trans-unit>
+        <trans-unit id="InvalidFileArgumentErrorText" translate="yes" xml:space="preserve">
+          <source>A valid file path must be specified.</source>
+          <target state="new">A valid file path must be specified.</target>
+        </trans-unit>
+        <trans-unit id="InvalidIdentityErrorText" translate="yes" xml:space="preserve">
+          <source>The identity value specified is invalid. Values must be greater than 0.</source>
+          <target state="new">The identity value specified is invalid. Values must be greater than 0.</target>
+        </trans-unit>
+        <trans-unit id="InvalidModelErrorText" translate="yes" xml:space="preserve">
+          <source>Invalid model specified.</source>
+          <target state="new">Invalid model specified.</target>
+        </trans-unit>
+        <trans-unit id="InvalidPathArgumentErrorText" translate="yes" xml:space="preserve">
+          <source>A valid directory path must be specified.</source>
+          <target state="new">A valid directory path must be specified.</target>
+        </trans-unit>
+        <trans-unit id="InvalidPermissionHolderTypeErrorText" translate="yes" xml:space="preserve">
+          <source>Invalid permission holder type.</source>
+          <target state="new">Invalid permission holder type.</target>
+        </trans-unit>
+        <trans-unit id="InvalidRepositoryTypeErrorText" translate="yes" xml:space="preserve">
+          <source>The framework context DataContext property does not implement IVasontRepository nor DbContext.</source>
+          <target state="new">The framework context DataContext property does not implement IVasontRepository nor DbContext.</target>
+        </trans-unit>
+        <trans-unit id="InvalidResetStepErrorText" translate="yes" xml:space="preserve">
+          <source>Invalid reset step specified.</source>
+          <target state="new">Invalid reset step specified.</target>
+        </trans-unit>
+        <trans-unit id="InvalidTenantDomainNameSpecifiedErrorText" translate="yes" xml:space="preserve">
+          <source>A tenant for the domain "{0}" was not found. Please consult your Vasont support representative to ensure you have the correct web address.</source>
+          <target state="new">A tenant for the domain "{0}" was not found. Please consult your Vasont support representative to ensure you have the correct web address.</target>
+        </trans-unit>
+        <trans-unit id="InvalidWebhookEventIdentityErrorText" translate="yes" xml:space="preserve">
+          <source>An invalid webhook event identity "{0}" was specified for the webhook API endpoint "{1}".</source>
+          <target state="new">An invalid webhook event identity "{0}" was specified for the webhook API endpoint "{1}".</target>
+        </trans-unit>
+        <trans-unit id="InvalidWebhookSecretErrorText" translate="yes" xml:space="preserve">
+          <source>Invalid webhook secret.</source>
+          <target state="new">Invalid webhook secret.</target>
+        </trans-unit>
+        <trans-unit id="InvalidWorkflowCommandText" translate="yes" xml:space="preserve">
+          <source>Invalid command for the specified workflow.</source>
+          <target state="new">Invalid command for the specified workflow.</target>
+        </trans-unit>
+        <trans-unit id="InvalidWorkflowModelText" translate="yes" xml:space="preserve">
+          <source>Invalid workflow model. Could not serialize the workflow model specified.</source>
+          <target state="new">Invalid workflow model. Could not serialize the workflow model specified.</target>
+        </trans-unit>
+        <trans-unit id="InvalidXmlErrorText" translate="yes" xml:space="preserve">
+          <source>The content in XML Component "{0}" is invalid and cannot be parsed.</source>
+          <target state="new">The content in XML Component "{0}" is invalid and cannot be parsed.</target>
+        </trans-unit>
+        <trans-unit id="LabelAndText" translate="yes" xml:space="preserve">
+          <source>And</source>
+          <target state="new">And</target>
+        </trans-unit>
+        <trans-unit id="LabelApplicationText" translate="yes" xml:space="preserve">
+          <source>Application</source>
+          <target state="new">Application</target>
+        </trans-unit>
+        <trans-unit id="LabelContainsText" translate="yes" xml:space="preserve">
+          <source>Contains</source>
+          <target state="new">Contains</target>
+        </trans-unit>
+        <trans-unit id="LabelDebugText" translate="yes" xml:space="preserve">
+          <source>Debug</source>
+          <target state="new">Debug</target>
+        </trans-unit>
+        <trans-unit id="LabelDoesNotContainText" translate="yes" xml:space="preserve">
+          <source>Does Not Contain</source>
+          <target state="new">Does Not Contain</target>
+        </trans-unit>
+        <trans-unit id="LabelDoesNotEndWithText" translate="yes" xml:space="preserve">
+          <source>Does Not End With</source>
+          <target state="new">Does Not End With</target>
+        </trans-unit>
+        <trans-unit id="LabelDoesNotStartWithText" translate="yes" xml:space="preserve">
+          <source>Does Not Start With</source>
+          <target state="new">Does Not Start With</target>
+        </trans-unit>
+        <trans-unit id="LabelEndsWithText" translate="yes" xml:space="preserve">
+          <source>Ends With</source>
+          <target state="new">Ends With</target>
+        </trans-unit>
+        <trans-unit id="LabelErrorText" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <target state="new">Error</target>
+        </trans-unit>
+        <trans-unit id="LabelFatalText" translate="yes" xml:space="preserve">
+          <source>Fatal</source>
+          <target state="new">Fatal</target>
+        </trans-unit>
+        <trans-unit id="LabelGeneralText" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="new">General</target>
+        </trans-unit>
+        <trans-unit id="LabelInformationText" translate="yes" xml:space="preserve">
+          <source>Information</source>
+          <target state="new">Information</target>
+        </trans-unit>
+        <trans-unit id="LabelNoText" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="LabelOrText" translate="yes" xml:space="preserve">
+          <source>Or</source>
+          <target state="new">Or</target>
+        </trans-unit>
+        <trans-unit id="LabelSecurityText" translate="yes" xml:space="preserve">
+          <source>Security</source>
+          <target state="new">Security</target>
+        </trans-unit>
+        <trans-unit id="LabelStartsWithText" translate="yes" xml:space="preserve">
+          <source>Starts With</source>
+          <target state="new">Starts With</target>
+        </trans-unit>
+        <trans-unit id="LabelSystemText" translate="yes" xml:space="preserve">
+          <source>System</source>
+          <target state="new">System</target>
+        </trans-unit>
+        <trans-unit id="LabelWarningText" translate="yes" xml:space="preserve">
+          <source>Warning</source>
+          <target state="new">Warning</target>
+        </trans-unit>
+        <trans-unit id="LabelYesText" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="LanguageCodeExistsErrorText" translate="yes" xml:space="preserve">
+          <source>The language code "{0}" already exists.</source>
+          <target state="new">The language code "{0}" already exists.</target>
+        </trans-unit>
+        <trans-unit id="LanguageCodeInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The specified language code "{0}" is not recognized as valid.</source>
+          <target state="new">The specified language code "{0}" is not recognized as valid.</target>
+        </trans-unit>
+        <trans-unit id="LanguageInExternalSystemText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the language because it is currently used by the External System "{0}".</source>
+          <target state="new">Cannot delete the language because it is currently used by the External System "{0}".</target>
+        </trans-unit>
+        <trans-unit id="LanguageInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete language "{0}" because it is currently in use by one or more components.</source>
+          <target state="new">Cannot delete language "{0}" because it is currently in use by one or more components.</target>
+        </trans-unit>
+        <trans-unit id="LanguageNameRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A Language Name must be specified.</source>
+          <target state="new">A Language Name must be specified.</target>
+        </trans-unit>
+        <trans-unit id="LanguageNotFoundText" translate="yes" xml:space="preserve">
+          <source>The language code "{0}" was not found.</source>
+          <target state="new">The language code "{0}" was not found.</target>
+        </trans-unit>
+        <trans-unit id="LanguageOnlyOneLanguageErrorText" translate="yes" xml:space="preserve">
+          <source>No other languages for "{0}" were found. The application cannot disable default value for this language until another language starting with "{0}" has been created.</source>
+          <target state="new">No other languages for "{0}" were found. The application cannot disable default value for this language until another language starting with "{0}" has been created.</target>
+        </trans-unit>
+        <trans-unit id="LanguageText" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="MaximumConcurrentUserInstancesReachedErrorText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" has reached its maximum concurrent session limit of {1} concurrent log on(s). One or more sessions for {0} will need to sign out before another instance can log on.</source>
+          <target state="new">The user "{0}" has reached its maximum concurrent session limit of {1} concurrent log on(s). One or more sessions for {0} will need to sign out before another instance can log on.</target>
+        </trans-unit>
+        <trans-unit id="MaximumServerConcurrentUsersReachedErrorText" translate="yes" xml:space="preserve">
+          <source>The server has reached its maximum concurrent user session limit of {0} concurrent user session(s). One or more accounts will need to sign out before another can log on.</source>
+          <target state="new">The server has reached its maximum concurrent user session limit of {0} concurrent user session(s). One or more accounts will need to sign out before another can log on.</target>
+        </trans-unit>
+        <trans-unit id="MaximumTenantConcurrentUsersReachedErrorText" translate="yes" xml:space="preserve">
+          <source>The tenant "{0}" has reached its maximum concurrent user session limit of {1} concurrent user session(s). One or more accounts will need to sign out before another can log on.</source>
+          <target state="new">The tenant "{0}" has reached its maximum concurrent user session limit of {1} concurrent user session(s). One or more accounts will need to sign out before another can log on.</target>
+        </trans-unit>
+        <trans-unit id="ModuleKeyFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A module key with the value "{0}" already exists. Please specify a different module key.</source>
+          <target state="new">A module key with the value "{0}" already exists. Please specify a different module key.</target>
+        </trans-unit>
+        <trans-unit id="ModuleKeyRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A Module Key is required.</source>
+          <target state="new">A Module Key is required.</target>
+        </trans-unit>
+        <trans-unit id="ModuleNameRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A Module Name is required.</source>
+          <target state="new">A Module Name is required.</target>
+        </trans-unit>
+        <trans-unit id="ModuleNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A module was not found with the specified identifier "{0}". Please ensure the application module has been configured correctly.</source>
+          <target state="new">A module was not found with the specified identifier "{0}". Please ensure the application module has been configured correctly.</target>
+        </trans-unit>
+        <trans-unit id="MultiPartContentRequestError" translate="yes" xml:space="preserve">
+          <source>The request for this web API call must be in a multi-part content format.</source>
+          <target state="new">The request for this web API call must be in a multi-part content format.</target>
+        </trans-unit>
+        <trans-unit id="MyQueriesText" translate="yes" xml:space="preserve">
+          <source>My Queries</source>
+          <target state="new">My Queries</target>
+        </trans-unit>
+        <trans-unit id="NewAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>New Project Assignment: {0}</source>
+          <target state="new">New Project Assignment: {0}</target>
+        </trans-unit>
+        <trans-unit id="NewChangeRequestEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Received request notification</source>
+          <target state="new">Received request notification</target>
+        </trans-unit>
+        <trans-unit id="NewComponentRequestDescription" translate="yes" xml:space="preserve">
+          <source>Request from {0} for new {1} "{2}"</source>
+          <target state="new">Request from {0} for new {1} "{2}"</target>
+        </trans-unit>
+        <trans-unit id="NewReviewerAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>New Review Assignment: {0}</source>
+          <target state="new">New Review Assignment: {0}</target>
+        </trans-unit>
+        <trans-unit id="NoChangeText" translate="yes" xml:space="preserve">
+          <source>No Change</source>
+          <target state="new">No Change</target>
+        </trans-unit>
+        <trans-unit id="NoComponentSpecifiedErrorText" translate="yes" xml:space="preserve">
+          <source>No component identity value was specified.</source>
+          <target state="new">No component identity value was specified.</target>
+        </trans-unit>
+        <trans-unit id="NoFolderSpecifiedErrorText" translate="yes" xml:space="preserve">
+          <source>No folder identity value was specified.</source>
+          <target state="new">No folder identity value was specified.</target>
+        </trans-unit>
+        <trans-unit id="NoReplyEmailAddress" translate="yes" xml:space="preserve">
+          <source>noreply@vasont.com</source>
+          <target state="new">noreply@vasont.com</target>
+        </trans-unit>
+        <trans-unit id="ParameterMaxLengthErrorText" translate="yes" xml:space="preserve">
+          <source>The parameter "{0}" has a maximum value length of {1} character(s).</source>
+          <target state="new">The parameter "{0}" has a maximum value length of {1} character(s).</target>
+        </trans-unit>
+        <trans-unit id="ParameterMinLengthErrorText" translate="yes" xml:space="preserve">
+          <source>The parameter "{0}" has a minimum value length of {1} character(s).</source>
+          <target state="new">The parameter "{0}" has a minimum value length of {1} character(s).</target>
+        </trans-unit>
+        <trans-unit id="PasswordChangeNotAuthorized" translate="yes" xml:space="preserve">
+          <source>The tenant account password reset interface has been disabled. Please contact your support representative for further assistance.</source>
+          <target state="new">The tenant account password reset interface has been disabled. Please contact your support representative for further assistance.</target>
+        </trans-unit>
+        <trans-unit id="PasswordResetHashInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>An issue occurred while attempting to reset your password. Please begin the process again or contact support if this problem persists.</source>
+          <target state="new">An issue occurred while attempting to reset your password. Please begin the process again or contact support if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="PasswordResetTokenInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The password reset token specified was incorrect or has expired. Please verify the token and try again. If the problem persists please submit a new password reset request.</source>
+          <target state="new">The password reset token specified was incorrect or has expired. Please verify the token and try again. If the problem persists please submit a new password reset request.</target>
+        </trans-unit>
+        <trans-unit id="PathText" translate="yes" xml:space="preserve">
+          <source>Folder Path</source>
+          <target state="new">Folder Path</target>
+        </trans-unit>
+        <trans-unit id="PathUnavailableForHistoryViewerText" translate="yes" xml:space="preserve">
+          <source>Unavailable for history view</source>
+          <target state="new">Unavailable for history view</target>
+        </trans-unit>
+        <trans-unit id="PluginExceptionText" translate="yes" xml:space="preserve">
+          <source>An internal unhandled error occurred in the plugin "{0}". The message reported was "{1}".</source>
+          <target state="new">An internal unhandled error occurred in the plugin "{0}". The message reported was "{1}".</target>
+        </trans-unit>
+        <trans-unit id="PluginFailureText" translate="yes" xml:space="preserve">
+          <source>The plugin "{0}" failed with the following error: {1}</source>
+          <target state="new">The plugin "{0}" failed with the following error: {1}</target>
+        </trans-unit>
+        <trans-unit id="PluginNotFoundText" translate="yes" xml:space="preserve">
+          <source>Plugin not found.</source>
+          <target state="new">Plugin not found.</target>
+        </trans-unit>
+        <trans-unit id="PluginParameterMissingText" translate="yes" xml:space="preserve">
+          <source>The plugin "{0}" failed because the required parameter "{1}" was not specified.</source>
+          <target state="new">The plugin "{0}" failed because the required parameter "{1}" was not specified.</target>
+        </trans-unit>
+        <trans-unit id="ProcessCancelledErrorText" translate="yes" xml:space="preserve">
+          <source>The process "{0}" stopped due to cancellation.</source>
+          <target state="new">The process "{0}" stopped due to cancellation.</target>
+        </trans-unit>
+        <trans-unit id="ProductApiTitle" translate="yes" xml:space="preserve">
+          <source>Vasont Inspire API</source>
+          <target state="new">Vasont Inspire API</target>
+        </trans-unit>
+        <trans-unit id="ProductTitle" translate="yes" xml:space="preserve">
+          <source>Vasont Inspire</source>
+          <target state="new">Vasont Inspire</target>
+        </trans-unit>
+        <trans-unit id="ProfileAttributeGroupDisplayDuplicatesText" translate="yes" xml:space="preserve">
+          <source>All profile attribute group display values must be unique. The following duplicates were found: "{0}"</source>
+          <target state="new">All profile attribute group display values must be unique. The following duplicates were found: "{0}"</target>
+        </trans-unit>
+        <trans-unit id="ProfileAttributeGroupDuplicatesText" translate="yes" xml:space="preserve">
+          <source>All profile attribute group values must be unique. The following duplicates were found: "{0}"</source>
+          <target state="new">All profile attribute group values must be unique. The following duplicates were found: "{0}"</target>
+        </trans-unit>
+        <trans-unit id="ProfileAttributeNoNameText" translate="yes" xml:space="preserve">
+          <source>The profile attribute could not be updated because Attribute Name is required and was not specified.</source>
+          <target state="new">The profile attribute could not be updated because Attribute Name is required and was not specified.</target>
+        </trans-unit>
+        <trans-unit id="ProfileAttributeValueDisplayDuplicatesText" translate="yes" xml:space="preserve">
+          <source>All profile attribute valid value display values must be unique. The following duplicates were found: "{0}"</source>
+          <target state="new">All profile attribute valid value display values must be unique. The following duplicates were found: "{0}"</target>
+        </trans-unit>
+        <trans-unit id="ProfileAttributeValueDuplicatesText" translate="yes" xml:space="preserve">
+          <source>All profile attribute valid values must be unique. The following duplicates were found: "{0}"</source>
+          <target state="new">All profile attribute valid values must be unique. The following duplicates were found: "{0}"</target>
+        </trans-unit>
+        <trans-unit id="ProjectAccessDenied" translate="yes" xml:space="preserve">
+          <source>You do not have permission to access the specified project. Please contact the project owner or application administrator if this problem persists.</source>
+          <target state="new">You do not have permission to access the specified project. Please contact the project owner or application administrator if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ProjectActivityInUseText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the Project Activity because it is used by one or more Project Assignments. Please clear all other references to this Project Activity before removing.</source>
+          <target state="new">Cannot delete the Project Activity because it is used by one or more Project Assignments. Please clear all other references to this Project Activity before removing.</target>
+        </trans-unit>
+        <trans-unit id="ProjectActivityNameRequiredText" translate="yes" xml:space="preserve">
+          <source>A Project Activity Name is required.</source>
+          <target state="new">A Project Activity Name is required.</target>
+        </trans-unit>
+        <trans-unit id="ProjectActivityNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified Project Activity with identity "{0}" could not be found.</source>
+          <target state="new">The specified Project Activity with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentCompleteByInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Assignment Complete By date must not come before a Start By date nor after a Due By date.</source>
+          <target state="new">The Project Assignment Complete By date must not come before a Start By date nor after a Due By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentComponentNotFound" translate="yes" xml:space="preserve">
+          <source>The project assignment component was not found.</source>
+          <target state="new">The project assignment component was not found.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentComponentPermissionText" translate="yes" xml:space="preserve">
+          <source>The assigned user does not have permission to access the following components: {0}</source>
+          <target state="new">The assigned user does not have permission to access the following components: {0}</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentDueDateInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Assignment Due By date must not come before a Start By date nor before a Complete By date.</source>
+          <target state="new">The Project Assignment Due By date must not come before a Start By date nor before a Complete By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentNotFoundText" translate="yes" xml:space="preserve">
+          <source>The project assignment could not be found.</source>
+          <target state="new">The project assignment could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentStartByInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Assignment Start By date must not come after a Complete By or Due By date.</source>
+          <target state="new">The Project Assignment Start By date must not come after a Complete By or Due By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentWorkflowAlreadyCompletedText" translate="yes" xml:space="preserve">
+          <source>The state of the project assignment cannot be changed when it is completed or cancelled and related to workflow.</source>
+          <target state="new">The state of the project assignment cannot be changed when it is completed or cancelled and related to workflow.</target>
+        </trans-unit>
+        <trans-unit id="ProjectAssignmentWorkflowDeleteText" translate="yes" xml:space="preserve">
+          <source>Unable to delete the project assignment because it has workflow associated with it.</source>
+          <target state="new">Unable to delete the project assignment because it has workflow associated with it.</target>
+        </trans-unit>
+        <trans-unit id="ProjectCompleteByInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Complete By date must not come before a Start By date nor after a Due By date.</source>
+          <target state="new">The Project Complete By date must not come before a Start By date nor after a Due By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectDueDateInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Due By date must not come before a Start By date nor before a Complete By date.</source>
+          <target state="new">The Project Due By date must not come before a Start By date nor before a Complete By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderAccessDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to access the specified project folder "{0}". Please contact the project owner or support if this problem persists.</source>
+          <target state="new">You do not have permission to access the specified project folder "{0}". Please contact the project owner or support if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderAlreadyExistsText" translate="yes" xml:space="preserve">
+          <source>A project folder with the name "{0}" already exists. Please select a different name.</source>
+          <target state="new">A project folder with the name "{0}" already exists. Please select a different name.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentAlreadyExistsText" translate="yes" xml:space="preserve">
+          <source>The system could not link the specified component {0} ({1}) to the target project folder because the component already is linked to that project.</source>
+          <target state="new">The system could not link the specified component {0} ({1}) to the target project folder because the component already is linked to that project.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentCannotMoveRootText" translate="yes" xml:space="preserve">
+          <source>Cannot move the specified component. Component references can only reside within project folders.</source>
+          <target state="new">Cannot move the specified component. Component references can only reside within project folders.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentExistsInTargetText" translate="yes" xml:space="preserve">
+          <source>The component "{0}" is already referenced in the target folder.</source>
+          <target state="new">The component "{0}" is already referenced in the target folder.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified project component reference was not found. It may have been removed prior to the change request. Please refresh your project content view and try again.</source>
+          <target state="new">The specified project component reference was not found. It may have been removed prior to the change request. Please refresh your project content view and try again.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentNotSpecifiedText" translate="yes" xml:space="preserve">
+          <source>The component was not specified for the project folder component item. Please ensure the component identity is specified.</source>
+          <target state="new">The component was not specified for the project folder component item. Please ensure the component identity is specified.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentReferencedCannotDeleteErrorText" translate="yes" xml:space="preserve">
+          <source>The specified component reference cannot be removed from the project because one or more assignments make reference to this component. To remove the component reference, remove the reference from one or more related project assignments and try again.</source>
+          <target state="new">The specified component reference cannot be removed from the project because one or more assignments make reference to this component. To remove the component reference, remove the reference from one or more related project assignments and try again.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderComponentTargetNotEmptyErrorText" translate="yes" xml:space="preserve">
+          <source>The project component cannot be placed in a root folder location. Components can only be placed within folders.</source>
+          <target state="new">The project component cannot be placed in a root folder location. Components can only be placed within folders.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderContainsReferenceCannotDeleteErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder cannot be removed from the project because one or more assignments make reference to one or more components linked below the folder. To remove the folder, remove all the references from one or more related project assignments and try again. The following references were found:
+<bpt id="1">&lt;ul&gt;</bpt>
+{0}
+<ept id="1">&lt;/ul&gt;</ept></source>
+          <target state="new">The specified folder cannot be removed from the project because one or more assignments make reference to one or more components linked below the folder. To remove the folder, remove all the references from one or more related project assignments and try again. The following references were found:
+<bpt id="1">&lt;ul&gt;</bpt>
+{0}
+<ept id="1">&lt;/ul&gt;</ept></target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified project folder was not found. It may have been deleted prior to the change request. Please refresh your project content view and try again.</source>
+          <target state="new">The specified project folder was not found. It may have been deleted prior to the change request. Please refresh your project content view and try again.</target>
+        </trans-unit>
+        <trans-unit id="ProjectFolderParentFolderNotSpecifiedText" translate="yes" xml:space="preserve">
+          <source>The parent project folder was not specified for the project folder item. Please ensure the folder item has a parent item specified.</source>
+          <target state="new">The parent project folder was not specified for the project folder item. Please ensure the folder item has a parent item specified.</target>
+        </trans-unit>
+        <trans-unit id="ProjectIdentityInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The project identity is not valid.</source>
+          <target state="new">The project identity is not valid.</target>
+        </trans-unit>
+        <trans-unit id="ProjectNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Project could not be found.</source>
+          <target state="new">Project could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ProjectOwnerInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The project owner identity was not specified. A project must have an owner defined.</source>
+          <target state="new">The project owner identity was not specified. A project must have an owner defined.</target>
+        </trans-unit>
+        <trans-unit id="ProjectParticipantNotFound" translate="yes" xml:space="preserve">
+          <source>The project participant was not found in the project.</source>
+          <target state="new">The project participant was not found in the project.</target>
+        </trans-unit>
+        <trans-unit id="ProjectRoleHasActiveAssignmentText" translate="yes" xml:space="preserve">
+          <source>The role cannot be removed from the project because it contains at least one user with an active assignment within the project.</source>
+          <target state="new">The role cannot be removed from the project because it contains at least one user with an active assignment within the project.</target>
+        </trans-unit>
+        <trans-unit id="ProjectStartByInvalidErrorText" translate="yes" xml:space="preserve">
+          <source>The Project Start By date must not come after a Complete By or Due By date.</source>
+          <target state="new">The Project Start By date must not come after a Complete By or Due By date.</target>
+        </trans-unit>
+        <trans-unit id="ProjectTitleRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A Project Title is required.</source>
+          <target state="new">A Project Title is required.</target>
+        </trans-unit>
+        <trans-unit id="ProjectUserHasActiveAssignmentText" translate="yes" xml:space="preserve">
+          <source>The user cannot be removed from the project because they have an active assignment within the project.</source>
+          <target state="new">The user cannot be removed from the project because they have an active assignment within the project.</target>
+        </trans-unit>
+        <trans-unit id="ProjectWorkflowCancelAssignmentText" translate="yes" xml:space="preserve">
+          <source>The project assignment cannot be cancelled because it is related to an active project workflow.</source>
+          <target state="new">The project assignment cannot be cancelled because it is related to an active project workflow.</target>
+        </trans-unit>
+        <trans-unit id="ProjectWorkflowNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified Project Workflow with identity "{0}" could not be found.</source>
+          <target state="new">The specified Project Workflow with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ProjectWorkflowProjectActivityNotSpecified" translate="yes" xml:space="preserve">
+          <source>The project workflow activity "{0}" does not have a project activity defined.</source>
+          <target state="new">The project workflow activity "{0}" does not have a project activity defined.</target>
+        </trans-unit>
+        <trans-unit id="PublishDitaCriticalErrorReportText" translate="yes" xml:space="preserve">
+          <source>A critical error occurred while attempting to execute a publish {0}. {1} {2} failed with error {3}</source>
+          <target state="new">A critical error occurred while attempting to execute a publish {0}. {1} {2} failed with error {3}</target>
+        </trans-unit>
+        <trans-unit id="PublishFailureEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Publication Failed</source>
+          <target state="new">Publication Failed</target>
+        </trans-unit>
+        <trans-unit id="PublishOutputNotCreatedText" translate="yes" xml:space="preserve">
+          <source>The plugin "{0}" was unable to publish the content for the component "{1}".</source>
+          <target state="new">The plugin "{0}" was unable to publish the content for the component "{1}".</target>
+        </trans-unit>
+        <trans-unit id="PublishSuccessEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Publication Completed Successfully</source>
+          <target state="new">Publication Completed Successfully</target>
+        </trans-unit>
+        <trans-unit id="QueryContentRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A specified content is required for the query.</source>
+          <target state="new">A specified content is required for the query.</target>
+        </trans-unit>
+        <trans-unit id="QueryDeleteErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete query "{0}" because it it is linked to a role or user. Clear all references to query "{0}" and try again.</source>
+          <target state="new">Cannot delete query "{0}" because it it is linked to a role or user. Clear all references to query "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="QueryNameRequiredErrorText" translate="yes" xml:space="preserve">
+          <source>A name is required for the query.</source>
+          <target state="new">A name is required for the query.</target>
+        </trans-unit>
+        <trans-unit id="QueryNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The specified query with an identity of "{0}" could not be found.</source>
+          <target state="new">The specified query with an identity of "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="QueryOperationDeniedErrorText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to perform that operation on the specified query.</source>
+          <target state="new">You do not have permission to perform that operation on the specified query.</target>
+        </trans-unit>
+        <trans-unit id="ReadOnlyPromptText" translate="yes" xml:space="preserve">
+          <source>READ ONLY</source>
+          <target state="new">READ ONLY</target>
+        </trans-unit>
+        <trans-unit id="ReassignedAssignmentEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Project Assignment Reassigned: {0}</source>
+          <target state="new">Project Assignment Reassigned: {0}</target>
+        </trans-unit>
+        <trans-unit id="RedisChannelSubscriptionMessageText" translate="yes" xml:space="preserve">
+          <source>Redis subscription intializing with domains {0}.</source>
+          <target state="new">Redis subscription intializing with domains {0}.</target>
+        </trans-unit>
+        <trans-unit id="RelationInUseByExportText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the Relation because it is used by one or more Export Configurations. Please clear all export configuration uses of this Relation before deleting.</source>
+          <target state="new">Cannot delete the Relation because it is used by one or more Export Configurations. Please clear all export configuration uses of this Relation before deleting.</target>
+        </trans-unit>
+        <trans-unit id="RelationInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the Relation because it is used by one or more Component Relations. Please clear all usages of this Relation before deleting.</source>
+          <target state="new">Cannot delete the Relation because it is used by one or more Component Relations. Please clear all usages of this Relation before deleting.</target>
+        </trans-unit>
+        <trans-unit id="RelationNameRequiredText" translate="yes" xml:space="preserve">
+          <source>A Relation Name is required.</source>
+          <target state="new">A Relation Name is required.</target>
+        </trans-unit>
+        <trans-unit id="RelationNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified Relation with identity "{0}" could not be found.</source>
+          <target state="new">The specified Relation with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="RequestedActionNotAllowedText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to perform the requested action.</source>
+          <target state="new">You do not have permission to perform the requested action.</target>
+        </trans-unit>
+        <trans-unit id="ResetEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Reset Your Password</source>
+          <target state="new">Reset Your Password</target>
+        </trans-unit>
+        <trans-unit id="ReviewAccessDeniedText" translate="yes" xml:space="preserve">
+          <source>You do not have permission to access the specified review. Please contact the review coordinator or application administrator if this problem persists.</source>
+          <target state="new">You do not have permission to access the specified review. Please contact the review coordinator or application administrator if this problem persists.</target>
+        </trans-unit>
+        <trans-unit id="ReviewCancelledEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Review Cancelled : {0}</source>
+          <target state="new">Review Cancelled : {0}</target>
+        </trans-unit>
+        <trans-unit id="ReviewContentUnsupportedMessageText" translate="yes" xml:space="preserve">
+          <source>This component is not available for preview.</source>
+          <target state="new">This component is not available for preview.</target>
+        </trans-unit>
+        <trans-unit id="ReviewCoordinatorInvalidText" translate="yes" xml:space="preserve">
+          <source>The review coordinator was not specified. A review must have a coordinator defined.</source>
+          <target state="new">The review coordinator was not specified. A review must have a coordinator defined.</target>
+        </trans-unit>
+        <trans-unit id="ReviewerNotFoundText" translate="yes" xml:space="preserve">
+          <source>Reviewer could not be found.</source>
+          <target state="new">Reviewer could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ReviewerStateNotReviewingText" translate="yes" xml:space="preserve">
+          <source>The reviewing session cannot be completed because it is not currently active.</source>
+          <target state="new">The reviewing session cannot be completed because it is not currently active.</target>
+        </trans-unit>
+        <trans-unit id="ReviewerWorkflowCompletedEmailSubject" translate="yes" xml:space="preserve">
+          <source>Reviewer Session Finished</source>
+          <target state="new">Reviewer Session Finished</target>
+        </trans-unit>
+        <trans-unit id="ReviewModeViewerContextMessageText" translate="yes" xml:space="preserve">
+          <source>This component is provided for context only and is not available for review.</source>
+          <target state="new">This component is provided for context only and is not available for review.</target>
+        </trans-unit>
+        <trans-unit id="ReviewNoMatchingProcessingInstruction" translate="yes" xml:space="preserve">
+          <source>The XML does not contain the required beginning and ending processing instructions for one or more comments or changes.</source>
+          <target state="new">The XML does not contain the required beginning and ending processing instructions for one or more comments or changes.</target>
+        </trans-unit>
+        <trans-unit id="ReviewNonCompletedReviewDeleteError" translate="yes" xml:space="preserve">
+          <source>Only reviews that are completed or cancelled can be archived.</source>
+          <target state="new">Only reviews that are completed or cancelled can be archived.</target>
+        </trans-unit>
+        <trans-unit id="ReviewNotFoundText" translate="yes" xml:space="preserve">
+          <source>Review could not be found.</source>
+          <target state="new">Review could not be found.</target>
+        </trans-unit>
+        <trans-unit id="ReviewReadyToResolveEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Review ready to Resolve: {0}</source>
+          <target state="new">Review ready to Resolve: {0}</target>
+        </trans-unit>
+        <trans-unit id="ReviewRequiredAttributesMissing" translate="yes" xml:space="preserve">
+          <source>One or more required attributes are missing from a comment or change processing instruction.</source>
+          <target state="new">One or more required attributes are missing from a comment or change processing instruction.</target>
+        </trans-unit>
+        <trans-unit id="ReviewStateNotResolvingTest" translate="yes" xml:space="preserve">
+          <source>The review cannot be completed because the state of the review is not Resolving.</source>
+          <target state="new">The review cannot be completed because the state of the review is not Resolving.</target>
+        </trans-unit>
+        <trans-unit id="ReviewTitleRequiredText" translate="yes" xml:space="preserve">
+          <source>A Review Title is required.</source>
+          <target state="new">A Review Title is required.</target>
+        </trans-unit>
+        <trans-unit id="ReviewUnknownProcessingInstruction" translate="yes" xml:space="preserve">
+          <source>The XML contains an unknown processing instruction with a name of "{0}".</source>
+          <target state="new">The XML contains an unknown processing instruction with a name of "{0}".</target>
+        </trans-unit>
+        <trans-unit id="ReviewUnresolvedEditorChangesErrorText" translate="yes" xml:space="preserve">
+          <source>One or more comments or changes were found in the component "{0}". Please accept or deny these comments and/or changes before completing the review.</source>
+          <target state="new">One or more comments or changes were found in the component "{0}". Please accept or deny these comments and/or changes before completing the review.</target>
+        </trans-unit>
+        <trans-unit id="ReviewWorkflowNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified Review Workflow with identity "{0}" could not be found.</source>
+          <target state="new">The specified Review Workflow with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="RoleCannotDeleteSystemText" translate="yes" xml:space="preserve">
+          <source>The specified system role cannot be deleted.</source>
+          <target state="new">The specified system role cannot be deleted.</target>
+        </trans-unit>
+        <trans-unit id="RoleNameExistsText" translate="yes" xml:space="preserve">
+          <source>The Role Name specified already exists.</source>
+          <target state="new">The Role Name specified already exists.</target>
+        </trans-unit>
+        <trans-unit id="RoleNameRequiredText" translate="yes" xml:space="preserve">
+          <source>Role Name is required.</source>
+          <target state="new">Role Name is required.</target>
+        </trans-unit>
+        <trans-unit id="RoleNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified role with identity "{0}" could not be found.</source>
+          <target state="new">The specified role with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="RuntimeMessageText" translate="yes" xml:space="preserve">
+          <source>{0} Days, {1} Hours, {2} Minutes, {3} Seconds</source>
+          <target state="new">{0} Days, {1} Hours, {2} Minutes, {3} Seconds</target>
+        </trans-unit>
+        <trans-unit id="SaveSgmlParseErrorMessageText" translate="yes" xml:space="preserve">
+          <source>An error occurred with the SGML parser while attempting to load the editor content back into the system. {0}.</source>
+          <target state="new">An error occurred with the SGML parser while attempting to load the editor content back into the system. {0}.</target>
+        </trans-unit>
+        <trans-unit id="ScheduledBackgroundTasksNotSupportedText" translate="yes" xml:space="preserve">
+          <source>The local background worker task manager does not support delayed (scheduled) background tasks. Please use Hangfire or other background worker manager for scheduled workers.</source>
+          <target state="new">The local background worker task manager does not support delayed (scheduled) background tasks. Please use Hangfire or other background worker manager for scheduled workers.</target>
+        </trans-unit>
+        <trans-unit id="SessionCurrentServerMaximumErrorText" translate="yes" xml:space="preserve">
+          <source>This server has exceeded its maximum number of {0} concurrent users session(s). Please wait and/or sign out of one or more sessions to continue.</source>
+          <target state="new">This server has exceeded its maximum number of {0} concurrent users session(s). Please wait and/or sign out of one or more sessions to continue.</target>
+        </trans-unit>
+        <trans-unit id="SessionCurrentTenantApiMaximumRequestsErrorText" translate="yes" xml:space="preserve">
+          <source>The specified tenant "{0}" has exceeded the maximum allocation of {1} API requests for a 24-hour period.</source>
+          <target state="new">The specified tenant "{0}" has exceeded the maximum allocation of {1} API requests for a 24-hour period.</target>
+        </trans-unit>
+        <trans-unit id="SessionCurrentTenantMaximumErrorText" translate="yes" xml:space="preserve">
+          <source>This service has exceeded its maximum number of {0} concurrent users session(s). Please wait and/or sign out of one or more sessions to continue.</source>
+          <target state="new">This service has exceeded its maximum number of {0} concurrent users session(s). Please wait and/or sign out of one or more sessions to continue.</target>
+        </trans-unit>
+        <trans-unit id="SessionCurrentUserApiMaximumErrorText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" has exceeded the maximum number of {1} API session(s). Please sign out of one or more API sessions to continue.</source>
+          <target state="new">The user "{0}" has exceeded the maximum number of {1} API session(s). Please sign out of one or more API sessions to continue.</target>
+        </trans-unit>
+        <trans-unit id="SessionCurrentUserMaximumErrorText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" has exceeded the maximum number of {1} session(s). Please sign out of one or more sessions to continue.</source>
+          <target state="new">The user "{0}" has exceeded the maximum number of {1} session(s). Please sign out of one or more sessions to continue.</target>
+        </trans-unit>
+        <trans-unit id="SessionNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The session "{0}" was not found. The session may have timed out. Please sign out and sign in again to reestablish your user session.</source>
+          <target state="new">The session "{0}" was not found. The session may have timed out. Please sign out and sign in again to reestablish your user session.</target>
+        </trans-unit>
+        <trans-unit id="SharedQueriesText" translate="yes" xml:space="preserve">
+          <source>Shared Queries</source>
+          <target state="new">Shared Queries</target>
+        </trans-unit>
+        <trans-unit id="StateCancelledText" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <target state="new">Cancelled</target>
+        </trans-unit>
+        <trans-unit id="StateCompletedText" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="new">Completed</target>
+        </trans-unit>
+        <trans-unit id="StateInProgressText" translate="yes" xml:space="preserve">
+          <source>In Progress</source>
+          <target state="new">In Progress</target>
+        </trans-unit>
+        <trans-unit id="StateToDoText" translate="yes" xml:space="preserve">
+          <source>To Do</source>
+          <target state="new">To Do</target>
+        </trans-unit>
+        <trans-unit id="StorageDirectoryExistsErrorText" translate="yes" xml:space="preserve">
+          <source>A subfolder named "{0}" already exists.</source>
+          <target state="new">A subfolder named "{0}" already exists.</target>
+        </trans-unit>
+        <trans-unit id="StorageZipFilesNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The archive file was not created because one or more files to archive were not found.</source>
+          <target state="new">The archive file was not created because one or more files to archive were not found.</target>
+        </trans-unit>
+        <trans-unit id="SupportEmailSubject" translate="yes" xml:space="preserve">
+          <source>Vasont Inspire Feedback - {0}</source>
+          <target state="new">Vasont Inspire Feedback - {0}</target>
+        </trans-unit>
+        <trans-unit id="SyncActionErrorMessageText" translate="yes" xml:space="preserve">
+          <source>The sync action {0} failed for external user {1} {2}. Messages: {3}</source>
+          <target state="new">The sync action {0} failed for external user {1} {2}. Messages: {3}</target>
+        </trans-unit>
+        <trans-unit id="SyncExternalComponentExists" translate="yes" xml:space="preserve">
+          <source>An external component sync record already exists for the external component with identity "{0}".</source>
+          <target state="new">An external component sync record already exists for the external component with identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="SyncExternalSystemNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find an external system with the specified identity value "{0}".</source>
+          <target state="new">Could not find an external system with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="SyncImportRequestModelInvalidText" translate="yes" xml:space="preserve">
+          <source>All sync import request models must contain an external file name and an external component identity.</source>
+          <target state="new">All sync import request models must contain an external file name and an external component identity.</target>
+        </trans-unit>
+        <trans-unit id="SyncInspireComponentExists" translate="yes" xml:space="preserve">
+          <source>An external component sync record already exists for the Inspire component with identity "{0}".</source>
+          <target state="new">An external component sync record already exists for the Inspire component with identity "{0}".</target>
+        </trans-unit>
+        <trans-unit id="SyncNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Could not find an external sync component with the specified identity value "{0}".</source>
+          <target state="new">Could not find an external sync component with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="SystemRelationDeleteText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the Relation because it is a system defined relation.</source>
+          <target state="new">Cannot delete the Relation because it is a system defined relation.</target>
+        </trans-unit>
+        <trans-unit id="TagNameRequiredText" translate="yes" xml:space="preserve">
+          <source>A Tag Name is required.</source>
+          <target state="new">A Tag Name is required.</target>
+        </trans-unit>
+        <trans-unit id="TagNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified tag with identity "{0}" could not be found.</source>
+          <target state="new">The specified tag with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="TagValidateInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete tag "{0}" because it is in use by one or more components. Clear all references to tag "{0}" and try again.</source>
+          <target state="new">Cannot delete tag "{0}" because it is in use by one or more components. Clear all references to tag "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="TagValidateInvalidNameErrorText" translate="yes" xml:space="preserve">
+          <source>The Name for Tag "{0}" is invalid. Tag names must begin with an alpha character, must not begin with xml, and not contain any of the following characters: space, ", ', &amp;, !, <it id="1" pos="open">&lt;, or &gt;</it>.</source>
+          <target state="new">The Name for Tag "{0}" is invalid. Tag names must begin with an alpha character, must not begin with xml, and not contain any of the following characters: space, ", ', &amp;, !, <it id="1" pos="open">&lt;, or &gt;</it>.</target>
+        </trans-unit>
+        <trans-unit id="TagValidateNameExistsErrorText" translate="yes" xml:space="preserve">
+          <source>The Tag "{0}" already exists.</source>
+          <target state="new">The Tag "{0}" already exists.</target>
+        </trans-unit>
+        <trans-unit id="TenantReachedMaximumSeatsErrorText" translate="yes" xml:space="preserve">
+          <source>Unable to add a new user because the maximum number of users allowed for the application has been reached.</source>
+          <target state="new">Unable to add a new user because the maximum number of users allowed for the application has been reached.</target>
+        </trans-unit>
+        <trans-unit id="TestingMessageCriticalText" translate="yes" xml:space="preserve">
+          <source>Testing a Critical Error Message</source>
+          <target state="new">Testing a Critical Error Message</target>
+        </trans-unit>
+        <trans-unit id="TranslationArchiveActiveStateText" translate="yes" xml:space="preserve">
+          <source>The translation job cannot be archived because it is still active. The translation job must first be completed or cancelled.</source>
+          <target state="new">The translation job cannot be archived because it is still active. The translation job must first be completed or cancelled.</target>
+        </trans-unit>
+        <trans-unit id="TranslationCancelNotAllowedText" translate="yes" xml:space="preserve">
+          <source>The translation cannot be cancelled because it is already completed or cancelled.</source>
+          <target state="new">The translation cannot be cancelled because it is already completed or cancelled.</target>
+        </trans-unit>
+        <trans-unit id="TranslationFailureEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Translation Submittal Failed</source>
+          <target state="new">Translation Submittal Failed</target>
+        </trans-unit>
+        <trans-unit id="TranslationJobComponentNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find a translation job component with the specified identity value "{0}".</source>
+          <target state="new">Could not find a translation job component with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="TranslationJobNoComponentsText" translate="yes" xml:space="preserve">
+          <source>One or more source components must be specified to create a translation job.</source>
+          <target state="new">One or more source components must be specified to create a translation job.</target>
+        </trans-unit>
+        <trans-unit id="TranslationJobNoLanguagesText" translate="yes" xml:space="preserve">
+          <source>One or more target languages must be specified to create a translation job.</source>
+          <target state="new">One or more target languages must be specified to create a translation job.</target>
+        </trans-unit>
+        <trans-unit id="TranslationJobNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find a translation job with the specified identity value "{0}".</source>
+          <target state="new">Could not find a translation job with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="TranslationLockFailedText" translate="yes" xml:space="preserve">
+          <source>A lock already exists for component "{0}". Cannot lock component for translation.</source>
+          <target state="new">A lock already exists for component "{0}". Cannot lock component for translation.</target>
+        </trans-unit>
+        <trans-unit id="TranslationNotRequiredEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Translation Submittal Not Required</source>
+          <target state="new">Translation Submittal Not Required</target>
+        </trans-unit>
+        <trans-unit id="TranslationSuccessEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Translation Submittal Success</source>
+          <target state="new">Translation Submittal Success</target>
+        </trans-unit>
+        <trans-unit id="TranslationVendorNotFoundText" translate="yes" xml:space="preserve">
+          <source>Could not find a translation vendor with the specified identity value "{0}".</source>
+          <target state="new">Could not find a translation vendor with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="TranslationVendorRequiredText" translate="yes" xml:space="preserve">
+          <source>A translation vendor must be specified to create a translation job.</source>
+          <target state="new">A translation vendor must be specified to create a translation job.</target>
+        </trans-unit>
+        <trans-unit id="UnableToLoadTenantErrorText" translate="yes" xml:space="preserve">
+          <source>The call to retrieve tenant application information failed. This could be due to a misconfigured tenant or database connection. Please contact support.</source>
+          <target state="new">The call to retrieve tenant application information failed. This could be due to a misconfigured tenant or database connection. Please contact support.</target>
+        </trans-unit>
+        <trans-unit id="UnresolvedEditorChangesErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot Save and Submit because one or more tracked changes and/or comments have not been resolved. Please ensure all changes and comments have been resolved before submitting.</source>
+          <target state="new">Cannot Save and Submit because one or more tracked changes and/or comments have not been resolved. Please ensure all changes and comments have been resolved before submitting.</target>
+        </trans-unit>
+        <trans-unit id="UnsupportedNumericIdentityTypeText" translate="yes" xml:space="preserve">
+          <source>The database object does not support numeric identities.</source>
+          <target state="new">The database object does not support numeric identities.</target>
+        </trans-unit>
+        <trans-unit id="UnsupportedValidationTypeText" translate="yes" xml:space="preserve">
+          <source>The validation type specified is currently not supported.</source>
+          <target state="new">The validation type specified is currently not supported.</target>
+        </trans-unit>
+        <trans-unit id="UpdatedByText" translate="yes" xml:space="preserve">
+          <source>Updated By</source>
+          <target state="new">Updated By</target>
+        </trans-unit>
+        <trans-unit id="UpdatedDateText" translate="yes" xml:space="preserve">
+          <source>Updated Date</source>
+          <target state="new">Updated Date</target>
+        </trans-unit>
+        <trans-unit id="UpdaterFileNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Updater.exe was not found in folder '{0}'. Please ensure the program file exists or contact your system administrator.</source>
+          <target state="new">Updater.exe was not found in folder '{0}'. Please ensure the program file exists or contact your system administrator.</target>
+        </trans-unit>
+        <trans-unit id="UserAccountLockedErrorText" translate="yes" xml:space="preserve">
+          <source>The specified user account "{0}" is locked. Please wait and try again or contact your support for assistance.</source>
+          <target state="new">The specified user account "{0}" is locked. Please wait and try again or contact your support for assistance.</target>
+        </trans-unit>
+        <trans-unit id="UserCannotBeFoundByEmailErrorText" translate="yes" xml:space="preserve">
+          <source>A user could not be found with the specified email address "{0}".</source>
+          <target state="new">A user could not be found with the specified email address "{0}".</target>
+        </trans-unit>
+        <trans-unit id="UserCannotBeFoundByIdErrorText" translate="yes" xml:space="preserve">
+          <source>A user could not be found with the specified identity value "{0}".</source>
+          <target state="new">A user could not be found with the specified identity value "{0}".</target>
+        </trans-unit>
+        <trans-unit id="UserEmailRequiredText" translate="yes" xml:space="preserve">
+          <source>User email address is required.</source>
+          <target state="new">User email address is required.</target>
+        </trans-unit>
+        <trans-unit id="UserNameAlphaNumericOnlyText" translate="yes" xml:space="preserve">
+          <source>User name can only contain alphanumeric characters.</source>
+          <target state="new">User name can only contain alphanumeric characters.</target>
+        </trans-unit>
+        <trans-unit id="UserNameExistsText" translate="yes" xml:space="preserve">
+          <source>A user already exists with the name "{0}".</source>
+          <target state="new">A user already exists with the name "{0}".</target>
+        </trans-unit>
+        <trans-unit id="UserNameRequiredText" translate="yes" xml:space="preserve">
+          <source>User Name is required.</source>
+          <target state="new">User Name is required.</target>
+        </trans-unit>
+        <trans-unit id="UserNotInProjectErrorText" translate="yes" xml:space="preserve">
+          <source>The assigned user is not assigned as a participant in the specified project.</source>
+          <target state="new">The assigned user is not assigned as a participant in the specified project.</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidIncorrectOldErrorText" translate="yes" xml:space="preserve">
+          <source>The old password you specified is not correct. Please correctly enter your old password as a security validation measure.</source>
+          <target state="new">The old password you specified is not correct. Please correctly enter your old password as a security validation measure.</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidLengthErrorText" translate="yes" xml:space="preserve">
+          <source>The password requires a minimum length of {0} characters.</source>
+          <target state="new">The password requires a minimum length of {0} characters.</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidLowerErrorText" translate="yes" xml:space="preserve">
+          <source>The password requires at least one lower-case character (e.g. a-z).</source>
+          <target state="new">The password requires at least one lower-case character (e.g. a-z).</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidNonAlphaErrorText" translate="yes" xml:space="preserve">
+          <source>The password requires at least one non-alphanumeric character (e.g. ! @ # or %).</source>
+          <target state="new">The password requires at least one non-alphanumeric character (e.g. ! @ # or %).</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidNoPasswordErrorText" translate="yes" xml:space="preserve">
+          <source>No password was specified. A password must be specified for the account.</source>
+          <target state="new">No password was specified. A password must be specified for the account.</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidNumericErrorText" translate="yes" xml:space="preserve">
+          <source>The password requires at least one numeric character (e.g. 0-9).</source>
+          <target state="new">The password requires at least one numeric character (e.g. 0-9).</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidPreambleErrorText" translate="yes" xml:space="preserve">
+          <source>The password specified does not meet the following criteria:</source>
+          <target state="new">The password specified does not meet the following criteria:</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidSameAsOldErrorText" translate="yes" xml:space="preserve">
+          <source>Your new password cannot be the same as your old password. Please correctly specify a new password.</source>
+          <target state="new">Your new password cannot be the same as your old password. Please correctly specify a new password.</target>
+        </trans-unit>
+        <trans-unit id="UserPasswordInvalidUpperErrorText" translate="yes" xml:space="preserve">
+          <source>The password requires at least one upper-case character (e.g. A-Z).</source>
+          <target state="new">The password requires at least one upper-case character (e.g. A-Z).</target>
+        </trans-unit>
+        <trans-unit id="UserSyncErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred during the Inspire User Sync process.</source>
+          <target state="new">An error occurred during the Inspire User Sync process.</target>
+        </trans-unit>
+        <trans-unit id="UserSyncInfoMessageText" translate="yes" xml:space="preserve">
+          <source>A user {0} sync command was received for user {1} {2}.</source>
+          <target state="new">A user {0} sync command was received for user {1} {2}.</target>
+        </trans-unit>
+        <trans-unit id="UserValidEmailRequiredText" translate="yes" xml:space="preserve">
+          <source>A valid email address is required.</source>
+          <target state="new">A valid email address is required.</target>
+        </trans-unit>
+        <trans-unit id="ValueNotAlphanumericText" translate="yes" xml:space="preserve">
+          <source>The value "{0}" must be alphanumeric.</source>
+          <target state="new">The value "{0}" must be alphanumeric.</target>
+        </trans-unit>
+        <trans-unit id="WebhookConfigurationNotFoundText" translate="yes" xml:space="preserve">
+          <source>The Webhook "{0}" does not contain a configuration for the type "{1}".</source>
+          <target state="new">The Webhook "{0}" does not contain a configuration for the type "{1}".</target>
+        </trans-unit>
+        <trans-unit id="WebhookSecretConfigNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The webhook security configuration parameter was not found or has not been configured. Please contact support.</source>
+          <target state="new">The webhook security configuration parameter was not found or has not been configured. Please contact support.</target>
+        </trans-unit>
+        <trans-unit id="WorkerProcessKeyNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>A background worker process with the key "{0}" was not found. The process cannot complete.</source>
+          <target state="new">A background worker process with the key "{0}" was not found. The process cannot complete.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActiveActivitiesExistText" translate="yes" xml:space="preserve">
+          <source>Cannot create the initial activity for workflow "{0}" because there are currently active activities.</source>
+          <target state="new">Cannot create the initial activity for workflow "{0}" because there are currently active activities.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActivityMemberNotFoundText" translate="yes" xml:space="preserve">
+          <source>The user {0} is not allowed to perform the workflow activity "{1}".</source>
+          <target state="new">The user {0} is not allowed to perform the workflow activity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActivityNoMemebersText" translate="yes" xml:space="preserve">
+          <source>The workflow activity "{0}" does not have any members.</source>
+          <target state="new">The workflow activity "{0}" does not have any members.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActivityNotFound" translate="yes" xml:space="preserve">
+          <source>The workflow activity with identity "{0}" could not be found.</source>
+          <target state="new">The workflow activity with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActivityNotInitialText" translate="yes" xml:space="preserve">
+          <source>The activity specified cannot be the initial activity in the workflow.</source>
+          <target state="new">The activity specified cannot be the initial activity in the workflow.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowActivityNotSpecifiedText" translate="yes" xml:space="preserve">
+          <source>The workflow activity was not specified.</source>
+          <target state="new">The workflow activity was not specified.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowCommandNotValidText" translate="yes" xml:space="preserve">
+          <source>The workflow command is not valid.</source>
+          <target state="new">The workflow command is not valid.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowCoordinatorOneAllowedText" translate="yes" xml:space="preserve">
+          <source>Only one member is allowed as a workflow coordinator.</source>
+          <target state="new">Only one member is allowed as a workflow coordinator.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowMemberNotParticipantText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" is defined in the workflow but is not a participant in the associated project.</source>
+          <target state="new">The user "{0}" is defined in the workflow but is not a participant in the associated project.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowMemberNotReviewerText" translate="yes" xml:space="preserve">
+          <source>The user "{0}" is defined in the workflow but is not specified as a reviewer.</source>
+          <target state="new">The user "{0}" is defined in the workflow but is not specified as a reviewer.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowNameRequiredText" translate="yes" xml:space="preserve">
+          <source>The name field is required for a workflow.</source>
+          <target state="new">The name field is required for a workflow.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowNextActivityNotFoundText" translate="yes" xml:space="preserve">
+          <source>The completion of the current workflow activity is not allowed because a subsequent activity is required and not specified.</source>
+          <target state="new">The completion of the current workflow activity is not allowed because a subsequent activity is required and not specified.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowNoActivitiesText" translate="yes" xml:space="preserve">
+          <source>The workflow "{0}" requires one or more activites to be valid.</source>
+          <target state="new">The workflow "{0}" requires one or more activites to be valid.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowNotFoundText" translate="yes" xml:space="preserve">
+          <source>The workflow with identity "{0}" could not be found.</source>
+          <target state="new">The workflow with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowReviewNoCoordinatorActorErrorText" translate="yes" xml:space="preserve">
+          <source>At least one workflow actor must be specified as a coordinator for review workflow types.</source>
+          <target state="new">At least one workflow actor must be specified as a coordinator for review workflow types.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowTransitionFromNotValidText" translate="yes" xml:space="preserve">
+          <source>The workflow transition "{0}" does not have a from activity defined.</source>
+          <target state="new">The workflow transition "{0}" does not have a from activity defined.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowTransitionNotFoundText" translate="yes" xml:space="preserve">
+          <source>There is no defined workflow transition from activity "{0}" to activity "{1}".</source>
+          <target state="new">There is no defined workflow transition from activity "{0}" to activity "{1}".</target>
+        </trans-unit>
+        <trans-unit id="WorkflowTransitionToNotValidText" translate="yes" xml:space="preserve">
+          <source>The workflow transition "{0}" does not have a next activity defined.</source>
+          <target state="new">The workflow transition "{0}" does not have a next activity defined.</target>
+        </trans-unit>
+        <trans-unit id="WorkFolderCleanupErrorText" translate="yes" xml:space="preserve">
+          <source>A unhandled error occurred while attempting to clean up the work folder "{0}" after finishing the import process.</source>
+          <target state="new">A unhandled error occurred while attempting to clean up the work folder "{0}" after finishing the import process.</target>
+        </trans-unit>
+        <trans-unit id="XmlCacheEmptyPathSettingErrorText" translate="yes" xml:space="preserve">
+          <source>The CachePath property specified for XmlCacheRepository was empty.</source>
+          <target state="new">The CachePath property specified for XmlCacheRepository was empty.</target>
+        </trans-unit>
+        <trans-unit id="XmlCacheMissingPathSettingErrorText" translate="yes" xml:space="preserve">
+          <source>Properties for XmlCacheRepository is missing the 'CachePath' setting.</source>
+          <target state="new">Properties for XmlCacheRepository is missing the 'CachePath' setting.</target>
+        </trans-unit>
+        <trans-unit id="XmlLinkTypeInUseErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete the XML Link Type because it is used by one or more Relations. Please clear all other references to this XML Link Type before deleting.</source>
+          <target state="new">Cannot delete the XML Link Type because it is used by one or more Relations. Please clear all other references to this XML Link Type before deleting.</target>
+        </trans-unit>
+        <trans-unit id="XmlLinkTypeLinkMethodRequiredText" translate="yes" xml:space="preserve">
+          <source>A Link Method is required for an XML Link Type.</source>
+          <target state="new">A Link Method is required for an XML Link Type.</target>
+        </trans-unit>
+        <trans-unit id="XmlLinkTypeNameRequiredText" translate="yes" xml:space="preserve">
+          <source>A Name is required for an XML Link Type.</source>
+          <target state="new">A Name is required for an XML Link Type.</target>
+        </trans-unit>
+        <trans-unit id="XmlLinkTypeNotFoundText" translate="yes" xml:space="preserve">
+          <source>The specified XML Link Type with identity "{0}" could not be found.</source>
+          <target state="new">The specified XML Link Type with identity "{0}" could not be found.</target>
+        </trans-unit>
+        <trans-unit id="XmlLinkTypeSourceAttributeRequiredText" translate="yes" xml:space="preserve">
+          <source>A Source Attribute is required for an XML Link Type.</source>
+          <target state="new">A Source Attribute is required for an XML Link Type.</target>
+        </trans-unit>
+        <trans-unit id="LockedByText" translate="yes" xml:space="preserve">
+          <source>Locked by</source>
+          <target state="new">Locked by</target>
+        </trans-unit>
+        <trans-unit id="LockedForReviewByText" translate="yes" xml:space="preserve">
+          <source>Locked for review by</source>
+          <target state="new">Locked for review by</target>
+        </trans-unit>
+        <trans-unit id="LockedForTranslationByText" translate="yes" xml:space="preserve">
+          <source>Locked for translation by</source>
+          <target state="new">Locked for translation by</target>
+        </trans-unit>
+        <trans-unit id="StorageDirectoryNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The storage directory path "{0}" was not found.</source>
+          <target state="new">The storage directory path "{0}" was not found.</target>
+        </trans-unit>
+        <trans-unit id="MyFiltersText" translate="yes" xml:space="preserve">
+          <source>My Filters</source>
+          <target state="new">My Filters</target>
+        </trans-unit>
+        <trans-unit id="SharedFiltersText" translate="yes" xml:space="preserve">
+          <source>Shared Filters</source>
+          <target state="new">Shared Filters</target>
+        </trans-unit>
+        <trans-unit id="ProfileFilterNoAttributesText" translate="yes" xml:space="preserve">
+          <source>Cannot save the profile filter because there are no attribute values selected. Select at least one attribute value before saving.</source>
+          <target state="new">Cannot save the profile filter because there are no attribute values selected. Select at least one attribute value before saving.</target>
+        </trans-unit>
+        <trans-unit id="ProfileFilterTitleRequiredText" translate="yes" xml:space="preserve">
+          <source>A title is required for the profile filter.</source>
+          <target state="new">A title is required for the profile filter.</target>
+        </trans-unit>
+        <trans-unit id="ExportWarningsEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Export with Issues</source>
+          <target state="new">Export with Issues</target>
+        </trans-unit>
+        <trans-unit id="PublishWarningsEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Publication with Issues</source>
+          <target state="new">Publication with Issues</target>
+        </trans-unit>
+        <trans-unit id="TranslationLanguageNotProcessed" translate="yes" xml:space="preserve">
+          <source>The language "{0}" was not processed because it is already active.</source>
+          <target state="new">The language "{0}" was not processed because it is already active.</target>
+        </trans-unit>
+        <trans-unit id="LockTypeText" translate="yes" xml:space="preserve">
+          <source>Lock Type</source>
+          <target state="new">Lock Type</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentFileNameValidationText" translate="yes" xml:space="preserve">
+          <source>Component "{0}" file name length exceeds maximum length of 100. Please fix the component file name and import it again.</source>
+          <target state="new">Component "{0}" file name length exceeds maximum length of 100. Please fix the component file name and import it again.</target>
+        </trans-unit>
+        <trans-unit id="ComponentIsLockedText" translate="yes" xml:space="preserve">
+          <source>The component "{0}" is locked.</source>
+          <target state="new">The component "{0}" is locked.</target>
+        </trans-unit>
+        <trans-unit id="FolderNameValidationText" translate="yes" xml:space="preserve">
+          <source>Folder "{0}" length exceeds maximum length of 50 characters.</source>
+          <target state="new">Folder "{0}" length exceeds maximum length of 50 characters.</target>
+        </trans-unit>
+        <trans-unit id="CreateAsTemplateErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while trying to save the component as a template "{0}"</source>
+          <target state="new">An error occurred while trying to save the component as a template "{0}"</target>
+        </trans-unit>
+        <trans-unit id="ComponentFilteredWarningText" translate="yes" xml:space="preserve">
+          <source>The component "{0}" was filtered out and dropped from processing.</source>
+          <target state="new">The component "{0}" was filtered out and dropped from processing.</target>
+        </trans-unit>
+        <trans-unit id="ComponentAutoRepairEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Component relationships batch repair completed</source>
+          <target state="new">Component relationships batch repair completed</target>
+        </trans-unit>
+        <trans-unit id="ComponentAutoRepairNoComponentsFoundText" translate="yes" xml:space="preserve">
+          <source>There are no components to repair.</source>
+          <target state="new">There are no components to repair.</target>
+        </trans-unit>
+        <trans-unit id="ComponentMoveValidationText" translate="yes" xml:space="preserve">
+          <source>The source and target folders are the same for the selected components. Please select different target folder.</source>
+          <target state="new">The source and target folders are the same for the selected components. Please select different target folder.</target>
+        </trans-unit>
+        <trans-unit id="AdvancedContentText" translate="yes" xml:space="preserve">
+          <source>Advanced Content</source>
+          <target state="new">Advanced Content</target>
+        </trans-unit>
+        <trans-unit id="ImportComponentLockedText" translate="yes" xml:space="preserve">
+          <source>Component '{0}' is locked.</source>
+          <target state="new">Component '{0}' is locked.</target>
+        </trans-unit>
+        <trans-unit id="EditorXrefTextNotFound" translate="yes" xml:space="preserve">
+          <source>The cross reference text for component "{0}" could not be created because it is either invalid or not found.</source>
+          <target state="new">The cross reference text for component "{0}" could not be created because it is either invalid or not found.</target>
+        </trans-unit>
+        <trans-unit id="ComponentHasMissingContentText" translate="yes" xml:space="preserve">
+          <source>The component content from {0} was not loaded or the file is empty. Cannot load content.</source>
+          <target state="new">The component content from {0} was not loaded or the file is empty. Cannot load content.</target>
+        </trans-unit>
+        <trans-unit id="ComponentTypeValidateComponentHistoryFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot delete component type "{0}" because it is referenced by one or more historical components. Clear all references to component type "{0}" and try again.</source>
+          <target state="new">Cannot delete component type "{0}" because it is referenced by one or more historical components. Clear all references to component type "{0}" and try again.</target>
+        </trans-unit>
+        <trans-unit id="ImageDefaultIcon" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="VideoDefaultIcon" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+          <source>..\Resources\videodefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
+          <target state="needs-review-translation">..\Resources\videodefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
+        </trans-unit>
+        <trans-unit id="ComponentConfigurationJsonConfigDeserializeErrorText" translate="yes" xml:space="preserve">
+          <source>There is an error on deserializing the JsonConfig value.</source>
+          <target state="new">There is an error on deserializing the JsonConfig value.</target>
+        </trans-unit>
+        <trans-unit id="WorkflowInitialActivityNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The workflow does not contain an initial workflow activity.</source>
+          <target state="new">The workflow does not contain an initial workflow activity.</target>
+        </trans-unit>
+        <trans-unit id="StartupBackgroundWorkerErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to start the working folder clean-up background worker with interval '{0}'.</source>
+          <target state="new">An error occurred while attempting to start the working folder clean-up background worker with interval '{0}'.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

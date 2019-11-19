@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <NeutralLanguage>en</NeutralLanguage>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vasont Systems</Authors>
+    <Company>Vasont Systems</Company>
+    <Product>GlobalLink Vasont Inspire</Product>
+    <Description>Contains the core supporting components and extension routines for the GlobalLink Vasont Inspire application and SDK library.</Description>
+    <Copyright>Copyright (c) 2019, Vasont Systems. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
+    <PackageTags />
+    <PackageReleaseNotes />
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <ItemGroup>
+    <Compile Remove="Extensions\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <None Remove="Extensions\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MultilingualResources\Vasont.Inspire.Core.de.xlf" />
+    <None Remove="MultilingualResources\Vasont.Inspire.Core.es.xlf" />
+    <None Remove="MultilingualResources\Vasont.Inspire.Core.fr.xlf" />
+    <None Remove="MultilingualResources\Vasont.Inspire.Core.ru.xlf" />
+    <None Remove="Resources\imagedefaulticon.png" />
+    <None Remove="Resources\videodefaulticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\AsyncHelper.cs" />
+    <Compile Include="Extensions\CommandLine.cs" />
+    <Compile Include="Extensions\DateExtensions.cs" />
+    <Compile Include="Extensions\ImageExtensions.cs" />
+    <Compile Include="Extensions\LocaleExtensions.cs" />
+    <Compile Include="Extensions\LocalizedDescriptionAttribute.cs" />
+    <Compile Include="Extensions\SortDirection.cs" />
+    <Compile Include="Extensions\ResourceExtensions.cs" />
+    <Compile Include="Extensions\SerializeExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="Extensions\UriExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\imagedefaulticon.png" />
+    <EmbeddedResource Include="Resources\videodefaulticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="4.6.0" />
+    <PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\Vasont.Inspire.Core.de.xlf" />
+    <XliffResource Include="MultilingualResources\Vasont.Inspire.Core.es.xlf" />
+    <XliffResource Include="MultilingualResources\Vasont.Inspire.Core.fr.xlf" />
+    <XliffResource Include="MultilingualResources\Vasont.Inspire.Core.ru.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Resources.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Resources.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
