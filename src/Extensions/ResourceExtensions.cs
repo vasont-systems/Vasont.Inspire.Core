@@ -25,7 +25,7 @@ namespace Vasont.Inspire.Core.Extensions
         public static string GetEmbeddedResourceString(string keyName, string folder = "Resources", string assemblyName = "Vasont.Inspire.Core")
         {
             string contents = null;
-            string path = string.Join('.', new[] { assemblyName, folder, keyName }.Where(x => !string.IsNullOrEmpty(x)));
+            string path = string.Join(".", new[] { assemblyName, folder, keyName }.Where(x => !string.IsNullOrEmpty(x)));
             var assembly = Assembly.Load(assemblyName);
             string[] manifestResources = assembly.GetManifestResourceNames();
 
