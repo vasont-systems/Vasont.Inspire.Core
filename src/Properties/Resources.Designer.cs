@@ -3620,11 +3620,38 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Translation Cancelled.
+        /// </summary>
+        public static string TranslationCancelledEmailSubjectText {
+            get {
+                return ResourceManager.GetString("TranslationCancelledEmailSubjectText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The translation cannot be cancelled because it is already completed or cancelled..
         /// </summary>
         public static string TranslationCancelNotAllowedText {
             get {
                 return ResourceManager.GetString("TranslationCancelNotAllowedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translation Completed.
+        /// </summary>
+        public static string TranslationCompletedEmailSubjectText {
+            get {
+                return ResourceManager.GetString("TranslationCompletedEmailSubjectText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The component &quot;{0}&quot; was not included in translation job &quot;{1} ({2})&quot; because it is already active in another translation job for the same language..
+        /// </summary>
+        public static string TranslationComponentNotProcessed {
+            get {
+                return ResourceManager.GetString("TranslationComponentNotProcessed", resourceCulture);
             }
         }
         
@@ -3643,6 +3670,15 @@ namespace Vasont.Inspire.Core.Properties {
         public static string TranslationJobComponentNotFoundText {
             get {
                 return ResourceManager.GetString("TranslationJobComponentNotFoundText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No components were found to create archive for translation &quot;{0}&quot; with the identity value &quot;{1}&quot;..
+        /// </summary>
+        public static string TranslationJobNoArchiveComponentsText {
+            get {
+                return ResourceManager.GetString("TranslationJobNoArchiveComponentsText", resourceCulture);
             }
         }
         

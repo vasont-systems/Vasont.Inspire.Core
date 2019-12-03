@@ -12,10 +12,1417 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AccessDeniedErrorText" xml:space="preserve">
+    <value>Zugriff verweigert.</value>
+  </data>
+  <data name="AccessDeniedHtmlErrorMessageText" xml:space="preserve">
+    <value>Die Hauptursache für diesen Fehler ist wahrscheinlich auf ein Sitzungstimeout zurückzuführen. Sie können die Anwendung schließen und dann in einem neuen Browserfenster erneut öffnen, sich anmelden und versuchen, die Seite erneut zu laden.</value>
+  </data>
+  <data name="ActivityRequiredErrorText" xml:space="preserve">
+    <value>Eine Aktivität für diese Zuordnung ist erforderlich.</value>
+  </data>
+  <data name="ApiAuthenticationRejectedErrorText" xml:space="preserve">
+    <value>Der angegebene Benutzername oder das Kennwort war ungültig.</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Inspirieren</value>
+  </data>
+  <data name="ApproveComponentIncompleteText" xml:space="preserve">
+    <value>Die Komponente "{0}" ({1}) kann nicht genehmigt werden, da sie unvollständig ist.</value>
+  </data>
+  <data name="ApproveComponentPendingDeleteError" xml:space="preserve">
+    <value>Die Komponente "{0}" ({1}) kann nicht genehmigt werden, da Komponenten, die zum Löschen gekennzeichnet waren, nicht gelöscht werden konnten.</value>
+  </data>
+  <data name="ArgumentMustBeGreaterThanZeroErrorFormat" xml:space="preserve">
+    <value>"{0}" muss größer als 0 sein.</value>
+  </data>
+  <data name="AttributeNotFoundText" xml:space="preserve">
+    <value>Das angegebene Attribut mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="AttributeValidateInUseErrorText" xml:space="preserve">
+    <value>Das Attribut "{0}" kann nicht gelöscht werden, da es von einem oder mehreren XML-Verknüpfungstypen verwendet wird. Löschen Sie alle Verweise auf das Attribut "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="AttributeValidateInvalidNameErrorText" xml:space="preserve">
+    <value>Der Attributname "{0}" ist ungültig. Attributnamen müssen mit einem Alpha-Zeichen beginnen und dürfen nicht enthalten: leer, ", ', &amp;amp;, 'it id="1" pos="open"&gt;&amp;lt;, oder &amp;gt;&lt;/it&gt;.</value>
+  </data>
+  <data name="AttributeValueInvalidText" xml:space="preserve">
+    <value>Der Attributwert "{0}" enthält ungültige Zeichen. Sonderzeichen sind in einem Attributwert nicht zulässig und müssen entfernt oder durch gültigen XML-Code ersetzt werden.</value>
+  </data>
+  <data name="BackchannelUserNotFoundErrorText" xml:space="preserve">
+    <value>Ein Benutzer mit der externen Identität {0} wurde während einer Backchannel-Benutzerprofilsuche nicht in der {1}-Berechtigung gefunden.</value>
+  </data>
+  <data name="BinaryContentTypeText" xml:space="preserve">
+    <value>Binärer Inhaltstyp</value>
+  </data>
+  <data name="BindingsLookupErrorText" xml:space="preserve">
+    <value>Beim ersten Start der Anwendung ist ein Fehler aufgetreten, bei dem versucht wurde, mit IIS für den Bindungsabruf zu kommunizieren.</value>
+  </data>
+  <data name="CancelledAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Projektzuweisung abgebrochen - {0}</value>
+  </data>
+  <data name="CancelledChangeRequestEmailSubjectText" xml:space="preserve">
+    <value>Abgelehnte Anforderungsbenachrichtigung</value>
+  </data>
+  <data name="CantFindUserByIdErrorText" xml:space="preserve">
+    <value>Es kann kein Benutzer mit der Identität von {0} in der Anwendung gefunden werden.</value>
+  </data>
+  <data name="CantFindUserByNameErrorText" xml:space="preserve">
+    <value>Es kann kein Benutzer mit dem Namen "{0}" gefunden werden. Ungültige Kontextsuche für den Benutzeridentitätswert. Bitte wenden Sie sich an den Support für weitere Informationen.</value>
+  </data>
+  <data name="ChangeComponentRequestDescription" xml:space="preserve">
+    <value>Kommentar von {0}: {1}</value>
+  </data>
+  <data name="ChangesetNotFoundErrorText" xml:space="preserve">
+    <value>Ein Changeset wurde nicht mit der Identität "{0}" gefunden.</value>
+  </data>
+  <data name="CleanupBackgroundWorkerErrorText" xml:space="preserve">
+    <value>Beim Versuch, den Ordner "{0}" im Anwendungshintergrundbereinigungsthread zu löschen, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="CompletedAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Projektzuweisung abgeschlossen - {0}</value>
+  </data>
+  <data name="CompletedChangeRequestEmailSubjectText" xml:space="preserve">
+    <value>Akzeptierte Anforderungsbenachrichtigung</value>
+  </data>
+  <data name="ComponentApprovedText" xml:space="preserve">
+    <value>Komponente genehmigt</value>
+  </data>
+  <data name="ComponentApproveLockFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht genehmigt werden, da sie von einem anderen Benutzer gesperrt ist. Entfernen Sie die Komponente "{0}" aus Ihrer Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentApproveStateErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht genehmigt werden, da sie sich im Ungültigen Zustand befindet. Entfernen Sie die Komponente "{0}" aus Ihrer Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentApproveSystemLockFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht genehmigt werden, da sie für {1} gesperrt ist. Entfernen Sie die Komponente "{0}" aus Ihrer Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentConfigurationNotFoundErrorText" xml:space="preserve">
+    <value>Es konnte keine Komponentenkonfiguration für den mit dem Identitätswert {0} angegebenen Komponententyp gefunden werden.</value>
+  </data>
+  <data name="ComponentContentNotFoundErrorText" xml:space="preserve">
+    <value>Ein Komponenteninhaltsdatensatz wurde mit der Komponentenidentität "{0}" nicht gefunden.</value>
+  </data>
+  <data name="ComponentEditorRootElementNotFoundText" xml:space="preserve">
+    <value>Das Stammelement des Komponenteneditors konnte für die Komponentenidentität "{0}" nicht gefunden werden. Dies kann auf einen Netzwerktransportfehler oder ein Problem mit dem Editor zurückzuführen sein.</value>
+  </data>
+  <data name="ComponentEditorStorageNotFoundErrorText" xml:space="preserve">
+    <value>Der angegebene Bearbeitungsspeicher der Komponente wurde für die Komponentenidentität "{0}" nicht gefunden.</value>
+  </data>
+  <data name="ComponentLockAlreadyExistsErrorText" xml:space="preserve">
+    <value>Für die Komponentenidentität "{0}" ist bereits eine Sperre vorhanden. Inhalt kann nicht für die Bearbeitung gesperrt werden.</value>
+  </data>
+  <data name="ComponentLockDoesntExistText" xml:space="preserve">
+    <value>ComponentLock ist für Component ID: {0} nicht vorhanden</value>
+  </data>
+  <data name="ComponentLockMoveErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" ist durch die Option "bpt id="1"&gt;&amp;lt;a href="mailto:{1}"&amp;gt;&lt;/bpt&gt;" gesperrt{2}"ept id="1"&gt;&amp;lt;/a&amp;gt;&lt;/ept&gt; und kann nicht verschoben werden.</value>
+  </data>
+  <data name="ComponentLockPreventsUpdateText" xml:space="preserve">
+    <value>Die Komponente "{0}" ist gesperrt und kann nicht aktualisiert werden.</value>
+  </data>
+  <data name="ComponentLockTemporaryEditsText" xml:space="preserve">
+    <value>Komponente hat temporäre Bearbeitungen für Komponenten-ID: {0}</value>
+  </data>
+  <data name="ComponentLockText" xml:space="preserve">
+    <value>Gesperrte Komponenten</value>
+  </data>
+  <data name="ComponentNameText" xml:space="preserve">
+    <value>Komponentenname</value>
+  </data>
+  <data name="ComponentNotFoundErrorText" xml:space="preserve">
+    <value>Es konnte keine Komponente mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="ComponentNotValidText" xml:space="preserve">
+    <value>Ein Komponenteninhaltsdatensatz war ungültig.</value>
+  </data>
+  <data name="ComponentOperationDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diesen Vorgang für die angegebene Komponente auszuführen. Wenden Sie sich an den Anwendungsadministrator, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ComponentReadAccessDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, die angegebene Komponente "{0}" zu lesen. Wenden Sie sich an den Komponentenbesitzer oder Support, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ComponentRelationLinkMethodNotFound" xml:space="preserve">
+    <value>Eine Komponentenbeziehung wurde für die Komponente "{0}" nicht aufgelöst, da die konfigurierte Verknüpfungsmethode "{1}" derzeit nicht unterstützt wird.</value>
+  </data>
+  <data name="ComponentRelationMissingElementErrorText" xml:space="preserve">
+    <value>Es wurde kein Element mit dem übereinstimmenden Attribut {0}="{1}" gefunden. Der Verweis ist wahrscheinlich veraltet.</value>
+  </data>
+  <data name="ComponentRelationNotFoundText" xml:space="preserve">
+    <value>Es konnte keine Komponentenbeziehung mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="ComponentRelationSaveErrorText" xml:space="preserve">
+    <value>Beim Versuch, Beziehungen für die Komponente {0} zu speichern, ist ein nicht behandelter Ausnahmefehler aufgetreten.</value>
+  </data>
+  <data name="ComponentStateText" xml:space="preserve">
+    <value>Komponentenstatus</value>
+  </data>
+  <data name="ComponentTypeNotFoundErrorText" xml:space="preserve">
+    <value>Es konnte kein Komponententyp mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="ComponentTypeText" xml:space="preserve">
+    <value>Komponententyp</value>
+  </data>
+  <data name="ComponentTypeValidateComponentFoundErrorText" xml:space="preserve">
+    <value>Der Komponententyp "{0}" kann nicht gelöscht werden, da auf ihn von einer oder mehreren Komponenten verwiesen wird. Löschen Sie alle Verweise auf den Komponententyp "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentTypeValidateNoNameErrorText" xml:space="preserve">
+    <value>Der Komponententyp hat keinen gültigen Namenswert.</value>
+  </data>
+  <data name="ComponentTypeValidateRelationFoundErrorText" xml:space="preserve">
+    <value>Der Komponententyp "{0}" kann nicht gelöscht werden, da er über einen oder mehrere Verweise in Beziehungen verfügt. Löschen Sie alle Verweise auf den Komponententyp "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentUnlockAccessDenied" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, die angegebene Komponente zu entsperren. Wenden Sie sich an den Projektbesitzer oder Anwendungsadministrator, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ComponentUnlockSystemLockDenied" xml:space="preserve">
+    <value>Sie können eine Komponente mit systemsperre nicht entsperren.</value>
+  </data>
+  <data name="ComponentUpdateDeniedErrorText" xml:space="preserve">
+    <value>Der Benutzer ist nicht berechtigt, die Komponente "{0}" zu aktualisieren.</value>
+  </data>
+  <data name="ComponentValidateAssignmentFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht gelöscht werden, da sie über eine oder mehrere Projektzuweisungen verfügt. Löschen Sie alle Zuordnungen für die Komponente "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentValidateDeleteAccessDeniedText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, die Komponente "{0}" zu löschen. Bitte entfernen Sie es aus Ihrer Auswahl.</value>
+  </data>
+  <data name="ComponentValidateInvalidFileNameErrorText" xml:space="preserve">
+    <value>Der Komponentendateiname muss die gültige global eindeutige Identität der verknüpften Komponente enthalten, die durch ein _ Zeichen getrennt ist. z.B. prefix_globalID.extension.</value>
+  </data>
+  <data name="ComponentValidateLinkedFolderFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht gelöscht werden, da sie über einen oder mehrere Ordnerverknüpfungsverweise verfügt. Löschen Sie alle Ordnerverknüpfungen zu diesem Inhalt, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentValidateLockFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht gelöscht werden, da sie gesperrt ist. Entsperren Sie die Komponente "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentValidateNoBinaryContentErrorText" xml:space="preserve">
+    <value>Die Komponente enthält keinen binären Inhalt.</value>
+  </data>
+  <data name="ComponentValidateNoComponentTypeErrorText" xml:space="preserve">
+    <value>Die Komponente verfügt nicht über einen gültigen Komponententypwert.</value>
+  </data>
+  <data name="ComponentValidateNoFileNameErrorText" xml:space="preserve">
+    <value>Die Komponente hat keinen gültigen Dateinamenwert.</value>
+  </data>
+  <data name="ComponentValidateNoLanguageErrorText" xml:space="preserve">
+    <value>Die Komponente verfügt nicht über einen gültigen Sprachcodewert.</value>
+  </data>
+  <data name="ComponentValidateNoNameErrorText" xml:space="preserve">
+    <value>Die Komponente hat keinen gültigen Namenswert.</value>
+  </data>
+  <data name="ComponentValidateNoXmlContentErrorText" xml:space="preserve">
+    <value>Die Komponente enthält keinen XML-Inhalt.</value>
+  </data>
+  <data name="ComponentValidateProjectFolderFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht gelöscht werden, da sie in einem oder mehreren Projektordnern gefunden wurde. Löschen Sie alle Verweise auf die Komponente "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentValidateRelationFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht gelöscht werden, da sie einen oder mehrere Verweise in anderen Inhalten enthält. Löschen Sie alle Verweise auf die Komponente "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ComponentViewerReadOnlyText" xml:space="preserve">
+    <value>Diese Komponente wird als schreibgeschützt angezeigt.</value>
+  </data>
+  <data name="ContentText" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="CreatedByText" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="CreationDateText" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="CryptoAuthKeyLengthErrorText" xml:space="preserve">
+    <value>Der Authentifizierungsschlüssel muss {0} Bits lang sein.</value>
+  </data>
+  <data name="CryptoKeyLengthErrorText" xml:space="preserve">
+    <value>Der Kryptografieschlüssel muss {0} Bits lang sein.</value>
+  </data>
+  <data name="CryptoMustSpecifyCryptoTextToDecryptErrorText" xml:space="preserve">
+    <value>Der angegebene Inhalt wurde nicht als gültige verschlüsselte Daten erkannt.</value>
+  </data>
+  <data name="CryptoMustSpecifyTextToEncryptErrorText" xml:space="preserve">
+    <value>Für die Verschlüsselung wurden keine Daten angegeben.</value>
+  </data>
+  <data name="DbmsCurrentlyNotSupportedText" xml:space="preserve">
+    <value>Der angegebene Datenbanktyp "{0}" wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="DefaultContentFolderNameText" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="DeleteAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Projektzuweisung gelöscht: {0}</value>
+  </data>
+  <data name="DeleteComponentsValidateAccessDeniedText" xml:space="preserve">
+    <value>Es wurden eine oder mehrere Komponenten gefunden, die nicht gelöscht werden können, da der Benutzer nicht über die Berechtigung zum Löschen der Komponente verfügt.</value>
+  </data>
+  <data name="DeleteComponentsValidateAssignmentFoundErrorText" xml:space="preserve">
+    <value>Komponenten können nicht gelöscht werden, da eine oder mehrere Komponenten in Projektzuordnungen verwendet werden. Löschen Sie alle Zuordnungsverweise auf diese Komponenten, oder entfernen Sie sie aus der Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="DeleteComponentsValidateLinkedFolderFoundErrorText" xml:space="preserve">
+    <value>Komponenten können nicht gelöscht werden, da mindestens eine Ordnerverknüpfungsverweise enthält. Löschen Sie alle Ordnerverknüpfungsverweise auf diese Komponenten, oder entfernen Sie sie aus der Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="DeleteComponentsValidateLockFoundErrorText" xml:space="preserve">
+    <value>Komponenten können nicht gelöscht werden, da eine oder mehrere Komponenten derzeit gesperrt sind. Entsperren Sie diese Komponenten, oder entfernen Sie sie aus Ihrer Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="DeleteComponentsValidateProjectFolderFoundErrorText" xml:space="preserve">
+    <value>Komponenten können nicht gelöscht werden, da mindestens eine in Projektordnern gefunden wurde. Löschen Sie alle Projektordnerverweise auf diese Komponenten, oder entfernen Sie sie aus der Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="DeleteComponentsValidateRelationFoundErrorText" xml:space="preserve">
+    <value>Komponenten können nicht gelöscht werden, da mindestens eine Komponente Mitverweisen von anderen Komponenten gefunden wurde. Löschen Sie alle Verweise auf diese Komponenten, oder entfernen Sie sie aus der Auswahl, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="DeleteProjectProcedureErrorText" xml:space="preserve">
+    <value>Beim Versuch, das Projekt zu löschen, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="DeleteUserValidationSwitchToUpdateText" xml:space="preserve">
+    <value>Vaidation erfordert die Löschaktion für Benutzer-ID-{0} geändert werden, um mit Benutzerdeaktivierung zu aktualisieren.</value>
+  </data>
+  <data name="DescriptionRequiredText" xml:space="preserve">
+    <value>Eine Beschreibung ist erforderlich.</value>
+  </data>
+  <data name="DeserializeFileNotFoundErrorText" xml:space="preserve">
+    <value>Die angegebene Datei wurde nicht gefunden.</value>
+  </data>
+  <data name="DocumentationBadRequestMessageText" xml:space="preserve">
+    <value>Gibt eine HTTP 400-Antwort und ein Objekt zurück, das ein Wörterbuch mit einem oder mehreren Problemen enthält.</value>
+  </data>
+  <data name="DocumentationNoContentMessageText" xml:space="preserve">
+    <value>Gibt eine HTTP 204 No Content-Antwort nach Erfolg zurück.</value>
+  </data>
+  <data name="DocumentationNotFoundMessageText" xml:space="preserve">
+    <value>Der angegebene Datensatz oder Inhalt wurde nicht gefunden.</value>
+  </data>
+  <data name="DocumentationUnauthorizedMessageText" xml:space="preserve">
+    <value>Das Konto muss sich authentifizieren, ein Inhabertoken abrufen und dieses Token im HTTP-Header dieser API-Endpunktanforderung übergeben.</value>
+  </data>
+  <data name="DownloadInvalidModelErrorText" xml:space="preserve">
+    <value>Ungültiges Downloadmodell angegeben.</value>
+  </data>
+  <data name="DownloadText" xml:space="preserve">
+    <value>Herunterladen</value>
+  </data>
+  <data name="DownloadTipText" xml:space="preserve">
+    <value>Klicken Sie hier, um die Komponentendatei herunterzuladen.</value>
+  </data>
+  <data name="DuplicateExportRelationText" xml:space="preserve">
+    <value>Innerhalb der Exportkonfiguration wurde eine doppelte Exportbeziehung erstellt.</value>
+  </data>
+  <data name="EditorConrefNotFoundText" xml:space="preserve">
+    <value>Es wurde ein ungültiger Link gefunden. Die Komponente "{0}" und/oder das Zielelement "{1}" wurden nicht gefunden.</value>
+  </data>
+  <data name="EditorContextReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente wird nur für den Kontext bereitgestellt und kann nicht überprüft werden.</value>
+  </data>
+  <data name="EditorCoordinatorReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente steht nicht zum Auflösen zur Verfügung.</value>
+  </data>
+  <data name="EditorHistoryReadOnlyMessageText" xml:space="preserve">
+    <value>Anzeigen historischer Inhalte, die nicht geändert werden können.</value>
+  </data>
+  <data name="EditorLockedByReviewReadOnlyMessageText" xml:space="preserve">
+    <value>Gesperrt für die Überprüfung durch 'bpt id="1"&gt;&amp;lt;a href="mailto:{0}"&amp;gt;&lt;/bpt&gt;{1} {2}'ept id="1"&gt;&amp;lt;/a&amp;gt;&lt;/ept&gt;.</value>
+  </data>
+  <data name="EditorLockedReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente ist durch die Option "bpt id="1"&gt;&amp;lt;a href="mailto:{0}"&amp;gt;&lt;/bpt&gt;" gesperrt{1} {2}"ept id="1"&gt;&amp;lt;/a&amp;gt;&lt;/ept&gt;.</value>
+  </data>
+  <data name="EditorMapTypeNotSupportedErrorText" xml:space="preserve">
+    <value>Kartentypen werden in diesem Editor nicht unterstützt.</value>
+  </data>
+  <data name="EditorPermissionReadOnlyMessageText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diese Komponente zu ändern.</value>
+  </data>
+  <data name="EditorReviewCancelledReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente befindet sich in einer abgebrochenen Überprüfung.</value>
+  </data>
+  <data name="EditorReviewCompletedReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente befindet sich in einer abgeschlossenen Überprüfung.</value>
+  </data>
+  <data name="EditorReviewerReadOnlyMessageText" xml:space="preserve">
+    <value>Diese Komponente kann nicht überprüft werden.</value>
+  </data>
+  <data name="EditorViewerDetailsText" xml:space="preserve">
+    <value>Komponentendetails</value>
+  </data>
+  <data name="EditorViewerTitleText" xml:space="preserve">
+    <value>Component Viewer</value>
+  </data>
+  <data name="ElementNotFoundText" xml:space="preserve">
+    <value>Das angegebene Element mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="ElementValidateInUseErrorText" xml:space="preserve">
+    <value>Das Element "{0}" kann nicht gelöscht werden, da es von einer oder mehreren Exportbeziehungen verwendet wird. Löschen Sie alle Verweise auf das Element "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ElementValidateInvalidNameErrorText" xml:space="preserve">
+    <value>Der Elementname "{0}" ist ungültig. Elementnamen müssen mit einem Alpha-Zeichen beginnen und dürfen nicht enthalten: leer, ", ', &amp;amp;, 'it id="1" pos="open"&gt;&amp;lt;, oder &amp;gt;&lt;/it&gt;.</value>
+  </data>
+  <data name="EmailExistsText" xml:space="preserve">
+    <value>Die angegebene E-Mail-Adresse wird bereits von einem anderen Benutzer verwendet.</value>
+  </data>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner "{0}" für E-Mail-Nachrichtenvorlagen wurde nicht gefunden.</value>
+  </data>
+  <data name="EmptyNoteEmailText" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="ErrorLabelText" xml:space="preserve">
+    <value>{0} Fehler: {1}</value>
+  </data>
+  <data name="ErrorLogNotFoundErrorText" xml:space="preserve">
+    <value>Es wurde kein Fehlerprotokoll mit der Identität "{0}" gefunden.</value>
+  </data>
+  <data name="EventLogDeleteAllFailErrorText" xml:space="preserve">
+    <value>Fehler bei einem Befehl zum Löschen aller Ereignisprotokolle.</value>
+  </data>
+  <data name="ExceptionErrorText" xml:space="preserve">
+    <value>Ein interner, nicht behandelter Fehler ist aufgetreten. Die Meldung war "{0}".</value>
+  </data>
+  <data name="ExpirationDateMustBeInFutureErrorText" xml:space="preserve">
+    <value>Das Ablaufdatum muss in der Zukunft liegen.</value>
+  </data>
+  <data name="ExportComponentAccessText" xml:space="preserve">
+    <value>Der Benutzer verfügt nicht über die Berechtigung zu einer oder mehreren Komponenten in der Exportanforderung.</value>
+  </data>
+  <data name="ExportConfigurationNameInUseText" xml:space="preserve">
+    <value>Eine Exportkonfiguration mit dem Namen "{0}" ist bereits vorhanden. Wählen Sie einen anderen Namen aus.</value>
+  </data>
+  <data name="ExportConfigurationNameRequiredText" xml:space="preserve">
+    <value>Ein Exportkonfigurationsname ist erforderlich.</value>
+  </data>
+  <data name="ExportFailureEmailSubjectText" xml:space="preserve">
+    <value>Fehler beim Exportieren</value>
+  </data>
+  <data name="ExportFilterAttributeFailedLoadErrorText" xml:space="preserve">
+    <value>Beim Versuch, die Komponente "{0}" zu laden, ist beim Versuch, gefilterte Referenzelemente zu entfernen, ein Fehler aufgetreten. Dies kann zu einer fehlerhaften Referenzverknüpfung führen.</value>
+  </data>
+  <data name="ExportFolderNoFilesText" xml:space="preserve">
+    <value>Innerhalb des angegebenen Ordners befinden sich keine Dateien, die exportiert werden können.</value>
+  </data>
+  <data name="ExportNotFoundText" xml:space="preserve">
+    <value>Es konnte kein Export mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="ExportRelationNullElementSelectedText" xml:space="preserve">
+    <value>Es wurde eine Beziehung ohne Element ausgewählt, sodass keine anderen "{0}"-Beziehungs-Element-Kombinationen gültig sind und entfernt werden müssen.</value>
+  </data>
+  <data name="ExportSuccessEmailSubjectText" xml:space="preserve">
+    <value>Export erfolgreich abgeschlossen</value>
+  </data>
+  <data name="ExportWriteFileErrorText" xml:space="preserve">
+    <value>Beim Versuch, die Datei "{0}" für den Export zu schreiben, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="ExportXmlContentNotFound" xml:space="preserve">
+    <value>Während des Exports wurde eine Komponente mit der Identität "{0}" gefunden, die keinen XML-Inhalt enthält.</value>
+  </data>
+  <data name="FileNameText" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="FileNotFoundErrorText" xml:space="preserve">
+    <value>Die Datei "{0}" wurde nicht gefunden.</value>
+  </data>
+  <data name="FolderDeleteAccessDeniedErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Benutzer nicht über die Berechtigung zum Löschen des Ordners oder eines der untergeordneten Unterordner des Ordners verfügt.</value>
+  </data>
+  <data name="FolderDeleteComponentAccessDeniedErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Benutzer nicht über die Berechtigung zum Löschen einer Komponente innerhalb des Ordners oder eines der untergeordneten Unterordner des Ordners verfügt.</value>
+  </data>
+  <data name="FolderDeleteComponentAssignedErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Ordner oder einer der untergeordneten Unterordner des Ordners eine Komponente enthält, die derzeit einer Projektzuweisung zugewiesen ist. Die Komponentenzuweisungszuordnungszuordnung muss entfernt werden, bevor der Ordner gelöscht werden kann.</value>
+  </data>
+  <data name="FolderDeleteComponentLinksErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Ordner oder einer der untergeordneten Unterordner des Ordners eine Komponente enthält, die derzeit mit einem anderen Ordner verknüpft ist. Die Komponentenverknüpfung(en) müssen entfernt werden, bevor der Ordner gelöscht werden kann.</value>
+  </data>
+  <data name="FolderDeleteComponentLockErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Ordner oder einer der untergeordneten Unterordner des Ordners eine Komponente enthält, die derzeit gesperrt ist. Die Komponentensperre muss entfernt werden, bevor der Ordner gelöscht werden kann.</value>
+  </data>
+  <data name="FolderDeleteComponentProjectErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Ordner oder einer der untergeordneten Unterordner des Ordners eine Komponente enthält, die derzeit einem oder mehreren Projekten zugeordnet ist. Alle Komponentenprojektzuordnungen müssen entfernt werden, bevor der Ordner gelöscht werden kann.</value>
+  </data>
+  <data name="FolderDeleteRelationErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht gelöscht werden, da der Ordner oder einer der untergeordneten Unterordner des Ordners eine Komponente enthält, die Beziehungen zu anderen Komponenten innerhalb des Systems enthält. Sie müssen die Komponente verschieben oder Beziehungen entfernen, bevor der Ordner gelöscht werden kann.</value>
+  </data>
+  <data name="FolderMoveComponentLockErrorText" xml:space="preserve">
+    <value>Der Ordner kann nicht verschoben werden, da eine oder mehrere Komponenten von einem anderen Benutzer gesperrt sind. Stellen Sie sicher, dass alle Komponenten im Ordner und alle Unterordner nicht gesperrt sind, bevor Sie den Ordner verschieben.</value>
+  </data>
+  <data name="FolderNameExistsErrorText" xml:space="preserve">
+    <value>Am Zielspeicherort ist bereits ein Ordner mit dem Namen "{0}" vorhanden.</value>
+  </data>
+  <data name="FolderNameRequiredErrorText" xml:space="preserve">
+    <value>Ein Ordnername ist erforderlich.</value>
+  </data>
+  <data name="FolderNotFoundErrorText" xml:space="preserve">
+    <value>Es konnte kein Ordner mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="FolderOperationDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diesen Vorgang für den angegebenen Ordner auszuführen.</value>
+  </data>
+  <data name="GeneralWebErrorText" xml:space="preserve">
+    <value>Innerhalb der Anwendung ist ein interner, nicht behandelter Fehler aufgetreten. Der Fehler wurde protokolliert.</value>
+  </data>
+  <data name="HistoryCannotRestoreADeleteErrorText" xml:space="preserve">
+    <value>Ein Komponentenverlauf kann nicht mit Löschaktion wiederhergestellt werden. Löschen Sie einfach die Komponente erneut.</value>
+  </data>
+  <data name="HistoryCannotRestoreFolderText" xml:space="preserve">
+    <value>Der Ordner "{0}" konnte nicht wiederhergestellt werden.</value>
+  </data>
+  <data name="HistoryComponentAccessDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, den angegebenen "{0}"-Verlauf zu lesen.</value>
+  </data>
+  <data name="HistoryComponentContentNotFoundErrorText" xml:space="preserve">
+    <value>Ein Snapshotinhaltsdatensatz der Verlaufskomponente wurde mit der Komponentenidentität "{0}" nicht gefunden.</value>
+  </data>
+  <data name="HistoryComponentNotFoundBeforeDateErrorText" xml:space="preserve">
+    <value>Die Historie wurde vor dem Datum "{0}" für die Komponentenidentität "{1}" nicht gefunden.</value>
+  </data>
+  <data name="HistoryComponentNotFoundErrorText" xml:space="preserve">
+    <value>Die Historie wurde für die Changeset-Identität "{0}" und die Komponentenidentität "{1}" nicht gefunden.</value>
+  </data>
+  <data name="HistoryFolderAccessDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, den angegebenen Ordnerverlauf "{0}" zu lesen.</value>
+  </data>
+  <data name="HistoryFolderNotFoundBeforeDateErrorText" xml:space="preserve">
+    <value>Die Historie wurde vor dem Datum "{0}" für die Ordneridentität "{1}" nicht gefunden.</value>
+  </data>
+  <data name="HistoryFolderNotFoundErrorText" xml:space="preserve">
+    <value>Der Verlauf wurde für die Changeset-Identität "{0}" und die Ordneridentität "{1}" nicht gefunden.</value>
+  </data>
+  <data name="HistoryRestoreAndMoveDeniedErrorText" xml:space="preserve">
+    <value>Der Benutzer verfügt nicht über die Berechtigung zum Wiederherstellen und Verschieben von Komponenten {0}.</value>
+  </data>
+  <data name="HistoryRestoreTargetFolderMissingErrorText" xml:space="preserve">
+    <value>Der Zielordner des Verlaufsdatensatzes mit der ID "{0}" ist nicht mehr vorhanden. Stattdessen wird der aktuelle Zielordner verwendet.</value>
+  </data>
+  <data name="IdentityRequiredText" xml:space="preserve">
+    <value>Es muss eine Datensatzidentität angegeben werden.</value>
+  </data>
+  <data name="ImportBinarySaveErrorText" xml:space="preserve">
+    <value>Beim Versuch, die Binärkomponente "{0}" aus der Quelldatei "{1}" zu speichern, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="ImportCancelledErrorText" xml:space="preserve">
+    <value>Der Import {0} wurde abgebrochen.</value>
+  </data>
+  <data name="ImportComponentIdsNotFound" xml:space="preserve">
+    <value>Der Importvorgang ist fehlgeschlagen, da keine Komponenten gefunden wurden, die mit der Liste der angegebenen Komponentenidentitäten übereinstimmten.</value>
+  </data>
+  <data name="ImportComponentRelationSaveErrorText" xml:space="preserve">
+    <value>Beim Versuch, Komponentenbeziehungen für Komponenten-IDs "{0}" zu speichern, ist ein Fehler aufgetreten. "{1}".</value>
+  </data>
+  <data name="ImportComponentSaveErrorText" xml:space="preserve">
+    <value>Beim Versuch, XML-Inhalt im Importprozess zu speichern, ist ein Fehler aufgetreten. Mindestens eine Komponente wurde während der Ausführung des Komponenten-Repositorys zum Speichern nicht gespeichert. {0}</value>
+  </data>
+  <data name="ImportComponentTypeNotFound" xml:space="preserve">
+    <value>Die Datei "{0}" konnte nicht importiert werden, da ein Komponententyp gefunden wurde oder bestimmt werden konnte.</value>
+  </data>
+  <data name="ImportCreatePermissionDeniedText" xml:space="preserve">
+    <value>Der Benutzer "{0}" ist nicht berechtigt, Komponenten in den angegebenen Ordner "{1}" zu importieren.</value>
+  </data>
+  <data name="ImportFailureEmailSubjectText" xml:space="preserve">
+    <value>Fehler beim Importieren</value>
+  </data>
+  <data name="ImportFileNotFound" xml:space="preserve">
+    <value>Während des Imports konnte die Datei "{0}" nicht gefunden werden.</value>
+  </data>
+  <data name="ImportFolderNotFoundText" xml:space="preserve">
+    <value>Die Ordneridentität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="ImportInvalidXmlAsBinaryText" xml:space="preserve">
+    <value>Der XML-Code in der Komponentendatei "{0}" ist ungültig und konnte nicht analysiert werden. Die Komponente wird zur Überprüfung als fehlerhafte XML-Binärdatei gespeichert.</value>
+  </data>
+  <data name="ImportInvalidXmlText" xml:space="preserve">
+    <value>Die Datei '{0}' konnte nicht importiert werden, da sie ungültiges XML enthält.</value>
+  </data>
+  <data name="ImportNoFileNameSpecifiedErrorText" xml:space="preserve">
+    <value>Der Dateiname wurde in der Importanforderung nicht angegeben.</value>
+  </data>
+  <data name="ImportNoFilesInRequestErrorText" xml:space="preserve">
+    <value>Innerhalb der Importanforderung wurden keine Dateien gesendet.</value>
+  </data>
+  <data name="ImportSuccessAllFilesIngoredText" xml:space="preserve">
+    <value>Es wurden keine Änderungen in der importierten Komponentendatei(n) erkannt, und daher wurden keine Komponenten aktualisiert.</value>
+  </data>
+  <data name="ImportSuccessEmailSubjectText" xml:space="preserve">
+    <value>Import erfolgreich abgeschlossen</value>
+  </data>
+  <data name="ImportSyncErrorText" xml:space="preserve">
+    <value>Beim Versuch, Synchronisierungsdaten während des Importvorgangs zu speichern, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="ImportUpdatePermissionDeniedText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, die vorhandene Komponente "{0}" zu aktualisieren.</value>
+  </data>
+  <data name="ImportWarningEmailSubjectText" xml:space="preserve">
+    <value>Import mit Problemen abgeschlossen</value>
+  </data>
+  <data name="ImportZipFileNotValid" xml:space="preserve">
+    <value>Die importierte ZIP-Archivdatei war kein gültiges ZIP-Format. Die Archivdatei muss im ZIP-Format vorliegen und eine oder mehrere zu importierende Dateien enthalten.</value>
+  </data>
+  <data name="InvalidApiKeyErrorText" xml:space="preserve">
+    <value>Der angegebene API-Schlüssel "{0}" wurde für den Mandanten nicht gefunden.</value>
+  </data>
+  <data name="InvalidAttributeOperationErrorText" xml:space="preserve">
+    <value>Beim Versuch, Berechtigungen für einen Controller zu überprüfen, ist ein Fehler aufgetreten. Es wurde kein Controllertyp gefunden.</value>
+  </data>
+  <data name="InvalidEnumerationFlagText" xml:space="preserve">
+    <value>Für den angegebenen Textwert ist kein entsprechender Enumerationswert konfiguriert.</value>
+  </data>
+  <data name="InvalidFileArgumentErrorText" xml:space="preserve">
+    <value>Es muss ein gültiger Dateipfad angegeben werden.</value>
+  </data>
+  <data name="InvalidIdentityErrorText" xml:space="preserve">
+    <value>Der angegebene Identitätswert ist ungültig. Die Werte müssen größer als 0 sein.</value>
+  </data>
+  <data name="InvalidModelErrorText" xml:space="preserve">
+    <value>Ungültiges Modell angegeben.</value>
+  </data>
+  <data name="InvalidPathArgumentErrorText" xml:space="preserve">
+    <value>Es muss ein gültiger Verzeichnispfad angegeben werden.</value>
+  </data>
+  <data name="InvalidPermissionHolderTypeErrorText" xml:space="preserve">
+    <value>Ungültiger Berechtigungsinhabertyp.</value>
+  </data>
+  <data name="InvalidRepositoryTypeErrorText" xml:space="preserve">
+    <value>Die Frameworkkontext-DataContext-Eigenschaft implementiert weder IVasontRepository noch DbContext.</value>
+  </data>
+  <data name="InvalidResetStepErrorText" xml:space="preserve">
+    <value>Ungültiger Resetschritt angegeben.</value>
+  </data>
+  <data name="InvalidTenantDomainNameSpecifiedErrorText" xml:space="preserve">
+    <value>Ein Mandant für die Domäne "{0}" wurde nicht gefunden. Bitte wenden Sie sich an Ihren Vasont Support-Mitarbeiter, um sicherzustellen, dass Sie die richtige Webadresse haben.</value>
+  </data>
+  <data name="InvalidWebhookEventIdentityErrorText" xml:space="preserve">
+    <value>Für den Webhook-API-Endpunkt "{1}" wurde eine ungültige Webhook-Ereignisidentität "{0}" angegeben.</value>
+  </data>
+  <data name="InvalidWebhookSecretErrorText" xml:space="preserve">
+    <value>Ungültiges Webhook-Geheimnis.</value>
+  </data>
+  <data name="InvalidWorkflowCommandText" xml:space="preserve">
+    <value>Ungültiger Befehl für den angegebenen Workflow.</value>
+  </data>
+  <data name="InvalidWorkflowModelText" xml:space="preserve">
+    <value>Ungültiges Workflowmodell. Das angegebene Workflowmodell konnte nicht serialisiert werden.</value>
+  </data>
+  <data name="InvalidXmlErrorText" xml:space="preserve">
+    <value>Der Inhalt in der XML-Komponente "{0}" ist ungültig und kann nicht analysiert werden.</value>
+  </data>
+  <data name="LabelAndText" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="LabelApplicationText" xml:space="preserve">
+    <value>Anwendung</value>
+  </data>
+  <data name="LabelContainsText" xml:space="preserve">
+    <value>Enthält</value>
+  </data>
+  <data name="LabelDebugText" xml:space="preserve">
+    <value>Debuggen</value>
+  </data>
+  <data name="LabelDoesNotContainText" xml:space="preserve">
+    <value>Enthält nicht</value>
+  </data>
+  <data name="LabelDoesNotEndWithText" xml:space="preserve">
+    <value>Endet nicht mit...</value>
+  </data>
+  <data name="LabelDoesNotStartWithText" xml:space="preserve">
+    <value>Beginnt nicht mit</value>
+  </data>
+  <data name="LabelEndsWithText" xml:space="preserve">
+    <value>Endet mit</value>
+  </data>
+  <data name="LabelErrorText" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="LabelFatalText" xml:space="preserve">
+    <value>Schwerwiegend</value>
+  </data>
+  <data name="LabelGeneralText" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="LabelInformationText" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="LabelNoText" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="LabelOrText" xml:space="preserve">
+    <value>Oder</value>
+  </data>
+  <data name="LabelSecurityText" xml:space="preserve">
+    <value>Sicherheit</value>
+  </data>
+  <data name="LabelStartsWithText" xml:space="preserve">
+    <value>Beginnt mit</value>
+  </data>
+  <data name="LabelSystemText" xml:space="preserve">
+    <value>Systemmenü</value>
+  </data>
+  <data name="LabelWarningText" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="LabelYesText" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="LanguageCodeExistsErrorText" xml:space="preserve">
+    <value>Der Sprachcode "{0}" ist bereits vorhanden.</value>
+  </data>
+  <data name="LanguageCodeInvalidErrorText" xml:space="preserve">
+    <value>Der angegebene Sprachcode "{0}" wird nicht als gültig erkannt.</value>
+  </data>
+  <data name="LanguageInExternalSystemText" xml:space="preserve">
+    <value>Die Sprache kann nicht gelöscht werden, da sie derzeit vom externen System "{0}" verwendet wird.</value>
+  </data>
+  <data name="LanguageInUseErrorText" xml:space="preserve">
+    <value>Die Sprache "{0}" kann nicht gelöscht werden, da sie derzeit von einer oder mehreren Komponenten verwendet wird.</value>
+  </data>
+  <data name="LanguageNameRequiredErrorText" xml:space="preserve">
+    <value>Es muss ein Sprachname angegeben werden.</value>
+  </data>
+  <data name="LanguageNotFoundText" xml:space="preserve">
+    <value>Der Sprachcode "{0}" wurde nicht gefunden.</value>
+  </data>
+  <data name="LanguageOnlyOneLanguageErrorText" xml:space="preserve">
+    <value>Es wurden keine weiteren Sprachen für "{0}" gefunden. Die Anwendung kann den Standardwert für diese Sprache erst deaktivieren, wenn eine andere Sprache erstellt wurde, die mit "{0}" beginnt.</value>
+  </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="MaximumConcurrentUserInstancesReachedErrorText" xml:space="preserve">
+    <value>Der Benutzer "{0}" hat sein maximales gleichzeitiges Sitzungslimit von {1} gleichzeitigen Anmeldung(en) erreicht. Eine oder mehrere Sitzungen für {0} müssen sich abmelden, bevor sich eine andere Instanz anmelden kann.</value>
+  </data>
+  <data name="MaximumServerConcurrentUsersReachedErrorText" xml:space="preserve">
+    <value>Der Server hat das maximale Zeitlimit für Benutzersitzungen von {0} gleichzeitigen Benutzersitzungen erreicht. Mindestens ein Konto muss sich abmelden, bevor sich ein anderes kontomelden kann.</value>
+  </data>
+  <data name="MaximumTenantConcurrentUsersReachedErrorText" xml:space="preserve">
+    <value>Der Mandant "{0}" hat das maximale Zeitlimit für Benutzersitzungen von {1} gleichzeitigen Benutzersitzungen erreicht. Mindestens ein Konto muss sich abmelden, bevor sich ein anderes kontomelden kann.</value>
+  </data>
+  <data name="ModuleKeyFoundErrorText" xml:space="preserve">
+    <value>Ein Modulschlüssel mit dem Wert "{0}" ist bereits vorhanden. Geben Sie einen anderen Modulschlüssel an.</value>
+  </data>
+  <data name="ModuleKeyRequiredErrorText" xml:space="preserve">
+    <value>Ein Modulschlüssel ist erforderlich.</value>
+  </data>
+  <data name="ModuleNameRequiredErrorText" xml:space="preserve">
+    <value>Ein Modulname ist erforderlich.</value>
+  </data>
+  <data name="ModuleNotFoundErrorText" xml:space="preserve">
+    <value>Es wurde kein Modul mit dem angegebenen Bezeichner "{0}" gefunden. Stellen Sie sicher, dass das Anwendungsmodul korrekt konfiguriert wurde.</value>
+  </data>
+  <data name="MultiPartContentRequestError" xml:space="preserve">
+    <value>Die Anforderung für diesen Web-API-Aufruf muss in einem mehrteiligen Inhaltsformat vorliegen.</value>
+  </data>
+  <data name="MyQueriesText" xml:space="preserve">
+    <value>Eigene Abfragen</value>
+  </data>
+  <data name="NewAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Neue Projektzuweisung: {0}</value>
+  </data>
+  <data name="NewChangeRequestEmailSubjectText" xml:space="preserve">
+    <value>Benachrichtigung über empfangene Anforderung</value>
+  </data>
+  <data name="NewComponentRequestDescription" xml:space="preserve">
+    <value>Anfrage von {0} nach neuen {1} "{2}"</value>
+  </data>
+  <data name="NewReviewerAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Neue Bewertungsaufgabe: {0}</value>
+  </data>
+  <data name="NoChangeText" xml:space="preserve">
+    <value>Keine Änderung</value>
+  </data>
+  <data name="NoComponentSpecifiedErrorText" xml:space="preserve">
+    <value>Es wurde kein Komponentenidentitätswert angegeben.</value>
+  </data>
+  <data name="NoFolderSpecifiedErrorText" xml:space="preserve">
+    <value>Es wurde kein Ordneridentitätswert angegeben.</value>
+  </data>
+  <data name="NoReplyEmailAddress" xml:space="preserve">
+    <value>noreply@vasont.com</value>
+  </data>
+  <data name="ParameterMaxLengthErrorText" xml:space="preserve">
+    <value>Der Parameter "{0}" hat eine maximale Wertlänge von {1} Zeichen.</value>
+  </data>
+  <data name="ParameterMinLengthErrorText" xml:space="preserve">
+    <value>Der Parameter "{0}" hat eine Mindestwertlänge von {1} Zeichen.</value>
+  </data>
+  <data name="PasswordChangeNotAuthorized" xml:space="preserve">
+    <value>Die Schnittstelle zum Zurücksetzen des Kennworts für das Mandantenkonto wurde deaktiviert. Bitte wenden Sie sich an Ihren Support-Mitarbeiter, um weitere Unterstützung zu erhalten.</value>
+  </data>
+  <data name="PasswordResetHashInvalidErrorText" xml:space="preserve">
+    <value>Beim Versuch, Ihr Kennwort zurückzusetzen, ist ein Problem aufgetreten. Beginnen Sie den Vorgang erneut, oder wenden Sie sich an den Support, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="PasswordResetTokenInvalidErrorText" xml:space="preserve">
+    <value>Das angegebene Kennwortzurücksetzungstoken war falsch oder abgelaufen. Überprüfen Sie das Token, und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, senden Sie bitte eine neue Anforderung zum Zurücksetzen des Kennworts.</value>
+  </data>
+  <data name="PathText" xml:space="preserve">
+    <value>Ordnerpfad</value>
+  </data>
+  <data name="PathUnavailableForHistoryViewerText" xml:space="preserve">
+    <value>Nicht verfügbar für die Verlaufsansicht</value>
+  </data>
+  <data name="PluginExceptionText" xml:space="preserve">
+    <value>Im Plugin "{0}" ist ein interner, nicht behandelter Fehler aufgetreten. Die Meldung war "{1}".</value>
+  </data>
+  <data name="PluginFailureText" xml:space="preserve">
+    <value>Das Plugin "{0}" ist mit folgendem Fehler fehlgeschlagen: {1}</value>
+  </data>
+  <data name="PluginNotFoundText" xml:space="preserve">
+    <value>Plugin wurde nicht gefunden.</value>
+  </data>
+  <data name="PluginParameterMissingText" xml:space="preserve">
+    <value>Das Plugin "{0}" ist fehlgeschlagen, da der erforderliche Parameter "{1}" nicht angegeben wurde.</value>
+  </data>
+  <data name="ProcessCancelledErrorText" xml:space="preserve">
+    <value>Der Prozess "{0}" wurde aufgrund einer Absage beendet.</value>
+  </data>
+  <data name="ProductApiTitle" xml:space="preserve">
+    <value>Vasont Inspire API</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>Vasont Inspire</value>
+  </data>
+  <data name="ProfileAttributeGroupDisplayDuplicatesText" xml:space="preserve">
+    <value>Alle Anzeigewerte für Profilattributgruppen müssen eindeutig sein. Folgende Duplikate wurden gefunden: "{0}"</value>
+  </data>
+  <data name="ProfileAttributeGroupDuplicatesText" xml:space="preserve">
+    <value>Alle Profilattributgruppenwerte müssen eindeutig sein. Folgende Duplikate wurden gefunden: "{0}"</value>
+  </data>
+  <data name="ProfileAttributeNoNameText" xml:space="preserve">
+    <value>Das Profilattribut konnte nicht aktualisiert werden, da Attributname erforderlich und nicht angegeben wurde.</value>
+  </data>
+  <data name="ProfileAttributeValueDisplayDuplicatesText" xml:space="preserve">
+    <value>Alle gültigen Wertanzeigewerte des Profilattributs müssen eindeutig sein. Folgende Duplikate wurden gefunden: "{0}"</value>
+  </data>
+  <data name="ProfileAttributeValueDuplicatesText" xml:space="preserve">
+    <value>Alle gültigen Werte des Profilattributs müssen eindeutig sein. Folgende Duplikate wurden gefunden: "{0}"</value>
+  </data>
+  <data name="ProjectAccessDenied" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, auf das angegebene Projekt zuzugreifen. Wenden Sie sich an den Projektbesitzer oder Anwendungsadministrator, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ProjectActivityInUseText" xml:space="preserve">
+    <value>Die Projektaktivität kann nicht gelöscht werden, da sie von einer oder mehreren Projektzuweisungen verwendet wird. Bitte löschen Sie alle anderen Verweise auf diese Projektaktivität, bevor Sie sie entfernen.</value>
+  </data>
+  <data name="ProjectActivityNameRequiredText" xml:space="preserve">
+    <value>Ein Projektaktivitätsname ist erforderlich.</value>
+  </data>
+  <data name="ProjectActivityNotFoundText" xml:space="preserve">
+    <value>Die angegebene Projektaktivität mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="ProjectAssignmentCompleteByInvalidErrorText" xml:space="preserve">
+    <value>Die Projektzuordnung Abgeschlossen nach Datum darf nicht vor einem Start-By-Datum oder nach einem Fälligkeitsdatum liegen.</value>
+  </data>
+  <data name="ProjectAssignmentComponentNotFound" xml:space="preserve">
+    <value>Die Projektzuordnungskomponente wurde nicht gefunden.</value>
+  </data>
+  <data name="ProjectAssignmentComponentPermissionText" xml:space="preserve">
+    <value>Der zugewiesene Benutzer verfügt nicht über die Berechtigung zum Zugriff auf die folgenden Komponenten: {0}</value>
+  </data>
+  <data name="ProjectAssignmentDueDateInvalidErrorText" xml:space="preserve">
+    <value>Die Projektzuordnung Fälligkeit nach Datum darf nicht vor einem Start-By-Datum oder vor einem Complete By-Datum liegen.</value>
+  </data>
+  <data name="ProjectAssignmentNotFoundText" xml:space="preserve">
+    <value>Die Projektzuweisung konnte nicht gefunden werden.</value>
+  </data>
+  <data name="ProjectAssignmentStartByInvalidErrorText" xml:space="preserve">
+    <value>Das Projektzuweisungsstartdatum darf nicht nach einem Datum für "Vollständig nach" oder "Fälligkeit nach" liegen.</value>
+  </data>
+  <data name="ProjectAssignmentWorkflowAlreadyCompletedText" xml:space="preserve">
+    <value>Der Status der Projektzuweisung kann nicht geändert werden, wenn sie abgeschlossen oder abgebrochen wird und sich auf den Workflow bezieht.</value>
+  </data>
+  <data name="ProjectAssignmentWorkflowDeleteText" xml:space="preserve">
+    <value>Die Projektzuweisung kann nicht gelöscht werden, da ihr ein Workflow zugeordnet ist.</value>
+  </data>
+  <data name="ProjectCompleteByInvalidErrorText" xml:space="preserve">
+    <value>Das Projekt "Abgeschlossen nach" datum darf nicht vor einem Start-By-Datum oder nach einem Fälligkeitsdatum liegen.</value>
+  </data>
+  <data name="ProjectDueDateInvalidErrorText" xml:space="preserve">
+    <value>Das Projekt FälligkeitnachDatum darf nicht vor einem Start-By-Datum oder vor einem Complete By-Datum liegen.</value>
+  </data>
+  <data name="ProjectFolderAccessDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, auf den angegebenen Projektordner "{0}" zuzugreifen. Wenden Sie sich an den Projektbesitzer oder den Support, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ProjectFolderAlreadyExistsText" xml:space="preserve">
+    <value>Ein Projektordner mit dem Namen "{0}" ist bereits vorhanden. Wählen Sie einen anderen Namen aus.</value>
+  </data>
+  <data name="ProjectFolderComponentAlreadyExistsText" xml:space="preserve">
+    <value>Das System konnte die angegebene Komponente {0} ({1}) nicht mit dem Zielprojektordner verknüpfen, da die Komponente bereits mit diesem Projekt verknüpft ist.</value>
+  </data>
+  <data name="ProjectFolderComponentCannotMoveRootText" xml:space="preserve">
+    <value>Die angegebene Komponente kann nicht verschoben werden. Komponentenverweise können sich nur in Projektordnern befinden.</value>
+  </data>
+  <data name="ProjectFolderComponentExistsInTargetText" xml:space="preserve">
+    <value>Die Komponente "{0}" wird bereits im Zielordner referenziert.</value>
+  </data>
+  <data name="ProjectFolderComponentNotFoundText" xml:space="preserve">
+    <value>Die angegebene Projektkomponentenreferenz wurde nicht gefunden. Möglicherweise wurde sie vor der Änderungsanforderung entfernt. Aktualisieren Sie die Projektinhaltsansicht, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ProjectFolderComponentNotSpecifiedText" xml:space="preserve">
+    <value>Die Komponente wurde für das Projektordnerkomponentenelement nicht angegeben. Stellen Sie sicher, dass die Komponentenidentität angegeben ist.</value>
+  </data>
+  <data name="ProjectFolderComponentReferencedCannotDeleteErrorText" xml:space="preserve">
+    <value>Die angegebene Komponentenreferenz kann nicht aus dem Projekt entfernt werden, da eine oder mehrere Zuordnungen auf diese Komponente verweisen. Um den Komponentenverweis zu entfernen, entfernen Sie den Verweis aus einer oder mehreren verknüpften Projektzuweisungen, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ProjectFolderComponentTargetNotEmptyErrorText" xml:space="preserve">
+    <value>Die Projektkomponente kann nicht an einem Stammordnerspeicherort platziert werden. Komponenten können nur in Ordnern platziert werden.</value>
+  </data>
+  <data name="ProjectFolderContainsReferenceCannotDeleteErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner kann nicht aus dem Projekt entfernt werden, da eine oder mehrere Zuordnungen auf eine oder mehrere Komponenten verweisen, die unter dem Ordner verknüpft sind. Um den Ordner zu entfernen, entfernen Sie alle Verweise aus einer oder mehreren zugehörigen Projektzuweisungen, und versuchen Sie es erneut. Es wurden folgende Referenzen gefunden:
+sbpt id="1"&gt;&amp;lt;ul&amp;gt;&lt;/bpt&gt;
+{0}
+ept id="1"&gt;&amp;lt;/ul&amp;gt;&lt;/ept&gt;</value>
+  </data>
+  <data name="ProjectFolderNotFoundText" xml:space="preserve">
+    <value>Der angegebene Projektordner wurde nicht gefunden. Möglicherweise wurde sie vor der Änderungsanforderung gelöscht. Aktualisieren Sie die Projektinhaltsansicht, und versuchen Sie es erneut.</value>
+  </data>
+  <data name="ProjectFolderParentFolderNotSpecifiedText" xml:space="preserve">
+    <value>Der übergeordnete Projektordner wurde für das Projektordnerelement nicht angegeben. Stellen Sie sicher, dass für das Ordnerelement ein übergeordnetes Element angegeben ist.</value>
+  </data>
+  <data name="ProjectIdentityInvalidErrorText" xml:space="preserve">
+    <value>Die Projektidentität ist ungültig.</value>
+  </data>
+  <data name="ProjectNotFoundErrorText" xml:space="preserve">
+    <value>Das Projekt wurde nicht gefunden.</value>
+  </data>
+  <data name="ProjectOwnerInvalidErrorText" xml:space="preserve">
+    <value>Die Projektbesitzeridentität wurde nicht angegeben. Für ein Projekt muss ein Besitzer definiert sein.</value>
+  </data>
+  <data name="ProjectParticipantNotFound" xml:space="preserve">
+    <value>Der Projektteilnehmer wurde im Projekt nicht gefunden.</value>
+  </data>
+  <data name="ProjectRoleHasActiveAssignmentText" xml:space="preserve">
+    <value>Die Rolle kann nicht aus dem Projekt entfernt werden, da sie mindestens einen Benutzer mit einer aktiven Zuweisung innerhalb des Projekts enthält.</value>
+  </data>
+  <data name="ProjectStartByInvalidErrorText" xml:space="preserve">
+    <value>Das Projektstart-Nach-Datum darf nicht nach einem Datum für "Vollständig nach" oder "Fälligkeit" nach kommen.</value>
+  </data>
+  <data name="ProjectTitleRequiredErrorText" xml:space="preserve">
+    <value>Ein Projekttitel ist erforderlich.</value>
+  </data>
+  <data name="ProjectUserHasActiveAssignmentText" xml:space="preserve">
+    <value>Der Benutzer kann nicht aus dem Projekt entfernt werden, da er eine aktive Zuordnung innerhalb des Projekts hat.</value>
+  </data>
+  <data name="ProjectWorkflowCancelAssignmentText" xml:space="preserve">
+    <value>Die Projektzuweisung kann nicht abgebrochen werden, da sie mit einem aktiven Projektworkflow verknüpft ist.</value>
+  </data>
+  <data name="ProjectWorkflowNotFoundText" xml:space="preserve">
+    <value>Der angegebene Projektworkflow mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="ProjectWorkflowProjectActivityNotSpecified" xml:space="preserve">
+    <value>Für die Projektworkflowaktivität "{0}" ist keine Projektaktivität definiert.</value>
+  </data>
+  <data name="PublishDitaCriticalErrorReportText" xml:space="preserve">
+    <value>Beim Versuch, eine Veröffentlichung {0} auszuführen, ist ein kritischer Fehler aufgetreten. {1} {2} mit Fehler fehlerfehler{3} fehlgeschlagen</value>
+  </data>
+  <data name="PublishFailureEmailSubjectText" xml:space="preserve">
+    <value>Veröffentlichung fehlgeschlagen</value>
+  </data>
+  <data name="PublishOutputNotCreatedText" xml:space="preserve">
+    <value>Das Plugin "{0}" konnte den Inhalt für die Komponente "{1}" nicht veröffentlichen.</value>
+  </data>
+  <data name="PublishSuccessEmailSubjectText" xml:space="preserve">
+    <value>Veröffentlichung erfolgreich abgeschlossen</value>
+  </data>
+  <data name="QueryContentRequiredErrorText" xml:space="preserve">
+    <value>Für die Abfrage ist ein angegebener Inhalt erforderlich.</value>
+  </data>
+  <data name="QueryDeleteErrorText" xml:space="preserve">
+    <value>Abfrage "{0}" kann nicht gelöscht werden, da sie mit einer Rolle oder einem Benutzer verknüpft ist. Löschen Sie alle Verweise auf die Abfrage "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="QueryNameRequiredErrorText" xml:space="preserve">
+    <value>Für die Abfrage ist ein Name erforderlich.</value>
+  </data>
+  <data name="QueryNotFoundErrorText" xml:space="preserve">
+    <value>Die angegebene Abfrage mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="QueryOperationDeniedErrorText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diesen Vorgang für die angegebene Abfrage auszuführen.</value>
+  </data>
+  <data name="ReadOnlyPromptText" xml:space="preserve">
+    <value>SCHREIBGESCHÜTZT</value>
+  </data>
+  <data name="ReassignedAssignmentEmailSubjectText" xml:space="preserve">
+    <value>Projektzuweisung neu zugewiesen: {0}</value>
+  </data>
+  <data name="RedisChannelSubscriptionMessageText" xml:space="preserve">
+    <value>Redis-Abonnement-Intialisierung mit Domains {0}.</value>
+  </data>
+  <data name="RelationInUseByExportText" xml:space="preserve">
+    <value>Die Beziehung kann nicht gelöscht werden, da sie von einer oder mehreren Exportkonfigurationen verwendet wird. Bitte löschen Sie alle Exportkonfigurationsverwendungen dieser Beziehung, bevor Sie sie löschen.</value>
+  </data>
+  <data name="RelationInUseErrorText" xml:space="preserve">
+    <value>Die Beziehung kann nicht gelöscht werden, da sie von einer oder mehreren Komponentenbeziehungen verwendet wird. Bitte löschen Sie alle Verwendungen dieser Beziehung, bevor Sie löschen.</value>
+  </data>
+  <data name="RelationNameRequiredText" xml:space="preserve">
+    <value>Ein Beziehungsname ist erforderlich.</value>
+  </data>
+  <data name="RelationNotFoundText" xml:space="preserve">
+    <value>Die angegebene Beziehung mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="RequestedActionNotAllowedText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, die angeforderte Aktion auszuführen.</value>
+  </data>
+  <data name="ResetEmailSubjectText" xml:space="preserve">
+    <value>Kennwort zurücksetzen</value>
+  </data>
+  <data name="ReviewAccessDeniedText" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, auf die angegebene Überprüfung zuzugreifen. Wenden Sie sich an den Überprüfungskoordinator oder Anwendungsadministrator, wenn dieses Problem weiterhin besteht.</value>
+  </data>
+  <data name="ReviewCancelledEmailSubjectText" xml:space="preserve">
+    <value>Bewertung abgebrochen : {0}</value>
+  </data>
+  <data name="ReviewContentUnsupportedMessageText" xml:space="preserve">
+    <value>Diese Komponente ist nicht für die Vorschau verfügbar.</value>
+  </data>
+  <data name="ReviewCoordinatorInvalidText" xml:space="preserve">
+    <value>Der Überprüfungskoordinator wurde nicht angegeben. Für eine Überprüfung muss ein Koordinator definiert sein.</value>
+  </data>
+  <data name="ReviewerNotFoundText" xml:space="preserve">
+    <value>Der Prüfer wurde nicht gefunden.</value>
+  </data>
+  <data name="ReviewerStateNotReviewingText" xml:space="preserve">
+    <value>Die Überprüfungssitzung kann nicht abgeschlossen werden, da sie derzeit nicht aktiv ist.</value>
+  </data>
+  <data name="ReviewerWorkflowCompletedEmailSubject" xml:space="preserve">
+    <value>Reviewer-Sitzung abgeschlossen</value>
+  </data>
+  <data name="ReviewModeViewerContextMessageText" xml:space="preserve">
+    <value>Diese Komponente wird nur für den Kontext bereitgestellt und kann nicht überprüft werden.</value>
+  </data>
+  <data name="ReviewNoMatchingProcessingInstruction" xml:space="preserve">
+    <value>Der XML-Code enthält nicht die erforderlichen Anweisungen für die Anfangs- und Endverarbeitung für einen oder mehrere Kommentare oder Änderungen.</value>
+  </data>
+  <data name="ReviewNonCompletedReviewDeleteError" xml:space="preserve">
+    <value>Nur Bewertungen, die abgeschlossen oder abgebrochen wurden, können archiviert werden.</value>
+  </data>
+  <data name="ReviewNotFoundText" xml:space="preserve">
+    <value>Die Überprüfung wurde nicht gefunden.</value>
+  </data>
+  <data name="ReviewReadyToResolveEmailSubjectText" xml:space="preserve">
+    <value>Überprüfen Sie bereit zu lösen: {0}</value>
+  </data>
+  <data name="ReviewRequiredAttributesMissing" xml:space="preserve">
+    <value>Mindestens ein erforderliches Attribut fehlt in einer Kommentar- oder Änderungsverarbeitungsanweisung.</value>
+  </data>
+  <data name="ReviewStateNotResolvingTest" xml:space="preserve">
+    <value>Die Überprüfung kann nicht abgeschlossen werden, da der Status der Überprüfung nicht aufgelöst wird.</value>
+  </data>
+  <data name="ReviewTitleRequiredText" xml:space="preserve">
+    <value>Ein Bewertungstitel ist erforderlich.</value>
+  </data>
+  <data name="ReviewUnknownProcessingInstruction" xml:space="preserve">
+    <value>Der XML-Code enthält eine unbekannte Verarbeitungsanweisung mit dem Namen "{0}".</value>
+  </data>
+  <data name="ReviewUnresolvedEditorChangesErrorText" xml:space="preserve">
+    <value>In der Komponente "{0}" wurden mindestens ein Kommentar oder Änderungen gefunden. Bitte akzeptieren oder verweigern Sie diese Kommentare und/oder Änderungen, bevor Sie die Überprüfung abschließen.</value>
+  </data>
+  <data name="ReviewWorkflowNotFoundText" xml:space="preserve">
+    <value>Der angegebene Überprüfungsworkflow mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="RoleCannotDeleteSystemText" xml:space="preserve">
+    <value>Die angegebene Systemrolle kann nicht gelöscht werden.</value>
+  </data>
+  <data name="RoleNameExistsText" xml:space="preserve">
+    <value>Der angegebene Rollenname ist bereits vorhanden.</value>
+  </data>
+  <data name="RoleNameRequiredText" xml:space="preserve">
+    <value>Rollenname ist erforderlich.</value>
+  </data>
+  <data name="RoleNotFoundText" xml:space="preserve">
+    <value>Die angegebene Rolle mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="RuntimeMessageText" xml:space="preserve">
+    <value>{0} Tage, {1} Stunden, {2} Minuten, {3} Sekunden</value>
+  </data>
+  <data name="SaveSgmlParseErrorMessageText" xml:space="preserve">
+    <value>Beim Versuch, den Editorinhalt wieder in das System zu laden, ist ein Fehler beim SGML-Parser aufgetreten. {0}.</value>
+  </data>
+  <data name="ScheduledBackgroundTasksNotSupportedText" xml:space="preserve">
+    <value>Der lokale Hintergrundarbeitsaufgaben-Manager unterstützt keine verzögerten (geplanten) Hintergrundaufgaben. Verwenden Sie Hangfire oder einen anderen Hintergrundarbeitsmanager für geplante Arbeitskräfte.</value>
+  </data>
+  <data name="SessionCurrentServerMaximumErrorText" xml:space="preserve">
+    <value>Dieser Server hat die maximale Anzahl {0} gleichzeitiger Benutzersitzungen überschritten. Warten Sie, und/oder melden Sie sich von einer oder mehreren Sitzungen ab, um fortzufahren.</value>
+  </data>
+  <data name="SessionCurrentTenantApiMaximumRequestsErrorText" xml:space="preserve">
+    <value>Der angegebene Mandant "{0}" hat die maximale Zuweisung von {1} API-Anforderungen für einen Zeitraum von 24 Stunden überschritten.</value>
+  </data>
+  <data name="SessionCurrentTenantMaximumErrorText" xml:space="preserve">
+    <value>Dieser Dienst hat die maximale Anzahl von sitzungen {0} gleichzeitigen Benutzer überschritten. Warten Sie, und/oder melden Sie sich von einer oder mehreren Sitzungen ab, um fortzufahren.</value>
+  </data>
+  <data name="SessionCurrentUserApiMaximumErrorText" xml:space="preserve">
+    <value>Der Benutzer "{0}" hat die maximale Anzahl {1} API-Sitzungen überschritten. Melden Sie sich von einer oder mehreren API-Sitzungen ab, um fortzufahren.</value>
+  </data>
+  <data name="SessionCurrentUserMaximumErrorText" xml:space="preserve">
+    <value>Der Benutzer "{0}" hat die maximale Anzahl von {1} Sitzungen überschritten. Melden Sie sich von einer oder mehreren Sitzungen ab, um fortzufahren.</value>
+  </data>
+  <data name="SessionNotFoundErrorText" xml:space="preserve">
+    <value>Die Sitzung "{0}" wurde nicht gefunden. Möglicherweise ist bei der Sitzung ein Timeout aufgetreten. Melden Sie sich ab, und melden Sie sich erneut an, um Ihre Benutzersitzung wieder einzurichten.</value>
+  </data>
+  <data name="SharedQueriesText" xml:space="preserve">
+    <value>Freigegebene Abfragen</value>
+  </data>
+  <data name="StateCancelledText" xml:space="preserve">
+    <value>Abgebrochen</value>
+  </data>
+  <data name="StateCompletedText" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="StateInProgressText" xml:space="preserve">
+    <value>In Bearbeitung</value>
+  </data>
+  <data name="StateToDoText" xml:space="preserve">
+    <value>Aufgaben</value>
+  </data>
+  <data name="StorageDirectoryExistsErrorText" xml:space="preserve">
+    <value>Ein Unterordner mit dem Namen "{0}" ist bereits vorhanden.</value>
+  </data>
+  <data name="StorageZipFilesNotFoundErrorText" xml:space="preserve">
+    <value>Die Archivdatei wurde nicht erstellt, da eine oder mehrere zu archivierende Dateien nicht gefunden wurden.</value>
+  </data>
+  <data name="SupportEmailSubject" xml:space="preserve">
+    <value>Vasont Inspire Feedback - {0}</value>
+  </data>
+  <data name="SyncActionErrorMessageText" xml:space="preserve">
+    <value>Die Synchronisierungsaktion {0} für externe Benutzer {1} {2} fehlgeschlagen. Nachrichten: {3}</value>
+  </data>
+  <data name="SyncExternalComponentExists" xml:space="preserve">
+    <value>Für die externe Komponente mit der Identität "{0}" ist bereits ein externer Komponentensynchronisierungsdatensatz vorhanden.</value>
+  </data>
+  <data name="SyncExternalSystemNotFoundText" xml:space="preserve">
+    <value>Ein externes System mit dem angegebenen Identitätswert "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="SyncImportRequestModelInvalidText" xml:space="preserve">
+    <value>Alle Synchronisierungsimportanforderungsmodelle müssen einen externen Dateinamen und eine externe Komponentenidentität enthalten.</value>
+  </data>
+  <data name="SyncInspireComponentExists" xml:space="preserve">
+    <value>Für die Inspire-Komponente mit der Identität "{0}" ist bereits ein externer Komponentensynchronisierungsdatensatz vorhanden.</value>
+  </data>
+  <data name="SyncNotFoundErrorText" xml:space="preserve">
+    <value>Es konnte keine externe Synchronisierungskomponente mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="SystemRelationDeleteText" xml:space="preserve">
+    <value>Die Beziehung kann nicht gelöscht werden, da es sich um eine systemdefinierte Beziehung handelt.</value>
+  </data>
+  <data name="TagNameRequiredText" xml:space="preserve">
+    <value>Ein Tag-Name ist erforderlich.</value>
+  </data>
+  <data name="TagNotFoundText" xml:space="preserve">
+    <value>Das angegebene Tag mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="TagValidateInUseErrorText" xml:space="preserve">
+    <value>Das Tag "{0}" kann nicht gelöscht werden, da es von einer oder mehreren Komponenten verwendet wird. Löschen Sie alle Verweise auf das Tag "{0}" und versuchen Sie es erneut.</value>
+  </data>
+  <data name="TagValidateInvalidNameErrorText" xml:space="preserve">
+    <value>Der Name für Tag "{0}" ist ungültig. Tag-Namen müssen mit einem Alphazeichen beginnen, dürfen nicht mit XML beginnen und dürfen keines der folgenden Zeichen enthalten: leer, ", ', &amp;amp;, !, 'it id="1" pos="open"&gt;&amp;lt;, oder &amp;gt;&lt;/it&gt;.</value>
+  </data>
+  <data name="TagValidateNameExistsErrorText" xml:space="preserve">
+    <value>Der Tag "{0}" ist bereits vorhanden.</value>
+  </data>
+  <data name="TenantReachedMaximumSeatsErrorText" xml:space="preserve">
+    <value>Ein neuer Benutzer kann nicht hinzugefügt werden, da die maximal zulässige Anzahl von Benutzern für die Anwendung erreicht wurde.</value>
+  </data>
+  <data name="TestingMessageCriticalText" xml:space="preserve">
+    <value>Testen einer kritischen Fehlermeldung</value>
+  </data>
+  <data name="TranslationArchiveActiveStateText" xml:space="preserve">
+    <value>Der Übersetzungsauftrag kann nicht archiviert werden, da er noch aktiv ist. Der Übersetzungsauftrag muss zuerst abgeschlossen oder abgebrochen werden.</value>
+  </data>
+  <data name="TranslationCancelNotAllowedText" xml:space="preserve">
+    <value>Die Übersetzung kann nicht storniert werden, da sie bereits abgeschlossen oder storniert wurde.</value>
+  </data>
+  <data name="TranslationFailureEmailSubjectText" xml:space="preserve">
+    <value>Übersetzungs-Submittal fehlgeschlagen</value>
+  </data>
+  <data name="TranslationJobComponentNotFoundText" xml:space="preserve">
+    <value>Es konnte keine Übersetzungsauftragskomponente mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="TranslationJobNoComponentsText" xml:space="preserve">
+    <value>Eine oder mehrere Quellkomponenten müssen angegeben werden, um einen Übersetzungsauftrag zu erstellen.</value>
+  </data>
+  <data name="TranslationJobNoLanguagesText" xml:space="preserve">
+    <value>Eine oder mehrere Zielsprachen müssen angegeben werden, um einen Übersetzungsauftrag zu erstellen.</value>
+  </data>
+  <data name="TranslationJobNotFoundText" xml:space="preserve">
+    <value>Es konnte kein Übersetzungsauftrag mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="TranslationLockFailedText" xml:space="preserve">
+    <value>Für die Komponente "{0}" ist bereits eine Sperre vorhanden. Die Komponente kann nicht für die Übersetzung gesperrt werden.</value>
+  </data>
+  <data name="TranslationNotRequiredEmailSubjectText" xml:space="preserve">
+    <value>Übersetzung Sendezeit nicht erforderlich</value>
+  </data>
+  <data name="TranslationSuccessEmailSubjectText" xml:space="preserve">
+    <value>Übersetzung Sendeerfolg</value>
+  </data>
+  <data name="TranslationVendorNotFoundText" xml:space="preserve">
+    <value>Es konnte kein Übersetzungsanbieter mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="TranslationVendorRequiredText" xml:space="preserve">
+    <value>Ein Übersetzungsanbieter muss angegeben werden, um einen Übersetzungsauftrag zu erstellen.</value>
+  </data>
+  <data name="UnableToLoadTenantErrorText" xml:space="preserve">
+    <value>Fehler beim Aufruf zum Abrufen von Mandantenanwendungsinformationen. Dies kann auf eine falsch konfigurierte Mandanten- oder Datenbankverbindung zurückzuführen sein. Bitte wenden Sie sich an den Support.</value>
+  </data>
+  <data name="UnresolvedEditorChangesErrorText" xml:space="preserve">
+    <value>Kann nicht speichern und senden, da eine oder mehrere nachverfolgte Änderungen und/oder Kommentare nicht aufgelöst wurden. Bitte stellen Sie sicher, dass alle Änderungen und Kommentare vor dem Absenden behoben wurden.</value>
+  </data>
+  <data name="UnsupportedNumericIdentityTypeText" xml:space="preserve">
+    <value>Das Datenbankobjekt unterstützt keine numerischen Identitäten.</value>
+  </data>
+  <data name="UnsupportedValidationTypeText" xml:space="preserve">
+    <value>Der angegebene Validierungstyp wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="UpdatedByText" xml:space="preserve">
+    <value>Aktualisiert von:</value>
+  </data>
+  <data name="UpdatedDateText" xml:space="preserve">
+    <value>Datum der Aktualisierung</value>
+  </data>
+  <data name="UpdaterFileNotFoundErrorText" xml:space="preserve">
+    <value>Updater.exe wurde im Ordner '{0}' nicht gefunden. Stellen Sie sicher, dass die Programmdatei vorhanden ist, oder wenden Sie sich an Ihren Systemadministrator.</value>
+  </data>
+  <data name="UserAccountLockedErrorText" xml:space="preserve">
+    <value>Das angegebene Benutzerkonto "{0}" ist gesperrt. Bitte warten Sie, und versuchen Sie es erneut, oder wenden Sie sich an Ihren Support.</value>
+  </data>
+  <data name="UserCannotBeFoundByEmailErrorText" xml:space="preserve">
+    <value>Ein Benutzer konnte nicht mit der angegebenen E-Mail-Adresse "{0}" gefunden werden.</value>
+  </data>
+  <data name="UserCannotBeFoundByIdErrorText" xml:space="preserve">
+    <value>Ein Benutzer konnte nicht mit dem angegebenen Identitätswert "{0}" gefunden werden.</value>
+  </data>
+  <data name="UserEmailRequiredText" xml:space="preserve">
+    <value>Eine E-Mail-Adresse des Benutzers ist erforderlich.</value>
+  </data>
+  <data name="UserNameAlphaNumericOnlyText" xml:space="preserve">
+    <value>Der Benutzername darf nur alphanumerische Zeichen enthalten.</value>
+  </data>
+  <data name="UserNameExistsText" xml:space="preserve">
+    <value>Ein Benutzer mit dem Namen "{0}" ist bereits vorhanden.</value>
+  </data>
+  <data name="UserNameRequiredText" xml:space="preserve">
+    <value>Der Benutzername ist erforderlich.</value>
+  </data>
+  <data name="UserNotInProjectErrorText" xml:space="preserve">
+    <value>Der zugewiesene Benutzer ist nicht als Teilnehmer am angegebenen Projekt zugewiesen.</value>
+  </data>
+  <data name="UserPasswordInvalidIncorrectOldErrorText" xml:space="preserve">
+    <value>Das von Ihnen angegebene alte Kennwort ist nicht korrekt. Bitte geben Sie Ihr altes Passwort als Sicherheitsvalidierungsmaßnahme korrekt ein.</value>
+  </data>
+  <data name="UserPasswordInvalidLengthErrorText" xml:space="preserve">
+    <value>Das Kennwort erfordert eine Mindestlänge von {0} Zeichen.</value>
+  </data>
+  <data name="UserPasswordInvalidLowerErrorText" xml:space="preserve">
+    <value>Das Passwort erfordert mindestens ein Kleinbuchstaben (z.B. a-z).</value>
+  </data>
+  <data name="UserPasswordInvalidNonAlphaErrorText" xml:space="preserve">
+    <value>Für das Kennwort ist mindestens ein nicht-alphanumerisches Zeichen erforderlich (z. B. !</value>
+  </data>
+  <data name="UserPasswordInvalidNoPasswordErrorText" xml:space="preserve">
+    <value>Es wurde kein Kennwort angegeben. Für das Konto muss ein Kennwort angegeben werden.</value>
+  </data>
+  <data name="UserPasswordInvalidNumericErrorText" xml:space="preserve">
+    <value>Das Kennwort erfordert mindestens ein numerisches Zeichen (z. B. 0-9).</value>
+  </data>
+  <data name="UserPasswordInvalidPreambleErrorText" xml:space="preserve">
+    <value>Das angegebene Kennwort erfüllt nicht die folgenden Kriterien:</value>
+  </data>
+  <data name="UserPasswordInvalidSameAsOldErrorText" xml:space="preserve">
+    <value>Ihr neues Kennwort kann nicht mit Ihrem alten Kennwort übereinstimmen. Geben Sie das Kennwort korrekt an.</value>
+  </data>
+  <data name="UserPasswordInvalidUpperErrorText" xml:space="preserve">
+    <value>Das Passwort erfordert mindestens ein Großbuchstaben (z.B. A-Z).</value>
+  </data>
+  <data name="UserSyncErrorText" xml:space="preserve">
+    <value>Während des Inspire User Sync-Vorgangs ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="UserSyncInfoMessageText" xml:space="preserve">
+    <value>Ein Benutzer{0} Synchronisierungsbefehl für Benutzer {1} {2} empfangen wurde.</value>
+  </data>
+  <data name="UserValidEmailRequiredText" xml:space="preserve">
+    <value>Eine gültige E-Mail-Adresse ist erforderlich.</value>
+  </data>
+  <data name="ValueNotAlphanumericText" xml:space="preserve">
+    <value>Der Wert "{0}" muss alphanumerisch sein.</value>
+  </data>
+  <data name="WebhookConfigurationNotFoundText" xml:space="preserve">
+    <value>Der Webhook "{0}" enthält keine Konfiguration für den Typ "{1}".</value>
+  </data>
+  <data name="WebhookSecretConfigNotFoundErrorText" xml:space="preserve">
+    <value>Der Webhook-Sicherheitskonfigurationsparameter wurde nicht gefunden oder nicht konfiguriert. Bitte wenden Sie sich an den Support.</value>
+  </data>
+  <data name="WorkerProcessKeyNotFoundErrorText" xml:space="preserve">
+    <value>Ein Hintergrundarbeitsprozess mit dem Schlüssel "{0}" wurde nicht gefunden. Der Vorgang kann nicht abgeschlossen werden.</value>
+  </data>
+  <data name="WorkflowActiveActivitiesExistText" xml:space="preserve">
+    <value>Die anfängliche Aktivität für Workflow "{0}" kann nicht erstellt werden, da derzeit aktive Aktivitäten vorhanden sind.</value>
+  </data>
+  <data name="WorkflowActivityMemberNotFoundText" xml:space="preserve">
+    <value>Der Benutzer {0} die Workflowaktivität "{1}" nicht ausführen darf.</value>
+  </data>
+  <data name="WorkflowActivityNoMemebersText" xml:space="preserve">
+    <value>Die Workflowaktivität "{0}" hat keine Mitglieder.</value>
+  </data>
+  <data name="WorkflowActivityNotFound" xml:space="preserve">
+    <value>Die Workflowaktivität mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="WorkflowActivityNotInitialText" xml:space="preserve">
+    <value>Die angegebene Aktivität kann nicht die ursprüngliche Aktivität im Workflow sein.</value>
+  </data>
+  <data name="WorkflowActivityNotSpecifiedText" xml:space="preserve">
+    <value>Die Workflowaktivität wurde nicht angegeben.</value>
+  </data>
+  <data name="WorkflowCommandNotValidText" xml:space="preserve">
+    <value>Der Workflowbefehl ist ungültig.</value>
+  </data>
+  <data name="WorkflowCoordinatorOneAllowedText" xml:space="preserve">
+    <value>Nur ein Mitglied ist als Workflow-Koordinator zugelassen.</value>
+  </data>
+  <data name="WorkflowMemberNotParticipantText" xml:space="preserve">
+    <value>Der Benutzer "{0}" ist im Workflow definiert, ist aber kein Teilnehmer am zugeordneten Projekt.</value>
+  </data>
+  <data name="WorkflowMemberNotReviewerText" xml:space="preserve">
+    <value>Der Benutzer "{0}" ist im Workflow definiert, aber nicht als Prüfer angegeben.</value>
+  </data>
+  <data name="WorkflowNameRequiredText" xml:space="preserve">
+    <value>Das Namensfeld ist für einen Workflow erforderlich.</value>
+  </data>
+  <data name="WorkflowNextActivityNotFoundText" xml:space="preserve">
+    <value>Der Abschluss der aktuellen Workflowaktivität ist nicht zulässig, da eine nachfolgende Aktivität erforderlich und nicht angegeben ist.</value>
+  </data>
+  <data name="WorkflowNoActivitiesText" xml:space="preserve">
+    <value>Der Workflow "{0}" erfordert, dass ein oder mehrere Aktivitäten gültig sind.</value>
+  </data>
+  <data name="WorkflowNotFoundText" xml:space="preserve">
+    <value>Der Workflow mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="WorkflowReviewNoCoordinatorActorErrorText" xml:space="preserve">
+    <value>Mindestens ein Workflowakteur muss als Koordinator für Überprüfungsworkflowtypen angegeben werden.</value>
+  </data>
+  <data name="WorkflowTransitionFromNotValidText" xml:space="preserve">
+    <value>Für den Workflowübergang "{0}" ist keine von der Aktivität definiert.</value>
+  </data>
+  <data name="WorkflowTransitionNotFoundText" xml:space="preserve">
+    <value>Es gibt keinen definierten Workflowübergang von der Aktivität "{0}" zur Aktivität "{1}".</value>
+  </data>
+  <data name="WorkflowTransitionToNotValidText" xml:space="preserve">
+    <value>Für den Workflowübergang "{0}" ist keine nächste Aktivität definiert.</value>
+  </data>
+  <data name="WorkFolderCleanupErrorText" xml:space="preserve">
+    <value>Beim Versuch, den Arbeitsordner "{0}" nach Abschluss des Importvorgangs zu bereinigen, ist ein nicht behandelter Fehler aufgetreten.</value>
+  </data>
+  <data name="XmlCacheEmptyPathSettingErrorText" xml:space="preserve">
+    <value>Die für XmlCacheRepository angegebene CachePath-Eigenschaft war leer.</value>
+  </data>
+  <data name="XmlCacheMissingPathSettingErrorText" xml:space="preserve">
+    <value>Den Eigenschaften für XmlCacheRepository fehlt die Einstellung 'CachePath'.</value>
+  </data>
+  <data name="XmlLinkTypeInUseErrorText" xml:space="preserve">
+    <value>Der XML-Verknüpfungstyp kann nicht gelöscht werden, da er von einer oder mehreren Beziehungen verwendet wird. Löschen Sie alle anderen Verweise auf diesen XML-Verknüpfungstyp, bevor Sie sie löschen.</value>
+  </data>
+  <data name="XmlLinkTypeLinkMethodRequiredText" xml:space="preserve">
+    <value>Für einen XML-Verknüpfungstyp ist eine Verknüpfungsmethode erforderlich.</value>
+  </data>
+  <data name="XmlLinkTypeNameRequiredText" xml:space="preserve">
+    <value>Für einen XML-Verknüpfungstyp ist ein Name erforderlich.</value>
+  </data>
+  <data name="XmlLinkTypeNotFoundText" xml:space="preserve">
+    <value>Der angegebene XML-Verknüpfungstyp mit der Identität "{0}" konnte nicht gefunden werden.</value>
+  </data>
+  <data name="XmlLinkTypeSourceAttributeRequiredText" xml:space="preserve">
+    <value>Für einen XML-Verknüpfungstyp ist ein Quellattribut erforderlich.</value>
+  </data>
+  <data name="LockedByText" xml:space="preserve">
+    <value>Gesperrt von</value>
+  </data>
+  <data name="LockedForReviewByText" xml:space="preserve">
+    <value>Gesperrt zur Überprüfung durch</value>
+  </data>
+  <data name="LockedForTranslationByText" xml:space="preserve">
+    <value>Gesperrt für die Übersetzung durch</value>
+  </data>
+  <data name="StorageDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>Der Speicherverzeichnispfad "{0}" wurde nicht gefunden.</value>
+  </data>
+  <data name="MyFiltersText" xml:space="preserve">
+    <value>Eigene Filter</value>
+  </data>
+  <data name="SharedFiltersText" xml:space="preserve">
+    <value>Freigegebene Filter</value>
+  </data>
+  <data name="ProfileFilterNoAttributesText" xml:space="preserve">
+    <value>Der Profilfilter kann nicht gespeichert werden, da keine Attributwerte ausgewählt sind. Wählen Sie vor dem Speichern mindestens einen Attributwert aus.</value>
+  </data>
+  <data name="ProfileFilterTitleRequiredText" xml:space="preserve">
+    <value>Für den Profilfilter ist ein Titel erforderlich.</value>
+  </data>
+  <data name="ExportWarningsEmailSubjectText" xml:space="preserve">
+    <value>Export mit Problemen</value>
+  </data>
+  <data name="PublishWarningsEmailSubjectText" xml:space="preserve">
+    <value>Veröffentlichung mit Problemen</value>
+  </data>
+  <data name="TranslationLanguageNotProcessed" xml:space="preserve">
+    <value>Die Sprache "{0}" wurde nicht verarbeitet, da sie bereits aktiv ist.</value>
+  </data>
+  <data name="LockTypeText" xml:space="preserve">
+    <value>Sperrtyp</value>
+  </data>
+  <data name="ImportComponentFileNameValidationText" xml:space="preserve">
+    <value>Die Dateinamenslänge "{0}" überschreitet die maximale Länge von 100. Korrigieren Sie den Namen der Komponentendatei, und importieren Sie ihn erneut.</value>
+  </data>
+  <data name="ComponentIsLockedText" xml:space="preserve">
+    <value>Die Komponente "{0}" ist gesperrt.</value>
+  </data>
+  <data name="FolderNameValidationText" xml:space="preserve">
+    <value>Die Länge des Ordners "{0}" überschreitet die maximale Länge von 50 Zeichen.</value>
+  </data>
+  <data name="CreateAsTemplateErrorText" xml:space="preserve">
+    <value>Beim Versuch, die Komponente als Vorlage "{0}" zu speichern, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="ComponentFilteredWarningText" xml:space="preserve">
+    <value>Die Komponente "{0}" wurde herausgefiltert und aus der Verarbeitung entfernt.</value>
+  </data>
+  <data name="ComponentAutoRepairEmailSubjectText" xml:space="preserve">
+    <value>Batch-Reparatur von Komponentenbeziehungen abgeschlossen</value>
+  </data>
+  <data name="ComponentAutoRepairNoComponentsFoundText" xml:space="preserve">
+    <value>Es sind keine Komponenten zum Reparieren vorhanden.</value>
+  </data>
+  <data name="ComponentMoveValidationText" xml:space="preserve">
+    <value>Quell- und Zielordner sind für die ausgewählten Komponenten identisch. Wählen Sie einen anderen Zielordner aus.</value>
+  </data>
+  <data name="AdvancedContentText" xml:space="preserve">
+    <value>Erweiterte Inhalte</value>
+  </data>
+  <data name="ImportComponentLockedText" xml:space="preserve">
+    <value>Die Komponente '{0}' ist gesperrt.</value>
+  </data>
+  <data name="EditorXrefTextNotFound" xml:space="preserve">
+    <value>Der Querverweistext für die Komponente "{0}" konnte nicht erstellt werden, da er ungültig oder nicht gefunden wurde.</value>
+  </data>
+  <data name="ComponentHasMissingContentText" xml:space="preserve">
+    <value>Der Komponenteninhalt von {0} nicht geladen wurde oder die Datei leer ist. Inhalt kann nicht geladen werden.</value>
+  </data>
+  <data name="ComponentTypeValidateComponentHistoryFoundErrorText" xml:space="preserve">
+    <value>Der Komponententyp "{0}" kann nicht gelöscht werden, da auf ihn von einer oder mehreren historischen Komponenten verwiesen wird. Löschen Sie alle Verweise auf den Komponententyp "{0}" und versuchen Sie es erneut.</value>
+  </data>
   <data name="ImageDefaultIcon" xml:space="preserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VideoDefaultIcon" xml:space="preserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\videodefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComponentConfigurationJsonConfigDeserializeErrorText" xml:space="preserve">
+    <value>Beim Deserialisieren des JsonConfig-Werts ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="WorkflowInitialActivityNotFoundErrorText" xml:space="preserve">
+    <value>Der Workflow enthält keine anfängliche Workflowaktivität.</value>
+  </data>
+  <data name="StartupBackgroundWorkerErrorText" xml:space="preserve">
+    <value>Beim Versuch, die Arbeitsordnerbereinigung des Hintergrundarbeiters mit dem Intervall "{0}" zu starten, ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="TranslationCancelledEmailSubjectText" xml:space="preserve">
+    <value>Übersetzung abgebrochen</value>
+  </data>
+  <data name="TranslationCompletedEmailSubjectText" xml:space="preserve">
+    <value>Übersetzung abgeschlossen</value>
+  </data>
+  <data name="TranslationComponentNotProcessed" xml:space="preserve">
+    <value>Die Komponente "{0}" wurde nicht in den Übersetzungsauftrag "{1} ({2})" aufgenommen, da sie bereits in einem anderen Übersetzungsauftrag für dieselbe Sprache tätig ist.</value>
+  </data>
+  <data name="TranslationJobNoArchiveComponentsText" xml:space="preserve">
+    <value>Es wurden keine Komponenten gefunden, um ein Archiv für die Übersetzung "{0}" mit dem Identitätswert "{1}" zu erstellen.</value>
   </data>
 </root>

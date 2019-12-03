@@ -17,8 +17,8 @@
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Vasont Systems</Authors>
-    <Company>Vasont Systems</Company>
+    <Authors>GlobalLink Vasont</Authors>
+    <Company>GlobalLink Vasont</Company>
     <Product>GlobalLink Vasont Inspire</Product>
     <Description>Contains the core supporting components and extension routines for the GlobalLink Vasont Inspire application and SDK library.</Description>
     <Copyright>Copyright (c) 2019, Vasont Systems. All rights reserved.</Copyright>
@@ -26,7 +26,7 @@
     <PackageTags />
     <PackageReleaseNotes>Added Standard 2.0 support</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">

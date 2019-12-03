@@ -1876,6 +1876,22 @@
           <source>An error occurred while attempting to start the working folder clean-up background worker with interval '{0}'.</source>
           <target state="new">An error occurred while attempting to start the working folder clean-up background worker with interval '{0}'.</target>
         </trans-unit>
+        <trans-unit id="TranslationCancelledEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Translation Cancelled</source>
+          <target state="new">Translation Cancelled</target>
+        </trans-unit>
+        <trans-unit id="TranslationCompletedEmailSubjectText" translate="yes" xml:space="preserve">
+          <source>Translation Completed</source>
+          <target state="new">Translation Completed</target>
+        </trans-unit>
+        <trans-unit id="TranslationComponentNotProcessed" translate="yes" xml:space="preserve">
+          <source>The component "{0}" was not included in translation job "{1} ({2})" because it is already active in another translation job for the same language.</source>
+          <target state="new">The component "{0}" was not included in translation job "{1} ({2})" because it is already active in another translation job for the same language.</target>
+        </trans-unit>
+        <trans-unit id="TranslationJobNoArchiveComponentsText" translate="yes" xml:space="preserve">
+          <source>No components were found to create archive for translation "{0}" with the identity value "{1}".</source>
+          <target state="new">No components were found to create archive for translation "{0}" with the identity value "{1}".</target>
+        </trans-unit>
       </group>
     </body>
   </file>
