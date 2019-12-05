@@ -16,6 +16,18 @@ namespace Vasont.Inspire.Core.Extensions
     public static class ResourceExtensions
     {
         /// <summary>
+        /// This method is used to build the assembly path to a resource.
+        /// </summary>
+        /// <param name="keyName">Name of the key.</param>
+        /// <param name="folder">The folder.</param>
+        /// <param name="assemblyName">Name of the assembly.</param>
+        /// <returns>Returns the complete resource path string.</returns>
+        public static string BuildAssemblyPath(string keyName, string folder = "Resources", string assemblyName = "Vasont.Inspire.Core")
+        {
+            return string.Join(".", new[] { assemblyName, folder, keyName }.Where(x => !string.IsNullOrEmpty(x)));
+        }
+
+        /// <summary>
         /// This method will retrieve an embedded resource string within the assembly.
         /// </summary>
         /// <param name="keyName">Contains the resource key name.</param>
@@ -24,50 +36,55 @@ namespace Vasont.Inspire.Core.Extensions
         /// <returns>Returns the contents found.</returns>
         public static string GetEmbeddedResourceString(string keyName, string folder = "Resources", string assemblyName = "Vasont.Inspire.Core")
         {
-            string contents = null;
-            string path = string.Join(".", new[] { assemblyName, folder, keyName }.Where(x => !string.IsNullOrEmpty(x)));
+            string contents;
+
+            using (var manifestStream = GetEmbeddedResourceStream(keyName, folder, assemblyName))
+            using (var reader = new StreamReader(manifestStream ?? throw new InvalidOperationException()))
+            {
+                contents = reader.ReadToEnd();
+            }
+        
+            return contents;
+        }
+
+        /// <summary>
+        /// This method will retrieve an embedded resource stream within the assembly.
+        /// </summary>
+        /// <param name="keyName">Contains the resource key name.</param>
+        /// <param name="folder">Contains an optional resource folder path.</param>
+        /// <param name="assemblyName">Contains an optional assembly name.</param>
+        /// <returns>Returns the contents found.</returns>
+        public static Stream GetEmbeddedResourceStream(string keyName, string folder = "Resources", string assemblyName = "Vasont.Inspire.Core")
+        {
+            string path = BuildAssemblyPath(keyName, folder, assemblyName);
             var assembly = Assembly.Load(assemblyName);
             string[] manifestResources = assembly.GetManifestResourceNames();
 
-            if (manifestResources.Contains(path))
-            {
-                using (var manifestStream = assembly.GetManifestResourceStream(path))
-                using (var reader = new StreamReader(manifestStream ?? throw new InvalidOperationException()))
-                {
-                    contents = reader.ReadToEnd();
-                }
-            }
-
-            return contents;
+            return manifestResources.Contains(path) ? assembly.GetManifestResourceStream(path) : null;
         }
 
         /// <summary>
         /// This method will retrieve an embedded resource image within the assembly.
         /// </summary>
         /// <param name="keyName">Contains the resource key name.</param>
-        /// <param name="subFolderPath">Contains an optional resource folder path.</param>
+        /// <param name="folder">Contains an optional resource folder path.</param>
+        /// <param name="assemblyName">Contains an optional assembly name.</param>
         /// <returns>Returns the contents found.</returns>
-        public static byte[] GetEmbeddedResourceImage(string keyName, string subFolderPath = "")
+        public static byte[] GetEmbeddedResourceImage(string keyName, string folder = "Resources", string assemblyName = "Vasont.Inspire.Core")
         {
-            byte[] returnValue = null;
-            string path = "Vasont.Inspire.Core.Resources." + subFolderPath + keyName;
-            var assembly = typeof(Properties.Resources).Assembly;
-            string[] manifestResources = assembly.GetManifestResourceNames();
-
-            if (manifestResources.Contains(path))
+            byte[] returnValue;
+            
+            using (Stream manifestStream = GetEmbeddedResourceStream(keyName, folder, assemblyName))
             {
-                using (var manifestStream = assembly.GetManifestResourceStream(path))
+                if (manifestStream == null)
                 {
-                    if (manifestStream == null)
-                    {
-                        throw new InvalidOperationException();
-                    }
-
-                    returnValue = new byte[manifestStream.Length];
-                    manifestStream.Read(returnValue, 0, returnValue.Length);
+                    throw new InvalidOperationException();
                 }
-            }
 
+                returnValue = new byte[manifestStream.Length];
+                manifestStream.Read(returnValue, 0, returnValue.Length);
+            }
+        
             return returnValue;
         }
     }
