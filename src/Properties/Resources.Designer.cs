@@ -1673,6 +1673,15 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot import component &quot;{0}” because it is locked..
+        /// </summary>
+        public static string ImportComponentLockFoundErrorText {
+            get {
+                return ResourceManager.GetString("ImportComponentLockFoundErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to An error occurred while attempting to store component relationships for component ids &quot;{0}&quot;. &quot;{1}&quot;..
         /// </summary>
         public static string ImportComponentRelationSaveErrorText {

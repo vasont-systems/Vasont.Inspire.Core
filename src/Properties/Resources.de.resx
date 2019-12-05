@@ -1425,4 +1425,7 @@ ept id="1"&gt;&amp;lt;/ul&amp;gt;&lt;/ept&gt;</value>
   <data name="TranslationJobNoArchiveComponentsText" xml:space="preserve">
     <value>Es wurden keine Komponenten gefunden, um ein Archiv für die Übersetzung "{0}" mit dem Identitätswert "{1}" zu erstellen.</value>
   </data>
+  <data name="ImportComponentLockFoundErrorText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht importiert werden, da sie gesperrt ist.</value>
+  </data>
 </root>

@@ -1525,10 +1525,13 @@
   <data name="TranslationCompletedEmailSubjectText" xml:space="preserve">
     <value>Translation Completed</value>
   </data>
-  <data name="TranslationComponentNotProcessed" xml:space="preserve">
-    <value>The component "{0}" was not included in translation job "{1} ({2})" because it is already active in another translation job for the same language.</value>
-  </data>
   <data name="TranslationJobNoArchiveComponentsText" xml:space="preserve">
     <value>No components were found to create archive for translation "{0}" with the identity value "{1}".</value>
+  </data>
+  <data name="ImportComponentLockFoundErrorText" xml:space="preserve">
+    <value>Cannot import component "{0}” because it is locked.</value>
+  </data>
+  <data name="TranslationComponentNotProcessed" xml:space="preserve">
+    <value>The component "{0}" was not included in translation job "{1} ({2})" because it is already active in another translation job for the same language.</value>
   </data>
 </root>

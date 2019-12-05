@@ -1892,6 +1892,10 @@ ept id="1"&gt;&amp;lt;/ul&amp;gt;&lt;/ept&gt;</target>
           <source>No components were found to create archive for translation "{0}" with the identity value "{1}".</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Es wurden keine Komponenten gefunden, um ein Archiv für die Übersetzung "{0}" mit dem Identitätswert "{1}" zu erstellen.</target>
         </trans-unit>
+        <trans-unit id="ImportComponentLockFoundErrorText" translate="yes" xml:space="preserve">
+          <source>Cannot import component "{0}” because it is locked.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Die Komponente "{0}" kann nicht importiert werden, da sie gesperrt ist.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

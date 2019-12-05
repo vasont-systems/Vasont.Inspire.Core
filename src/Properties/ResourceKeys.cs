@@ -2340,5 +2340,30 @@ namespace Vasont.Inspire.Core.Properties
         /// Gets the key for the StartupBackgroundWorkerErrorText resource string.
         /// </summary>
         public const string StartupBackgroundWorkerErrorText = "StartupBackgroundWorkerErrorText"; 
+
+        /// <summary>
+        /// Gets the key for the TranslationCancelledEmailSubjectText resource string.
+        /// </summary>
+        public const string TranslationCancelledEmailSubjectText = "TranslationCancelledEmailSubjectText"; 
+
+        /// <summary>
+        /// Gets the key for the TranslationCompletedEmailSubjectText resource string.
+        /// </summary>
+        public const string TranslationCompletedEmailSubjectText = "TranslationCompletedEmailSubjectText"; 
+
+        /// <summary>
+        /// Gets the key for the TranslationJobNoArchiveComponentsText resource string.
+        /// </summary>
+        public const string TranslationJobNoArchiveComponentsText = "TranslationJobNoArchiveComponentsText"; 
+
+        /// <summary>
+        /// Gets the key for the ImportComponentLockFoundErrorText resource string.
+        /// </summary>
+        public const string ImportComponentLockFoundErrorText = "ImportComponentLockFoundErrorText"; 
+
+        /// <summary>
+        /// Gets the key for the TranslationComponentNotProcessed resource string.
+        /// </summary>
+        public const string TranslationComponentNotProcessed = "TranslationComponentNotProcessed"; 
     }
 }
