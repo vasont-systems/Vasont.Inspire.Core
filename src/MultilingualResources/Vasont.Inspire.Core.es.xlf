@@ -1893,8 +1893,13 @@
           <target state="needs-review-translation" state-qualifier="mt-suggestion">No se encontró ningún componente que creara un archivo para la traducción "{0}" con el valor de identidad "{1}".</target>
         </trans-unit>
         <trans-unit id="ImportComponentLockFoundErrorText" translate="yes" xml:space="preserve">
-          <source>Cannot import component "{0}” because it is locked.</source>
+          <source>Cannot import component "{0}" because it is locked.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">No se puede importar el componente "{0}" porque está bloqueado.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ImportComponentFileInvalidText" translate="yes" xml:space="preserve">
+          <source>Cannot import component "{0}" because it has an invalid file type.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">No se puede importar el componente "{0}" porque tiene un tipo de archivo no válido.</target>
         </trans-unit>
       </group>
     </body>

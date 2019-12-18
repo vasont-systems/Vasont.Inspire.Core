@@ -1646,6 +1646,15 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cannot import component &quot;{0}&quot; because it has an invalid file type..
+        /// </summary>
+        public static string ImportComponentFileInvalidText {
+            get {
+                return ResourceManager.GetString("ImportComponentFileInvalidText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Component &quot;{0}&quot; file name length exceeds maximum length of 100. Please fix the component file name and import it again..
         /// </summary>
         public static string ImportComponentFileNameValidationText {
@@ -1673,7 +1682,7 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cannot import component &quot;{0}” because it is locked..
+        ///   Looks up a localized string similar to Cannot import component &quot;{0}&quot; because it is locked..
         /// </summary>
         public static string ImportComponentLockFoundErrorText {
             get {
