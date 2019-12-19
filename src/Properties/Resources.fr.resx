@@ -1428,4 +1428,7 @@
   <data name="ImportComponentLockFoundErrorText" xml:space="preserve">
     <value>Ne peut pas importer le composant "{0}" parce qu'il est verrouillé.</value>
   </data>
+  <data name="ImportComponentFileInvalidText" xml:space="preserve">
+    <value>Ne peut pas importer le composant "{0}" parce qu'il a un type de fichier non valide.</value>
+  </data>
 </root>

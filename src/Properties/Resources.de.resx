@@ -1428,4 +1428,7 @@ ept id="1"&gt;&amp;lt;/ul&amp;gt;&lt;/ept&gt;</value>
   <data name="ImportComponentLockFoundErrorText" xml:space="preserve">
     <value>Die Komponente "{0}" kann nicht importiert werden, da sie gesperrt ist.</value>
   </data>
+  <data name="ImportComponentFileInvalidText" xml:space="preserve">
+    <value>Die Komponente "{0}" kann nicht importiert werden, da sie einen ungültigen Dateityp hat.</value>
+  </data>
 </root>

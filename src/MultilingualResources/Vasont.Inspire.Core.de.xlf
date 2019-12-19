@@ -1893,8 +1893,13 @@ ept id="1"&gt;&amp;lt;/ul&amp;gt;&lt;/ept&gt;</target>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Es wurden keine Komponenten gefunden, um ein Archiv für die Übersetzung "{0}" mit dem Identitätswert "{1}" zu erstellen.</target>
         </trans-unit>
         <trans-unit id="ImportComponentLockFoundErrorText" translate="yes" xml:space="preserve">
-          <source>Cannot import component "{0}” because it is locked.</source>
+          <source>Cannot import component "{0}" because it is locked.</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Die Komponente "{0}" kann nicht importiert werden, da sie gesperrt ist.</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="ImportComponentFileInvalidText" translate="yes" xml:space="preserve">
+          <source>Cannot import component "{0}" because it has an invalid file type.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Die Komponente "{0}" kann nicht importiert werden, da sie einen ungültigen Dateityp hat.</target>
         </trans-unit>
       </group>
     </body>
