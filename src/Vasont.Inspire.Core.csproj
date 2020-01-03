@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\AsyncHelper.cs" />
-    <Compile Include="Extensions\CommandLine.cs" />
     <Compile Include="Extensions\DateExtensions.cs" />
     <Compile Include="Extensions\ImageExtensions.cs" />
     <Compile Include="Extensions\LocaleExtensions.cs" />
