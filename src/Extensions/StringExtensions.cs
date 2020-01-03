@@ -91,7 +91,7 @@ namespace Vasont.Inspire.Core.Extensions
         {
             if (encoder == null)
             {
-                encoder = System.Text.Encoding.Default;
+                encoder = Encoding.Default;
             }
 
             return content != null ? encoder.GetString(content) : string.Empty;
@@ -178,6 +178,22 @@ namespace Vasont.Inspire.Core.Extensions
             }
 
             return result;
+        }
+
+        /// <summary>
+        /// Truncates a string to a maximum length.
+        /// </summary>
+        /// <param name="value">Contains the value to truncate.</param>
+        /// <param name="maximumLength">Contains the maximum number of bytes to truncate.</param>
+        /// <returns>Returns the truncated string.</returns>
+        public static string Truncate(this string value, int maximumLength)
+        {
+            if (!string.IsNullOrWhiteSpace(value) && value.Length > maximumLength)
+            {
+                value = value.Substring(0, maximumLength);
+            }
+
+            return value;
         }
 
         /// <summary>

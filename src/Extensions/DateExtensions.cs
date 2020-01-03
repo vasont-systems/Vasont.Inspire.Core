@@ -160,6 +160,16 @@ namespace Vasont.Inspire.Core.Extensions
             return utcDateTime.ToString(dateTimeFormat, CultureInfo.InvariantCulture) + "+0000";
         }
 
+        /// <summary>
+        /// This method is used to convert a potentially local date-time to a UTC kind date. This is used in scenarios where all dates are expected to be handled as UTC instead of allowing localization to manipulate dates.
+        /// </summary>
+        /// <param name="value">Contains the potentially local date-time to convert to UTC kind.</param>
+        /// <returns>Returns a new date with the same values as the original date, only formatted as UTC localization.</returns>
+        public static DateTime ToUtcKindDate(this DateTime value)
+        {
+            return new DateTime(value.Year, value.Month, value.Day, value.Hour, value.Minute, value.Second, DateTimeKind.Utc);
+        }
+
         #region Private Methods
 
         /// <summary>

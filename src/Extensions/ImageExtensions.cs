@@ -7,6 +7,7 @@ namespace Vasont.Inspire.Core.Extensions
 {
     using System;
     using System.Drawing;
+    using System.Drawing.Drawing2D;
     using System.Drawing.Imaging;
     using System.IO;
 
@@ -15,6 +16,54 @@ namespace Vasont.Inspire.Core.Extensions
     /// </summary>
     public static class ImageExtensions
     {
+        /// <summary>
+        /// This extension method is used to rescale the specified bitmap into the width and height dimensions specified.
+        /// </summary>
+        /// <param name="sourceImage">Contains the source image to rescale.</param>
+        /// <param name="newWidth">Contains the new bitmap width size.</param>
+        /// <param name="newHeight">Contains the new bitmap height size.</param>
+        /// <returns>Returns a new rescaled bitmap of the source with specified width and height.</returns>
+        public static Bitmap Rescale(this Bitmap sourceImage, int newWidth, int newHeight)
+        {
+            if (sourceImage == null)
+            {
+                throw new ArgumentNullException(nameof(sourceImage));
+            }
+
+            if (sourceImage.Width < newWidth)
+            {
+                newWidth = sourceImage.Width;
+            }
+
+            if (sourceImage.Height < newHeight)
+            {
+                newHeight = sourceImage.Height;
+            }
+
+            // build a new high-quality profile image of allowed size.
+            var destRect = new Rectangle(0, 0, newWidth, newHeight);
+            var outputImage = new Bitmap(newWidth, newHeight);
+
+            outputImage.SetResolution(sourceImage.HorizontalResolution, sourceImage.VerticalResolution);
+
+            using (var graphics = Graphics.FromImage(outputImage))
+            {
+                graphics.CompositingMode = CompositingMode.SourceCopy;
+                graphics.CompositingQuality = CompositingQuality.HighQuality;
+                graphics.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                graphics.SmoothingMode = SmoothingMode.HighQuality;
+                graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
+
+                using (var wrapMode = new ImageAttributes())
+                {
+                    wrapMode.SetWrapMode(WrapMode.TileFlipXY);
+                    graphics.DrawImage(sourceImage, destRect, 0, 0, sourceImage.Width, sourceImage.Height, GraphicsUnit.Pixel, wrapMode);
+                }
+            }
+
+            return outputImage;
+        }
+
         /// <summary>
         /// This extension method is used to properly rescale an image into a smaller thumbnail.
         /// </summary>
@@ -129,6 +178,24 @@ namespace Vasont.Inspire.Core.Extensions
             }
 
             return returnValue;
+        }
+
+        /// <summary>
+        /// This method is used to convert a Bitmap image object to an array of bytes.
+        /// </summary>
+        /// <param name="image">Contains the bitmap image object to convert.</param>
+        /// <returns>Returns a byte array representing the image bitmap.</returns>
+        public static byte[] ToByteArray(this Bitmap image)
+        {
+            byte[] results;
+
+            using (var stream = new MemoryStream())
+            {
+                image.Save(stream, image.RawFormat);
+                results = stream.ToArray();
+            }
+
+            return results;
         }
     }
 }
