@@ -141,7 +141,7 @@ namespace Vasont.Inspire.Core.Extensions
             {
                 // if image was bad format, catch exception and set thumbnail to default image icon
                 // this will prevent error import from failing and eliminate error in Xeditor
-                returnValue = ResourceExtensions.GetEmbeddedResourceImage("ImageDefaultIcon");
+                returnValue = Properties.Resources.ImageDefaultIcon.ToByteArray();
             }
 
             return returnValue;
@@ -174,7 +174,7 @@ namespace Vasont.Inspire.Core.Extensions
             {
                 // if image was bad format, catch exception and set thumbnail to default image icon
                 // this will prevent error import from failing and eliminate error in Xeditor
-                returnValue = ResourceExtensions.GetEmbeddedResourceImage("ImageDefaultIcon");
+                returnValue = Properties.Resources.ImageDefaultIcon.ToByteArray();
             }
 
             return returnValue;
