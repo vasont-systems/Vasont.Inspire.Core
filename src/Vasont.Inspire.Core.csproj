@@ -21,10 +21,10 @@
     <Company>GlobalLink Vasont</Company>
     <Product>GlobalLink Vasont Inspire</Product>
     <Description>Contains the core supporting components and extension routines for the GlobalLink Vasont Inspire application and SDK library.</Description>
-    <Copyright>Copyright (c) 2019, Vasont Systems. All rights reserved.</Copyright>
+    <Copyright>Copyright (c) 2020, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Cleared out most resource strings and images to support only those that are necessary.</PackageReleaseNotes>
+    <PackageReleaseNotes>Cleared out most resource strings and images to support only those that are necessary. Removed resource manifest loading code since Properties.ResourcesManager.GetObject is working now for embedded images.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Version>1.0.5</Version>
   </PropertyGroup>
@@ -42,6 +42,7 @@
     <None Remove="MultilingualResources\Vasont.Inspire.Core.es.xlf" />
     <None Remove="MultilingualResources\Vasont.Inspire.Core.fr.xlf" />
     <None Remove="MultilingualResources\Vasont.Inspire.Core.ru.xlf" />
+    <None Remove="Resources\imagedefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\AsyncHelper.cs" />
@@ -50,11 +51,13 @@
     <Compile Include="Extensions\LocaleExtensions.cs" />
     <Compile Include="Extensions\LocalizedDescriptionAttribute.cs" />
     <Compile Include="Extensions\SortDirection.cs" />
-    <Compile Include="Extensions\ResourceExtensions.cs" />
     <Compile Include="Extensions\SerializeExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Extensions\TypeExtensions.cs" />
     <Compile Include="Extensions\UriExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\imagedefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />

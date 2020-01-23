@@ -12,4 +12,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ArgumentMustBeGreaterThanZeroErrorFormat" xml:space="preserve">
+    <value>{0} debe ser mayor que 0.</value>
+  </data>
+  <data name="DeserializeFileNotFoundErrorText" xml:space="preserve">
+    <value>No se encontró el archivo especificado.</value>
+  </data>
+  <data name="InvalidFileArgumentErrorText" xml:space="preserve">
+    <value>Se debe especificar una ruta de acceso de archivo válida.</value>
+  </data>
+  <data name="LabelAndText" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="LabelApplicationText" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="LabelContainsText" xml:space="preserve">
+    <value>Contiene</value>
+  </data>
+  <data name="LabelDebugText" xml:space="preserve">
+    <value>Depurar</value>
+  </data>
+  <data name="LabelDoesNotContainText" xml:space="preserve">
+    <value>No contiene</value>
+  </data>
+  <data name="LabelDoesNotEndWithText" xml:space="preserve">
+    <value>No termina con</value>
+  </data>
+  <data name="LabelDoesNotStartWithText" xml:space="preserve">
+    <value>No empieza con</value>
+  </data>
+  <data name="LabelEndsWithText" xml:space="preserve">
+    <value>Termina con</value>
+  </data>
+  <data name="LabelErrorText" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="LabelFatalText" xml:space="preserve">
+    <value>Irrecuperable</value>
+  </data>
+  <data name="LabelGeneralText" xml:space="preserve">
+    <value>Generales</value>
+  </data>
+  <data name="LabelInformationText" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="LabelNoText" xml:space="preserve">
+    <value>Nº</value>
+  </data>
+  <data name="LabelOrText" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="LabelSecurityText" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="LabelStartsWithText" xml:space="preserve">
+    <value>Empieza con</value>
+  </data>
+  <data name="LabelSystemText" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="LabelWarningText" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="LabelYesText" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="LockedByText" xml:space="preserve">
+    <value>Bloqueado por</value>
+  </data>
+  <data name="LockedForReviewByText" xml:space="preserve">
+    <value>Bloqueado para su revisión por</value>
+  </data>
+  <data name="LockedForTranslationByText" xml:space="preserve">
+    <value>Bloqueado para traducción por</value>
+  </data>
+  <data name="RuntimeMessageText" xml:space="preserve">
+    <value>{0} días, {1} horas, {2} minutos, {3} segundos</value>
+  </data>
+  <data name="ImageDefaultIcon" xml:space="preserve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

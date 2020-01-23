@@ -66,11 +66,11 @@ namespace Vasont.Inspire.Core.Tests
         public static IEnumerable<object[]> ToDateTimeTestValues => new[]
         {
             new object[] { "2019-01-01", null, null, DateTimeStyles.None, new DateTime(2019, 1, 1, 0, 0, 0), DateTimeKind.Unspecified },
-            new object[] { "2019-01-01", CultureInfo.InvariantCulture, null, DateTimeStyles.None, new DateTime(2019, 1, 1, 0, 0, 0), DateTimeKind.Unspecified },
-            new object[] { "01/01/2019 10:00 AM", CultureInfo.CreateSpecificCulture("en-US"), null, DateTimeStyles.None, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Unspecified },
-            new object[] { "01/01/2019 10:00 AM", CultureInfo.CreateSpecificCulture("en-US"), null, DateTimeStyles.AssumeLocal, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Local },
-            new object[] { "2019/01/01T10:00:00-5:00", CultureInfo.CreateSpecificCulture("en-US"), null, DateTimeStyles.AssumeLocal, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Local },
-            new object[] { "03/01/2009T10:00:00-5:00", CultureInfo.CreateSpecificCulture("en-US"), null, DateTimeStyles.AssumeLocal, DateTime.MinValue, DateTimeKind.Local },
+            new object[] { "2019-01-01", null, CultureInfo.InvariantCulture, DateTimeStyles.None, new DateTime(2019, 1, 1, 0, 0, 0), DateTimeKind.Unspecified },
+            new object[] { "01/01/2019 10:00 AM", null, CultureInfo.CreateSpecificCulture("en-US"), DateTimeStyles.None, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Unspecified },
+            new object[] { "01/01/2019 10:00 AM", null, CultureInfo.CreateSpecificCulture("en-US"),  DateTimeStyles.AssumeLocal, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Local },
+            new object[] { "2019/01/01T10:00:00-5:00", null, CultureInfo.CreateSpecificCulture("en-US"), DateTimeStyles.AssumeLocal, new DateTime(2019, 1, 1, 10, 0, 0), DateTimeKind.Local },
+            new object[] { "03/01/2009T10:00:00-5:00", null, CultureInfo.CreateSpecificCulture("en-US"), DateTimeStyles.AssumeLocal, DateTime.MinValue, DateTimeKind.Unspecified },
         };
 
         /// <summary>
@@ -79,12 +79,12 @@ namespace Vasont.Inspire.Core.Tests
         /// <param name="input">The input.</param>
         /// <param name="expectedResult">The expected result.</param>
         [Theory]
-        [InlineData("", "")]
-        [InlineData("123", "")]
-        [InlineData("506934FF-F8E4-4F0F-8FAC-C238DDD48910", "{506934FF-F8E4-4F0F-8FAC-C238DDD48910}")]
+        [InlineData("", "00000000-0000-0000-0000-000000000000")]
+        [InlineData("123", "00000000-0000-0000-0000-000000000000")]
+        [InlineData("506934FF-F8E4-4F0F-8FAC-C238DDD48910", "506934FF-F8E4-4F0F-8FAC-C238DDD48910")]
         public void ToGuidTests(string input, string expectedResult)
         {
-            Assert.Equal(expectedResult, input.ToGuid().ToString());
+            Assert.Equal(expectedResult, input.ToGuid().ToString().ToUpperInvariant());
         }
 
         /// <summary>
@@ -96,8 +96,8 @@ namespace Vasont.Inspire.Core.Tests
         [Theory]
         [InlineData("", 0, 0)]
         [InlineData("NaN", 0, 0)]
-        [InlineData("1.5", 0, 2)]
-        [InlineData("2,147,483,647", 0, 2147483647)]
+        [InlineData("1.5", 0, 0)]
+        [InlineData("2,147,483,647", 0, 0)]
         [InlineData("2147483647", 0, 2147483647)]
         [InlineData("-2147483648", 0, -2147483648)]
         [InlineData("9223372036854775807", 0, 0)]
@@ -115,10 +115,10 @@ namespace Vasont.Inspire.Core.Tests
         [Theory]
         [InlineData("", 0, 0)]
         [InlineData("NaN", 0, 0)]
-        [InlineData("1.5", 0, 2)]
-        [InlineData("9,223,372,036,854,775,807", 0, 9223372036854775807)]
+        [InlineData("1.5", 0, 0)]
+        [InlineData("9,223,372,036,854,775,807", 0, 0)]
         [InlineData("9223372036854775807", 0, 9223372036854775807)]
-        [InlineData("-9223372036854775808", 0, -9223372036854775807)]
+        [InlineData("-9223372036854775808", 0, -9223372036854775808)]
         [InlineData("79228162514264337593543950335M", 0, 0)]
         public void ToLongTests(string value, long defaultValue, long expectedValue)
         {
@@ -178,12 +178,12 @@ namespace Vasont.Inspire.Core.Tests
         /// <param name="expectedResult">The expected result.</param>
         [Theory]
         [InlineData("asc", true, SortDirection.Desc, SortDirection.Asc)]
-        [InlineData("asc", false, SortDirection.Desc, SortDirection.Desc)]
+        [InlineData("asc", false, SortDirection.Desc, SortDirection.Asc)]
         [InlineData("Descending", true, SortDirection.Asc, SortDirection.Asc)]
-        [InlineData("", true, SortDirection.Desc, SortDirection.Asc)]
+        [InlineData("", true, SortDirection.Desc, SortDirection.Desc)]
         public void ToEnumTests(string inputValue, bool ignoreCase, SortDirection defaultValue, SortDirection expectedResult)
         {
-            Assert.Equal(expectedResult, inputValue.ToEnum<SortDirection>(ignoreCase, defaultValue));
+            Assert.Equal(expectedResult, inputValue.ToEnum(ignoreCase, defaultValue));
         }
 
         /// <summary>

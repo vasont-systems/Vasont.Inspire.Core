@@ -7,7 +7,6 @@ namespace Vasont.Inspire.Core.Tests
 {
     using System.Collections.Generic;
     using System.Drawing;
-    using System.IO;
     using Vasont.Inspire.Core.Extensions;
     using Xunit;
 
@@ -25,7 +24,9 @@ namespace Vasont.Inspire.Core.Tests
         /// </value>
         public static IEnumerable<object[]> CreateThumbnailTestValues => new[]
         {
-            new object[] { ResourceExtensions.GetEmbeddedResourceImage("ImageDefaultIcon", "Resources", "Vasont.Inspire.Core.Tests"), 32, 32 }
+            new object[] { 
+                Properties.Resources.ImageDefaultIcon,
+                32, 32 }
         };
 
         /// <summary>
@@ -36,22 +37,26 @@ namespace Vasont.Inspire.Core.Tests
         /// </value>
         public static IEnumerable<object[]> CreateThumbnailFromBytesTestValues => new[]
         {
-            new object[] { ResourceExtensions.GetEmbeddedResourceStream("ImageDefaultIcon"), 32, 32 }
+            new object[] {
+                Properties.Resources.ImageDefaultIcon,
+                32, 32 }
         };
 
         /// <summary>
         /// Rescales the image test.
         /// </summary>
-        /// <param name="sourceImage">The source image.</param>
+        /// <param name="sourceBitmap">The source image.</param>
         /// <param name="targetWidth">Width of the target.</param>
         /// <param name="targetHeight">Height of the target.</param>
         [Theory]
         [MemberData(nameof(CreateThumbnailTestValues))]
-        public void RescaleImageTest(Bitmap sourceImage, int targetWidth, int targetHeight)
+        public void RescaleImageTest(Bitmap sourceBitmap, int targetWidth, int targetHeight)
         {
-            using (Bitmap result = sourceImage.Rescale(targetWidth, targetHeight))
+            Assert.NotNull(sourceBitmap);
+
+            using (Bitmap result = sourceBitmap.Rescale(targetWidth, targetHeight))
             {
-                ThumbnailResultAssertions(sourceImage, result, targetWidth, targetHeight);
+                ThumbnailResultAssertions(sourceBitmap, result, targetWidth, targetHeight);
             }
         }
 
@@ -63,34 +68,13 @@ namespace Vasont.Inspire.Core.Tests
         /// <param name="targetHeight">Height of the target.</param>
         [Theory]
         [MemberData(nameof(CreateThumbnailTestValues))]
-        public void CreateThumbnailTest(Bitmap sourceImage, int targetWidth, int targetHeight)
+        public void CreateThumbnailTest(Bitmap sourceBitmap, int targetWidth, int targetHeight)
         {
-            using (Bitmap result = sourceImage.Thumbnail(targetWidth, targetHeight))
-            {
-                ThumbnailResultAssertions(sourceImage, result, targetWidth, targetHeight);
-            }
-        }
+            Assert.NotNull(sourceBitmap);
 
-        /// <summary>
-        /// Creates the thumbnail from bytes test.
-        /// </summary>
-        /// <param name="sourceImageStream">Content of the source image.</param>
-        /// <param name="targetWidth">Width of the target.</param>
-        /// <param name="targetHeight">Height of the target.</param>
-        [Theory]
-        [MemberData(nameof(CreateThumbnailFromBytesTestValues))]
-        public void CreateThumbnailFromBytesTest(Stream sourceImageStream, int targetWidth, int targetHeight)
-        {
-            using (Bitmap sourceImage = new Bitmap(sourceImageStream))
+            using (Bitmap result = sourceBitmap.Thumbnail(targetWidth, targetHeight))
             {
-                byte[] outputBytes = sourceImageStream.CreateThumbnail(targetWidth, targetHeight);
-                using (MemoryStream resultStream = new MemoryStream(outputBytes))
-                {
-                    using (Bitmap result = new Bitmap(resultStream))
-                    {
-                        ThumbnailResultAssertions(sourceImage, result, targetWidth, targetHeight);
-                    }
-                }
+                ThumbnailResultAssertions(sourceBitmap, result, targetWidth, targetHeight);
             }
         }
 

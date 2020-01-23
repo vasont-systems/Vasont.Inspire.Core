@@ -56,7 +56,7 @@ namespace Vasont.Inspire.Core.Tests
             }
             else
             {
-                Assert.Null(info);
+                Assert.Equal(CultureInfo.InvariantCulture, info);
             }
         }
     }
