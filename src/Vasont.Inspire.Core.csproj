@@ -24,9 +24,9 @@
     <Copyright>Copyright (c) 2019, Vasont Systems. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Fixed issues with resource extension methods.</PackageReleaseNotes>
+    <PackageReleaseNotes>Cleared out most resource strings and images to support only those that are necessary.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
@@ -42,8 +42,6 @@
     <None Remove="MultilingualResources\Vasont.Inspire.Core.es.xlf" />
     <None Remove="MultilingualResources\Vasont.Inspire.Core.fr.xlf" />
     <None Remove="MultilingualResources\Vasont.Inspire.Core.ru.xlf" />
-    <None Remove="Resources\imagedefaulticon.png" />
-    <None Remove="Resources\videodefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\AsyncHelper.cs" />
@@ -57,10 +55,6 @@
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Extensions\TypeExtensions.cs" />
     <Compile Include="Extensions\UriExtensions.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\imagedefaulticon.png" />
-    <EmbeddedResource Include="Resources\videodefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
