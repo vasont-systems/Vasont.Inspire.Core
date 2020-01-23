@@ -2365,5 +2365,10 @@ namespace Vasont.Inspire.Core.Properties
         /// Gets the key for the TranslationComponentNotProcessed resource string.
         /// </summary>
         public const string TranslationComponentNotProcessed = "TranslationComponentNotProcessed"; 
+
+        /// <summary>
+        /// Gets the key for the ImportComponentFileInvalidText resource string.
+        /// </summary>
+        public const string ImportComponentFileInvalidText = "ImportComponentFileInvalidText"; 
     }
 }
