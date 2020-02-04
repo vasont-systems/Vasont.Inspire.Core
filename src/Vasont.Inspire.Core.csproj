@@ -13,7 +13,7 @@
     <SccLocalPath>SAK</SccLocalPath>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFrameworks>net461;net48;netstandard2.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <NeutralLanguage>en</NeutralLanguage>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -21,12 +21,12 @@
     <Company>GlobalLink Vasont</Company>
     <Product>GlobalLink Vasont Inspire</Product>
     <Description>Contains the core supporting components and extension routines for the GlobalLink Vasont Inspire application and SDK library.</Description>
-    <Copyright>Copyright (c) 2019, Vasont Systems. All rights reserved.</Copyright>
+    <Copyright>Copyright (c) 2020, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Added support back for older frameworks as a stop gap for Kairos development and refactor into Inspire.</PackageReleaseNotes>
+    <PackageReleaseNotes>dropping support for .NET standard 2.0. This is .NET Core 2.2 which is already flagged as deprecated. Support for LTS will be our only standard from here on out.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
@@ -43,7 +43,6 @@
     <None Remove="MultilingualResources\Vasont.Inspire.Core.fr.xlf" />
     <None Remove="MultilingualResources\Vasont.Inspire.Core.ru.xlf" />
     <None Remove="Resources\imagedefaulticon.png" />
-    <None Remove="Resources\videodefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\AsyncHelper.cs" />
@@ -52,7 +51,6 @@
     <Compile Include="Extensions\LocaleExtensions.cs" />
     <Compile Include="Extensions\LocalizedDescriptionAttribute.cs" />
     <Compile Include="Extensions\SortDirection.cs" />
-    <Compile Include="Extensions\ResourceExtensions.cs" />
     <Compile Include="Extensions\SerializeExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Extensions\TypeExtensions.cs" />
@@ -60,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\imagedefaulticon.png" />
-    <EmbeddedResource Include="Resources\videodefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />

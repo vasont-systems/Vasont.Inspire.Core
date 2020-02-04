@@ -151,13 +151,13 @@ namespace Vasont.Inspire.Core.Extensions
         /// <param name="ignoreCase"><c>true</c> to perform a case-insensitive search; otherwise <c>false</c>.</param>
         /// <param name="defaultValue">Default Value.</param>
         /// <returns>Returns the enumerated value on success.</returns>
-        public static T ToEnum<T>(this string value, bool ignoreCase = true, T defaultValue = default)
+        public static T ToEnum<T>(this string value, bool ignoreCase = true, T defaultValue = default) where T : struct
         {
             T result = defaultValue;
 
             if (!string.IsNullOrWhiteSpace(value))
             {
-                result = (T)Enum.Parse(typeof(T), value, ignoreCase);
+                Enum.TryParse(value, ignoreCase, out result);
             }
 
             return result;

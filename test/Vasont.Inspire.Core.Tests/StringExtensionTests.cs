@@ -23,8 +23,8 @@ namespace Vasont.Inspire.Core.Tests
         /// <param name="truncateLength">Length of the truncate.</param>
         /// <param name="expectedLength">The expected length.</param>
         [Theory]
-        [InlineData("01234567890", 5, 5)]
-        [InlineData("01234567890", 11, 10)]
+        [InlineData("1234567890", 5, 5)]
+        [InlineData("1234567890", 11, 10)]
         public void StringTruncateTest(string text, int truncateLength, int expectedLength)
         {
             Assert.Equal(expectedLength, text.Truncate(truncateLength).Length);
