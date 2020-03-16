@@ -278,6 +278,15 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Locked for Editing by.
+        /// </summary>
+        public static string LockedForEditingByText {
+            get {
+                return ResourceManager.GetString("LockedForEditingByText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Locked for review by.
         /// </summary>
         public static string LockedForReviewByText {
