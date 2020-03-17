@@ -190,6 +190,9 @@
   <data name="LockedByText" xml:space="preserve">
     <value>Locked by</value>
   </data>
+  <data name="LockedForEditingByText" xml:space="preserve">
+    <value>Locked for Editing by</value>
+  </data>
   <data name="LockedForReviewByText" xml:space="preserve">
     <value>Locked for review by</value>
   </data>

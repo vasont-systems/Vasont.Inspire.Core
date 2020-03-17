@@ -24,9 +24,9 @@
     <Copyright>Copyright (c) 2020, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Adding older runtime back in as a stop gap to support Kairos until which time PD can be refactored into Inspire.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added new Uri helper</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
