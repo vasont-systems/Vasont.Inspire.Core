@@ -132,6 +132,11 @@ namespace Vasont.Inspire.Core.Properties
         public const string LockedByText = "LockedByText"; 
 
         /// <summary>
+        /// Gets the key for the LockedForEditingByText resource string.
+        /// </summary>
+        public const string LockedForEditingByText = "LockedForEditingByText"; 
+
+        /// <summary>
         /// Gets the key for the LockedForReviewByText resource string.
         /// </summary>
         public const string LockedForReviewByText = "LockedForReviewByText"; 

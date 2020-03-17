@@ -23,7 +23,7 @@ namespace Vasont.Inspire.Core.Extensions
         /// <returns>Returns a fully qualified URL to a UI module within the application.</returns>
         public static string CreateApiUrl(Uri requestUri, string routePath, Dictionary<string, object> parameters = null)
         {
-            Uri requestedUri = requestUri ?? new Uri("http://localhost");
+            Uri requestedUri = requestUri ?? new Uri("https://localhost");
 
             // use it to get the authority left part to build a new URL
             string result = requestedUri.GetLeftPart(UriPartial.Authority);
@@ -56,7 +56,7 @@ namespace Vasont.Inspire.Core.Extensions
         /// <returns>Returns a fully qualified URL to a UI module within the application.</returns>
         public static string CreateUiUrl(Uri requestUri, string moduleKey, Dictionary<string, object> parameters = null)
         {
-            var requestedUri = requestUri ?? new Uri("http://localhost");
+            var requestedUri = requestUri ?? new Uri("https://localhost");
 
             // use it to get the authority left part to build a new URL
             string result = requestedUri.GetLeftPart(UriPartial.Authority);

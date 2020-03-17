@@ -116,7 +116,7 @@
         </trans-unit>
         <trans-unit id="LockedForEditingByText" translate="yes" xml:space="preserve">
           <source>Locked for Editing by</source>
-          <target state="new">Locked for Editing by</target>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Locked for Editing by</target>
         </trans-unit>
       </group>
     </body>
