@@ -79,5 +79,92 @@ namespace Vasont.Inspire.Core.Extensions
 
             return result;
         }
+
+        /// <summary>
+        /// This method is used to take in a URI and add a specified suffix to the base URI domain and return.
+        /// </summary>
+        /// <param name="requestUri">Contains the originating request URI to modify.</param>
+        /// <param name="apiSuffix">Contains the optional suffix to add to the base URI sub-domain.</param>
+        /// <returns>Returns a new base Uri from the request URI with the specified API suffix appended to the sub-domain of the base domain.</returns>
+        public static Uri AddApiSuffixBase(Uri requestUri, string apiSuffix = "-api")
+        {
+            if (requestUri == null)
+            {
+                throw new ArgumentNullException(nameof(requestUri));
+            }
+            
+            // use it to get the authority left part to build a new URL
+            string result = requestUri.GetLeftPart(UriPartial.Authority);
+
+            if (!string.IsNullOrWhiteSpace(apiSuffix))
+            {
+                string[] hostParts = result.Split('.');
+
+                // if host parts returned and the subdomain does not end with the api suffix...
+                if (hostParts != null && hostParts.Length > 0 && !hostParts[0].EndsWith(apiSuffix, StringComparison.OrdinalIgnoreCase))
+                {
+                    // add the api suffix and rebuild the result
+                    hostParts[0] += apiSuffix;
+                    result = string.Join(".", hostParts);
+                }
+            }
+
+            return new Uri(result);
+        }
+
+        /// <summary>
+        /// This method is used to take in a URI and add a specified suffix to the base URI domain and return.
+        /// </summary>
+        /// <param name="requestUri">Contains the originating request URI to modify.</param>
+        /// <param name="apiSuffix">Contains the optional suffix to add to the base URI sub-domain.</param>
+        /// <returns>Returns a new base Uri from the request URI with the specified API suffix appended to the sub-domain of the base domain.</returns>
+        public static string AddApiSuffixBase(string requestUri, string apiSuffix = "-api")
+        {
+            return AddApiSuffixBase(new Uri(requestUri), apiSuffix).ToString();
+        }
+
+        /// <summary>
+        /// Strips the -API suffix from a sub domain string.
+        /// </summary>
+        /// <param name="requestUri">The full host domain.</param>
+        /// <param name="apiSuffix">Contains the optional suffix to find and remove from the base URI sub-domain.</param>
+        /// <returns>Returns a full host domain without the -api suffix.</returns>
+        public static Uri StripApiSuffixBase(Uri requestUri, string apiSuffix = "-api")
+        {
+            if (requestUri == null)
+            {
+                throw new ArgumentNullException(nameof(requestUri));
+            }
+
+            // use it to get the authority left part to build a new URL
+            string result = requestUri.GetLeftPart(UriPartial.Authority);
+
+            if (!string.IsNullOrWhiteSpace(apiSuffix))
+            {
+                if (result.Contains($"{apiSuffix}."))
+                {
+                    string[] parts = result.Split('.');
+
+                    if (parts != null && parts.Length > 0 && parts[0].EndsWith(apiSuffix, StringComparison.OrdinalIgnoreCase))
+                    {
+                        parts[0] = parts[0].Replace(apiSuffix, string.Empty);
+                        result = string.Join(".", parts);
+                    }
+                }
+            }
+
+            return new Uri(result);
+        }
+
+        /// <summary>
+        /// Strips the -API suffix from a sub domain string.
+        /// </summary>
+        /// <param name="requestUri">The full host domain.</param>
+        /// <param name="apiSuffix">Contains the optional suffix to find and remove from the base URI sub-domain.</param>
+        /// <returns>Returns a full host domain without the -api suffix.</returns>
+        public static string StripApiSuffixBase(string requestUri, string apiSuffix = "-api")
+        {
+            return StripApiSuffixBase(new Uri(requestUri), apiSuffix).ToString();
+        }
     }
 }
