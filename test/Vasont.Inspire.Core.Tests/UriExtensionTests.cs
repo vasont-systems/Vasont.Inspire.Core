@@ -18,6 +18,12 @@ namespace Vasont.Inspire.Core.Tests
     [Trait("Category", "Misc Tests")]
     public class UriExtensionTests
     {
+        /// <summary>
+        /// This method is used to test the suffix appending via URI extension.
+        /// </summary>
+        /// <param name="input">Contains the input data.</param>
+        /// <param name="suffix">Contains the suffix to append.</param>
+        /// <param name="expectedResult">Contains the expected result.</param>
         [Theory]
         [InlineData("https://inspire.vasont.com", "-api", "https://inspire-api.vasont.com/")]
         [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire-api.vasont.com/")]
@@ -29,16 +35,28 @@ namespace Vasont.Inspire.Core.Tests
             Assert.Equal(result.ToString(), expectedResult);
         }
 
+        /// <summary>
+        /// This method is used to test the suffix appending via URI extension.
+        /// </summary>
+        /// <param name="input">Contains the input data.</param>
+        /// <param name="suffix">Contains the suffix to append.</param>
+        /// <param name="expectedResult">Contains the expected result.</param>
         [Theory]
-        [InlineData("https://inspire.vasont.com", "-api", "https://inspire-api.vasont.com/")]
-        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire-api.vasont.com/")]
-        [InlineData("https://inspire.vasont.com", "", "https://inspire.vasont.com/")]
+        [InlineData("https://inspire.vasont.com", "-api", "https://inspire-api.vasont.com")]
+        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire-api.vasont.com")]
+        [InlineData("https://inspire.vasont.com", "", "https://inspire.vasont.com")]
         public void TestAddApiSuffixBaseString(string input, string suffix, string expectedResult)
         {
             string result = UriExtensions.AddApiSuffixBase(input, suffix);
             Assert.Equal(result, expectedResult);
         }
 
+        /// <summary>
+        /// This method is used to test the suffix appending via URI extension.
+        /// </summary>
+        /// <param name="input">Contains the input data.</param>
+        /// <param name="suffix">Contains the suffix to append.</param>
+        /// <param name="expectedResult">Contains the expected result.</param>
         [Theory]
         [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire.vasont.com/")]
         [InlineData("https://inspire.vasont.com", "-api", "https://inspire.vasont.com/")]
@@ -50,10 +68,16 @@ namespace Vasont.Inspire.Core.Tests
             Assert.Equal(result.ToString(), expectedResult);
         }
 
+        /// <summary>
+        /// This method is used to test the suffix appending via URI extension.
+        /// </summary>
+        /// <param name="input">Contains the input data.</param>
+        /// <param name="suffix">Contains the suffix to append.</param>
+        /// <param name="expectedResult">Contains the expected result.</param>
         [Theory]
-        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire.vasont.com/")]
-        [InlineData("https://inspire.vasont.com", "-api", "https://inspire.vasont.com/")]
-        [InlineData("https://inspire-api.vasont.com", "", "https://inspire-api.vasont.com/")]
+        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire.vasont.com")]
+        [InlineData("https://inspire.vasont.com", "-api", "https://inspire.vasont.com")]
+        [InlineData("https://inspire-api.vasont.com", "", "https://inspire-api.vasont.com")]
         public void TestStripApiSuffixBaseString(string input, string suffix, string expectedResult)
         {
             string result = UriExtensions.StripApiSuffixBase(input, suffix);

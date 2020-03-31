@@ -24,9 +24,12 @@ namespace Vasont.Inspire.Core.Tests
         /// </value>
         public static IEnumerable<object[]> CreateThumbnailTestValues => new[]
         {
-            new object[] { 
+            new object[] 
+            { 
                 Properties.Resources.ImageDefaultIcon,
-                32, 32 }
+                32, 
+                32 
+            }
         };
 
         /// <summary>
@@ -37,9 +40,12 @@ namespace Vasont.Inspire.Core.Tests
         /// </value>
         public static IEnumerable<object[]> CreateThumbnailFromBytesTestValues => new[]
         {
-            new object[] {
+            new object[] 
+            {
                 Properties.Resources.ImageDefaultIcon,
-                32, 32 }
+                32, 
+                32 
+            }
         };
 
         /// <summary>
@@ -63,7 +69,7 @@ namespace Vasont.Inspire.Core.Tests
         /// <summary>
         /// Thumbnail creation test.
         /// </summary>
-        /// <param name="sourceImage">The source image.</param>
+        /// <param name="sourceBitmap">The source image.</param>
         /// <param name="targetWidth">Width of the target.</param>
         /// <param name="targetHeight">Height of the target.</param>
         [Theory]
