@@ -30,9 +30,9 @@ namespace Vasont.Inspire.Core.Tests
         }
 
         [Theory]
-        [InlineData("https://inspire.vasont.com", "-api", "https://inspire-api.vasont.com/")]
-        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire-api.vasont.com/")]
-        [InlineData("https://inspire.vasont.com", "", "https://inspire.vasont.com/")]
+        [InlineData("https://inspire.vasont.com", "-api", "https://inspire-api.vasont.com")]
+        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire-api.vasont.com")]
+        [InlineData("https://inspire.vasont.com", "", "https://inspire.vasont.com")]
         public void TestAddApiSuffixBaseString(string input, string suffix, string expectedResult)
         {
             string result = UriExtensions.AddApiSuffixBase(input, suffix);
@@ -51,9 +51,9 @@ namespace Vasont.Inspire.Core.Tests
         }
 
         [Theory]
-        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire.vasont.com/")]
-        [InlineData("https://inspire.vasont.com", "-api", "https://inspire.vasont.com/")]
-        [InlineData("https://inspire-api.vasont.com", "", "https://inspire-api.vasont.com/")]
+        [InlineData("https://inspire-api.vasont.com", "-api", "https://inspire.vasont.com")]
+        [InlineData("https://inspire.vasont.com", "-api", "https://inspire.vasont.com")]
+        [InlineData("https://inspire-api.vasont.com", "", "https://inspire-api.vasont.com")]
         public void TestStripApiSuffixBaseString(string input, string suffix, string expectedResult)
         {
             string result = UriExtensions.StripApiSuffixBase(input, suffix);
