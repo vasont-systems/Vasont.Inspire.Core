@@ -118,6 +118,34 @@
           <source>Locked for Editing by</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Gesperrt für die Bearbeitung durch</target>
         </trans-unit>
+        <trans-unit id="LabelAtVendorText" translate="yes" xml:space="preserve">
+          <source>At Vendor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bei Vendor</target>
+        </trans-unit>
+        <trans-unit id="LabelCancelledText" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Abgesagt</target>
+        </trans-unit>
+        <trans-unit id="LabelCompletedText" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Abgeschlossen</target>
+        </trans-unit>
+        <trans-unit id="LabelExportingText" translate="yes" xml:space="preserve">
+          <source>Exporting</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Es wird exportiert</target>
+        </trans-unit>
+        <trans-unit id="LabelFailedRetrievingText" translate="yes" xml:space="preserve">
+          <source>Failed Retrieving</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fehlgeschlagenes Abrufen</target>
+        </trans-unit>
+        <trans-unit id="LabelFailedSendingText" translate="yes" xml:space="preserve">
+          <source>Failed Sending</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fehlgeschlagenes Senden</target>
+        </trans-unit>
+        <trans-unit id="LabelTranslatingText" translate="yes" xml:space="preserve">
+          <source>Translating</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wird übersetzt</target>
+        </trans-unit>
       </group>
     </body>
   </file>

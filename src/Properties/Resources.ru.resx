@@ -96,4 +96,25 @@
   <data name="LockedForEditingByText" xml:space="preserve">
     <value>Заблокирован для редактирования</value>
   </data>
+  <data name="LabelAtVendorText" xml:space="preserve">
+    <value>У поставщика</value>
+  </data>
+  <data name="LabelCancelledText" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="LabelCompletedText" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="LabelExportingText" xml:space="preserve">
+    <value>Экспорт </value>
+  </data>
+  <data name="LabelFailedRetrievingText" xml:space="preserve">
+    <value>Неудачное извлечение</value>
+  </data>
+  <data name="LabelFailedSendingText" xml:space="preserve">
+    <value>Неудачная отправка</value>
+  </data>
+  <data name="LabelTranslatingText" xml:space="preserve">
+    <value>Выполняется перевод</value>
+  </data>
 </root>

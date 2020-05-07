@@ -118,6 +118,34 @@
           <source>Locked for Editing by</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Locked for Editing by</target>
         </trans-unit>
+        <trans-unit id="LabelAtVendorText" translate="yes" xml:space="preserve">
+          <source>At Vendor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chez Vendor</target>
+        </trans-unit>
+        <trans-unit id="LabelCancelledText" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Annulé</target>
+        </trans-unit>
+        <trans-unit id="LabelCompletedText" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Terminé</target>
+        </trans-unit>
+        <trans-unit id="LabelExportingText" translate="yes" xml:space="preserve">
+          <source>Exporting</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Exportation</target>
+        </trans-unit>
+        <trans-unit id="LabelFailedRetrievingText" translate="yes" xml:space="preserve">
+          <source>Failed Retrieving</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Récupération ratée</target>
+        </trans-unit>
+        <trans-unit id="LabelFailedSendingText" translate="yes" xml:space="preserve">
+          <source>Failed Sending</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Envoi raté</target>
+        </trans-unit>
+        <trans-unit id="LabelTranslatingText" translate="yes" xml:space="preserve">
+          <source>Translating</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Traduction en cours</target>
+        </trans-unit>
       </group>
     </body>
   </file>
