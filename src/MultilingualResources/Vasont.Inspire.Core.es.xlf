@@ -1,152 +1,152 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en" target-language="es" original="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
-    <header>
-      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
-    </header>
-    <body>
-      <group id="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX">
-        <trans-unit id="ArgumentMustBeGreaterThanZeroErrorFormat" translate="yes" xml:space="preserve">
+	<file datatype="xml" source-language="en" target-language="es" original="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+		<header>
+			<tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6900.0" tool-company="Microsoft" />
+		</header>
+		<body>
+			<group id="VASONT.INSPIRE.CORE/PROPERTIES/RESOURCES.RESX">
+				<trans-unit id="ArgumentMustBeGreaterThanZeroErrorFormat" translate="yes" xml:space="preserve">
           <source>{0} must be greater than 0.</source>
           <target state="translated" state-qualifier="mt-suggestion">{0} debe ser mayor que 0.</target>
         </trans-unit>
-        <trans-unit id="DeserializeFileNotFoundErrorText" translate="yes" xml:space="preserve">
+				<trans-unit id="DeserializeFileNotFoundErrorText" translate="yes" xml:space="preserve">
           <source>The file specified was not found.</source>
           <target state="translated" state-qualifier="mt-suggestion">No se encontró el archivo especificado.</target>
         </trans-unit>
-        <trans-unit id="InvalidFileArgumentErrorText" translate="yes" xml:space="preserve">
+				<trans-unit id="InvalidFileArgumentErrorText" translate="yes" xml:space="preserve">
           <source>A valid file path must be specified.</source>
           <target state="translated" state-qualifier="mt-suggestion">Se debe especificar una ruta de acceso de archivo válida.</target>
         </trans-unit>
-        <trans-unit id="LabelAndText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelAndText" translate="yes" xml:space="preserve">
           <source>And</source>
           <target state="translated" state-qualifier="tm-suggestion">Y</target>
         </trans-unit>
-        <trans-unit id="LabelApplicationText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelApplicationText" translate="yes" xml:space="preserve">
           <source>Application</source>
           <target state="translated" state-qualifier="tm-suggestion">Aplicación</target>
         </trans-unit>
-        <trans-unit id="LabelContainsText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelContainsText" translate="yes" xml:space="preserve">
           <source>Contains</source>
           <target state="translated" state-qualifier="tm-suggestion">Contiene</target>
         </trans-unit>
-        <trans-unit id="LabelDebugText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelDebugText" translate="yes" xml:space="preserve">
           <source>Debug</source>
           <target state="translated" state-qualifier="tm-suggestion">Depurar</target>
         </trans-unit>
-        <trans-unit id="LabelDoesNotContainText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelDoesNotContainText" translate="yes" xml:space="preserve">
           <source>Does Not Contain</source>
           <target state="translated" state-qualifier="tm-suggestion">No contiene</target>
         </trans-unit>
-        <trans-unit id="LabelDoesNotEndWithText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelDoesNotEndWithText" translate="yes" xml:space="preserve">
           <source>Does Not End With</source>
           <target state="translated" state-qualifier="tm-suggestion">No termina con</target>
         </trans-unit>
-        <trans-unit id="LabelDoesNotStartWithText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelDoesNotStartWithText" translate="yes" xml:space="preserve">
           <source>Does Not Start With</source>
           <target state="translated" state-qualifier="tm-suggestion">No empieza con</target>
         </trans-unit>
-        <trans-unit id="LabelEndsWithText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelEndsWithText" translate="yes" xml:space="preserve">
           <source>Ends With</source>
           <target state="translated" state-qualifier="tm-suggestion">Termina con</target>
         </trans-unit>
-        <trans-unit id="LabelErrorText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelErrorText" translate="yes" xml:space="preserve">
           <source>Error</source>
           <target state="translated" state-qualifier="tm-suggestion">Fehler</target>
         </trans-unit>
-        <trans-unit id="LabelFatalText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelFatalText" translate="yes" xml:space="preserve">
           <source>Fatal</source>
           <target state="translated" state-qualifier="tm-suggestion">Irrecuperable</target>
         </trans-unit>
-        <trans-unit id="LabelGeneralText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelGeneralText" translate="yes" xml:space="preserve">
           <source>General</source>
           <target state="translated" state-qualifier="tm-suggestion">Generales</target>
         </trans-unit>
-        <trans-unit id="LabelInformationText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelInformationText" translate="yes" xml:space="preserve">
           <source>Information</source>
           <target state="translated" state-qualifier="tm-suggestion">Información</target>
         </trans-unit>
-        <trans-unit id="LabelNoText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelNoText" translate="yes" xml:space="preserve">
           <source>No</source>
           <target state="translated" state-qualifier="tm-suggestion">Nº</target>
         </trans-unit>
-        <trans-unit id="LabelOrText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelOrText" translate="yes" xml:space="preserve">
           <source>Or</source>
           <target state="translated" state-qualifier="tm-suggestion">O</target>
         </trans-unit>
-        <trans-unit id="LabelSecurityText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelSecurityText" translate="yes" xml:space="preserve">
           <source>Security</source>
           <target state="translated" state-qualifier="tm-suggestion">Seguridad</target>
         </trans-unit>
-        <trans-unit id="LabelStartsWithText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelStartsWithText" translate="yes" xml:space="preserve">
           <source>Starts With</source>
           <target state="translated" state-qualifier="tm-suggestion">Empieza con</target>
         </trans-unit>
-        <trans-unit id="LabelSystemText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelSystemText" translate="yes" xml:space="preserve">
           <source>System</source>
           <target state="translated" state-qualifier="tm-suggestion">Sistema</target>
         </trans-unit>
-        <trans-unit id="LabelWarningText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelWarningText" translate="yes" xml:space="preserve">
           <source>Warning</source>
           <target state="translated" state-qualifier="tm-suggestion">Advertencia</target>
         </trans-unit>
-        <trans-unit id="LabelYesText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelYesText" translate="yes" xml:space="preserve">
           <source>Yes</source>
           <target state="translated" state-qualifier="tm-suggestion">SI</target>
         </trans-unit>
-        <trans-unit id="LockedByText" translate="yes" xml:space="preserve">
+				<trans-unit id="LockedByText" translate="yes" xml:space="preserve">
           <source>Locked by</source>
           <target state="translated" state-qualifier="tm-suggestion">Bloqueado por</target>
         </trans-unit>
-        <trans-unit id="LockedForReviewByText" translate="yes" xml:space="preserve">
+				<trans-unit id="LockedForReviewByText" translate="yes" xml:space="preserve">
           <source>Locked for review by</source>
           <target state="translated" state-qualifier="mt-suggestion">Bloqueado para su revisión por</target>
         </trans-unit>
-        <trans-unit id="LockedForTranslationByText" translate="yes" xml:space="preserve">
+				<trans-unit id="LockedForTranslationByText" translate="yes" xml:space="preserve">
           <source>Locked for translation by</source>
           <target state="translated" state-qualifier="mt-suggestion">Bloqueado para traducción por</target>
         </trans-unit>
-        <trans-unit id="RuntimeMessageText" translate="yes" xml:space="preserve">
+				<trans-unit id="RuntimeMessageText" translate="yes" xml:space="preserve">
           <source>{0} Days, {1} Hours, {2} Minutes, {3} Seconds</source>
           <target state="translated" state-qualifier="mt-suggestion">{0} días, {1} horas, {2} minutos, {3} segundos</target>
         </trans-unit>
-        <trans-unit id="ImageDefaultIcon" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
+				<trans-unit id="ImageDefaultIcon" translate="yes" xml:space="preserve" extype="System.Resources.ResXFileRef, System.Windows.Forms">
           <source>..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</source>
           <target state="needs-review-translation">..\Resources\imagedefaulticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</target>
         </trans-unit>
-        <trans-unit id="LockedForEditingByText" translate="yes" xml:space="preserve">
+				<trans-unit id="LockedForEditingByText" translate="yes" xml:space="preserve">
           <source>Locked for Editing by</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Bloqueado para edición por</target>
         </trans-unit>
-        <trans-unit id="LabelAtVendorText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelAtVendorText" translate="yes" xml:space="preserve">
           <source>At Vendor</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">En el vendedor</target>
         </trans-unit>
-        <trans-unit id="LabelCancelledText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelCancelledText" translate="yes" xml:space="preserve">
           <source>Cancelled</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Cancelado</target>
         </trans-unit>
-        <trans-unit id="LabelCompletedText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelCompletedText" translate="yes" xml:space="preserve">
           <source>Completed</source>
           <target state="needs-review-translation" state-qualifier="tm-suggestion">Completado</target>
         </trans-unit>
-        <trans-unit id="LabelExportingText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelExportingText" translate="yes" xml:space="preserve">
           <source>Exporting</source>
-          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exportando </target>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Exportando</target>
         </trans-unit>
-        <trans-unit id="LabelFailedRetrievingText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelFailedRetrievingText" translate="yes" xml:space="preserve">
           <source>Failed Retrieving</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Recuperación fallida</target>
         </trans-unit>
-        <trans-unit id="LabelFailedSendingText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelFailedSendingText" translate="yes" xml:space="preserve">
           <source>Failed Sending</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Envío fallido</target>
         </trans-unit>
-        <trans-unit id="LabelTranslatingText" translate="yes" xml:space="preserve">
+				<trans-unit id="LabelTranslatingText" translate="yes" xml:space="preserve">
           <source>Translating</source>
           <target state="needs-review-translation" state-qualifier="mt-suggestion">Traducción en curso</target>
         </trans-unit>
-      </group>
-    </body>
-  </file>
+			</group>
+		</body>
+	</file>
 </xliff>
