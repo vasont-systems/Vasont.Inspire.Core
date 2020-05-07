@@ -42,6 +42,21 @@ namespace Vasont.Inspire.Core.Properties
         public const string LabelApplicationText = "LabelApplicationText"; 
 
         /// <summary>
+        /// Gets the key for the LabelAtVendorText resource string.
+        /// </summary>
+        public const string LabelAtVendorText = "LabelAtVendorText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelCancelledText resource string.
+        /// </summary>
+        public const string LabelCancelledText = "LabelCancelledText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelCompletedText resource string.
+        /// </summary>
+        public const string LabelCompletedText = "LabelCompletedText"; 
+
+        /// <summary>
         /// Gets the key for the LabelContainsText resource string.
         /// </summary>
         public const string LabelContainsText = "LabelContainsText"; 
@@ -75,6 +90,21 @@ namespace Vasont.Inspire.Core.Properties
         /// Gets the key for the LabelErrorText resource string.
         /// </summary>
         public const string LabelErrorText = "LabelErrorText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelExportingText resource string.
+        /// </summary>
+        public const string LabelExportingText = "LabelExportingText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelFailedRetrievingText resource string.
+        /// </summary>
+        public const string LabelFailedRetrievingText = "LabelFailedRetrievingText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelFailedSendingText resource string.
+        /// </summary>
+        public const string LabelFailedSendingText = "LabelFailedSendingText"; 
 
         /// <summary>
         /// Gets the key for the LabelFatalText resource string.
@@ -115,6 +145,11 @@ namespace Vasont.Inspire.Core.Properties
         /// Gets the key for the LabelSystemText resource string.
         /// </summary>
         public const string LabelSystemText = "LabelSystemText"; 
+
+        /// <summary>
+        /// Gets the key for the LabelTranslatingText resource string.
+        /// </summary>
+        public const string LabelTranslatingText = "LabelTranslatingText"; 
 
         /// <summary>
         /// Gets the key for the LabelWarningText resource string.

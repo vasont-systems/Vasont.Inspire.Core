@@ -116,6 +116,33 @@ namespace Vasont.Inspire.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to At Vendor.
+        /// </summary>
+        public static string LabelAtVendorText {
+            get {
+                return ResourceManager.GetString("LabelAtVendorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancelled.
+        /// </summary>
+        public static string LabelCancelledText {
+            get {
+                return ResourceManager.GetString("LabelCancelledText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Completed.
+        /// </summary>
+        public static string LabelCompletedText {
+            get {
+                return ResourceManager.GetString("LabelCompletedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contains.
         /// </summary>
         public static string LabelContainsText {
@@ -175,6 +202,33 @@ namespace Vasont.Inspire.Core.Properties {
         public static string LabelErrorText {
             get {
                 return ResourceManager.GetString("LabelErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exporting.
+        /// </summary>
+        public static string LabelExportingText {
+            get {
+                return ResourceManager.GetString("LabelExportingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed Retrieving.
+        /// </summary>
+        public static string LabelFailedRetrievingText {
+            get {
+                return ResourceManager.GetString("LabelFailedRetrievingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed Sending.
+        /// </summary>
+        public static string LabelFailedSendingText {
+            get {
+                return ResourceManager.GetString("LabelFailedSendingText", resourceCulture);
             }
         }
         
@@ -247,6 +301,15 @@ namespace Vasont.Inspire.Core.Properties {
         public static string LabelSystemText {
             get {
                 return ResourceManager.GetString("LabelSystemText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translating.
+        /// </summary>
+        public static string LabelTranslatingText {
+            get {
+                return ResourceManager.GetString("LabelTranslatingText", resourceCulture);
             }
         }
         

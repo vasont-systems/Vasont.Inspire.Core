@@ -24,9 +24,9 @@
     <Copyright>Copyright (c) 2020, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Fixed issue with non-uri formatted strings breaking new Uri on passing via string methods for Uri Extensions. This is an issue we need to bypass by implementing unique routine for non-Uri calls.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated resources adding new translation labels to support model enumerations.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.11</Version>
+    <Version>1.0.12</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">

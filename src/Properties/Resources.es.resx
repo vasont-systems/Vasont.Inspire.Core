@@ -96,4 +96,25 @@
   <data name="LockedForEditingByText" xml:space="preserve">
     <value>Bloqueado para edición por</value>
   </data>
+  <data name="LabelAtVendorText" xml:space="preserve">
+    <value>En el vendedor</value>
+  </data>
+  <data name="LabelCancelledText" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="LabelCompletedText" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="LabelExportingText" xml:space="preserve">
+    <value>Exportando</value>
+  </data>
+  <data name="LabelFailedRetrievingText" xml:space="preserve">
+    <value>Recuperación fallida</value>
+  </data>
+  <data name="LabelFailedSendingText" xml:space="preserve">
+    <value>Envío fallido</value>
+  </data>
+  <data name="LabelTranslatingText" xml:space="preserve">
+    <value>Traducción en curso</value>
+  </data>
 </root>

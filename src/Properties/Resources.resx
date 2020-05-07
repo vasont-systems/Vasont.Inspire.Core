@@ -136,6 +136,15 @@
   <data name="LabelApplicationText" xml:space="preserve">
     <value>Application</value>
   </data>
+  <data name="LabelAtVendorText" xml:space="preserve">
+    <value>At Vendor</value>
+  </data>
+  <data name="LabelCancelledText" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="LabelCompletedText" xml:space="preserve">
+    <value>Completed</value>
+  </data>
   <data name="LabelContainsText" xml:space="preserve">
     <value>Contains</value>
   </data>
@@ -156,6 +165,15 @@
   </data>
   <data name="LabelErrorText" xml:space="preserve">
     <value>Error</value>
+  </data>
+  <data name="LabelExportingText" xml:space="preserve">
+    <value>Exporting</value>
+  </data>
+  <data name="LabelFailedRetrievingText" xml:space="preserve">
+    <value>Failed Retrieving</value>
+  </data>
+  <data name="LabelFailedSendingText" xml:space="preserve">
+    <value>Failed Sending</value>
   </data>
   <data name="LabelFatalText" xml:space="preserve">
     <value>Fatal</value>
@@ -180,6 +198,9 @@
   </data>
   <data name="LabelSystemText" xml:space="preserve">
     <value>System</value>
+  </data>
+  <data name="LabelTranslatingText" xml:space="preserve">
+    <value>Translating</value>
   </data>
   <data name="LabelWarningText" xml:space="preserve">
     <value>Warning</value>
