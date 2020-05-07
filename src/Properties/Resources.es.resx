@@ -106,7 +106,7 @@
     <value>Completado</value>
   </data>
   <data name="LabelExportingText" xml:space="preserve">
-    <value>Exportando </value>
+    <value>Exportando</value>
   </data>
   <data name="LabelFailedRetrievingText" xml:space="preserve">
     <value>Recuperación fallida</value>
