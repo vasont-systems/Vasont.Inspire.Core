@@ -231,7 +231,7 @@ namespace Vasont.Inspire.Core.Storage
 
         #endregion Private Static Fields
 
-        #region Public Static Methods
+            #region Public Static Methods
 
         /// <summary>
         /// This extension method is used to add a specified GUID to the component file name.
@@ -331,7 +331,7 @@ namespace Vasont.Inspire.Core.Storage
 
             if (!string.IsNullOrWhiteSpace(extension))
             {
-                string key = extension.Replace(".", string.Empty);
+                string key = extension.Replace(".", string.Empty).ToLowerInvariant();
 
                 if (LookupMap.ContainsKey(key))
                 {
@@ -418,7 +418,7 @@ namespace Vasont.Inspire.Core.Storage
         public static bool IsBrowserImage(string fileName)
         {
             string[] supportedExtensions = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "png", "svg" };
-            return supportedExtensions.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty) ?? string.Empty, StringComparer.OrdinalIgnoreCase);
+            return supportedExtensions.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty).ToLowerInvariant() ?? string.Empty, StringComparer.OrdinalIgnoreCase);
         }
 
         /// <summary>
@@ -430,7 +430,7 @@ namespace Vasont.Inspire.Core.Storage
         public static bool CanCreateThumbnail(string fileName)
         {
             string[] supportedThumbnailImageTypes = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "png", "tif", "tiff" };
-            return supportedThumbnailImageTypes.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty) ?? string.Empty, StringComparer.OrdinalIgnoreCase);
+            return supportedThumbnailImageTypes.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty).ToLowerInvariant() ?? string.Empty, StringComparer.OrdinalIgnoreCase);
         }
 
         /// <summary>
