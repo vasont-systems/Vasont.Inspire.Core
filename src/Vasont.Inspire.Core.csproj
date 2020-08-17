@@ -24,7 +24,7 @@
     <Copyright>Copyright (c) 2020, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Fix for Images with uppercase extension load as Application</PackageReleaseNotes>
+    <PackageReleaseNotes>Added support for CommandLine utilities for use in Console Applications.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Version>1.0.14</Version>
     <SignAssembly>false</SignAssembly>
