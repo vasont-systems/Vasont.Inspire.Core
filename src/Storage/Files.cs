@@ -132,7 +132,6 @@ namespace Vasont.Inspire.Core.Storage
             { "m4u", "video/vnd.mpegurl" },
             { "m4v", "video/x-m4v" },
             { "man", "application/x-troff-man" },
-            { "map", "application/xslfo" },
             { "mathml", "application/mathml+xml" },
             { "me", "application/x-troff-me" },
             { "mesh", "model/mesh" },
