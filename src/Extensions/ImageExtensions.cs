@@ -5,11 +5,15 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Core.Extensions
 {
+    using Svg;
     using System;
     using System.Drawing;
     using System.Drawing.Drawing2D;
     using System.Drawing.Imaging;
     using System.IO;
+    using System.Text;
+    using System.Xml;
+    using Vasont.Inspire.Core.Storage;
 
     /// <summary>
     /// This class contains extensions to support image binary content within the application.
@@ -140,7 +144,6 @@ namespace Vasont.Inspire.Core.Extensions
             catch
             {
                 // if image was bad format, catch exception and set thumbnail to default image icon
-                // this will prevent error import from failing and eliminate error in Xeditor
                 returnValue = Properties.Resources.ImageDefaultIcon.ToByteArray();
             }
 
@@ -173,7 +176,51 @@ namespace Vasont.Inspire.Core.Extensions
             catch
             {
                 // if image was bad format, catch exception and set thumbnail to default image icon
-                // this will prevent error import from failing and eliminate error in Xeditor
+                returnValue = Properties.Resources.ImageDefaultIcon.ToByteArray();
+            }
+
+            return returnValue;
+        }
+
+        /// <summary>
+        /// This method is used to create a thumbnail for a specified binary file content data using filename for conversion type.
+        /// </summary>
+        /// <param name="contents">Contains the binary image contents to convert to a thumbnail.</param>
+        /// <param name="fileName">Contains the binary image filename.</param>
+        /// <param name="thumbnailImageWidth">Contains an optional thumbnail width in pixels.</param>
+        /// <param name="thumbnailImageHeight">Contains an optional thumbnail height in pixels.</param>
+        /// <returns>Returns the thumbnail image binary contents</returns>
+        public static byte[] CreateThumbnailByFilename(this byte[] contents, string fileName, int thumbnailImageWidth = 128, int thumbnailImageHeight = 128)
+        {
+            byte[] returnValue;
+            string fileMimeType = Files.FindMimeContentTypeByExtension(fileName);
+
+            try
+            {
+                // convert to png first 
+                if (fileMimeType.StartsWith("image/svg"))
+                {
+                    string svgContent = Encoding.UTF8.GetString(contents);
+                    XmlDocument doc = new XmlDocument();
+                    doc.LoadXml(svgContent);
+
+                    // Open takes an XmlDocument and converts to SvgDocument
+                    SvgDocument svgDocument = SvgDocument.Open(doc);
+                    var bitmap = svgDocument.Draw();
+
+                    using (MemoryStream memoryStream = new MemoryStream())
+                    {
+                        // Now create thumbnail from png data
+                        contents = memoryStream.ToArray();
+                        bitmap.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
+                    }
+                }
+
+                returnValue = contents.CreateThumbnail();
+            }
+            catch
+            {
+                // if image was bad format, catch exception and set thumbnail to default image icon
                 returnValue = Properties.Resources.ImageDefaultIcon.ToByteArray();
             }
 
