@@ -430,7 +430,7 @@ namespace Vasont.Inspire.Core.Storage
         /// <returns>Returns true if the image can be rendered as a thumbnail within the application.</returns>
         public static bool CanCreateThumbnail(string fileName)
         {
-            string[] supportedThumbnailImageTypes = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "png", "tif", "tiff" };
+            string[] supportedThumbnailImageTypes = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "png", "svg", "tif", "tiff" };
             return supportedThumbnailImageTypes.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty).ToLowerInvariant() ?? string.Empty, StringComparer.OrdinalIgnoreCase);
         }
 
