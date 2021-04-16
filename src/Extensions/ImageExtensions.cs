@@ -211,8 +211,8 @@ namespace Vasont.Inspire.Core.Extensions
                     using (MemoryStream memoryStream = new MemoryStream())
                     {
                         // Now create thumbnail from png data
-                        contents = memoryStream.ToArray();
                         bitmap.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
+                        contents = memoryStream.ToArray();
                     }
                 }
 
