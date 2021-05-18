@@ -84,8 +84,8 @@ namespace Vasont.Inspire.Core.Tests
         [InlineData("image.png", "image/png")]
         [InlineData("image.gif", "image/gif")]
         [InlineData("image.xml", "application/xml")]
-        [InlineData("tranform.xsl", "application/xml")]
-        [InlineData("tranform.xslt", "application/xslt+xml")]
+        [InlineData("tranform.xsl", "application/xsl")]
+        [InlineData("tranform.xslt", "application/xsl")]
         public void FindMimeContentTypeByExtensionTest(string fileName, string expectedResult)
         {
             Assert.Equal(expectedResult, Files.FindMimeContentTypeByExtension(fileName));
