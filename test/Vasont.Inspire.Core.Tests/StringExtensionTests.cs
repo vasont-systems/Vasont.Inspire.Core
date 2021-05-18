@@ -102,5 +102,22 @@ namespace Vasont.Inspire.Core.Tests
         {
             Assert.Equal(input.RemoveGuid(), expectedResult);
         }
+
+        /// <summary>
+        /// This test method tests file names remove GUID extension method.
+        /// </summary>
+        /// <param name="input">Contains the input file name string.</param>
+        /// <param name="expectedResult">Contains the expected output from Remove GUID extension.</param>
+        [Theory]
+        [InlineData("filename.xml", "filename.xml")]
+        [InlineData("filename_1234.xml", "filename_1234.xml")]
+        [InlineData("filename_{44935658-48B8-4F73-BC4C-8971570EE160}.xml", "filename.xml")]
+        [InlineData("filename_44935658-48B8-4F73-BC4C-8971570EE160.xml", "filename.xml")]
+        [InlineData("_44935658-48B8-4F73-BC4C-8971570EE160.xml", ".xml")]
+        [InlineData("1.2.3.4.nowisthetimeforallgoodmentocometheaidoftheirfatherland_01_44935658-48B8-4F73-BC4C-8971570EE160.xml", "1.2.3.4.nowisthetimeforallgoodmentocometheaidoftheirfatherland_01.xml")]
+        public void TestStripGuid(string input, string expectedResult)
+        {
+            Assert.Equal(input.StripGuid(), expectedResult);
+        }
     }
 }
