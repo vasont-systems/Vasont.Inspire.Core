@@ -302,7 +302,7 @@ namespace Vasont.Inspire.Core.Storage
             if (!string.IsNullOrEmpty(fileName))
             {
                 // Get an array of all invalid characters. We're adding ' and # to the list for "safety"
-                invalidCharacters = invalidCharacters ?? new List<char> { '\'', '#', '&', ';', '%', '!', '"', ':', '@', '{', '}', '$' };
+                invalidCharacters = invalidCharacters ?? new List<char> { '\'', '#', '&', ';', '%', '!', '"', ':', '@', '{', '}', '[', ']', '$' };
                 invalidCharacters.AddRange(Path.GetInvalidFileNameChars());
 
                 if (convertSpaceCharacters)
