@@ -104,20 +104,18 @@ namespace Vasont.Inspire.Core.Tests
         }
 
         /// <summary>
-        /// This test method tests file names remove GUID extension method.
+        /// This test method tests file names remove locale extension method.
         /// </summary>
         /// <param name="input">Contains the input file name string.</param>
         /// <param name="expectedResult">Contains the expected output from Remove GUID extension.</param>
         [Theory]
-        [InlineData("filename.xml", "filename.xml")]
-        [InlineData("filename_1234.xml", "filename_1234.xml")]
-        [InlineData("filename_{44935658-48B8-4F73-BC4C-8971570EE160}.xml", "filename.xml")]
-        [InlineData("filename_44935658-48B8-4F73-BC4C-8971570EE160.xml", "filename.xml")]
-        [InlineData("_44935658-48B8-4F73-BC4C-8971570EE160.xml", ".xml")]
-        [InlineData("1.2.3.4.nowisthetimeforallgoodmentocometheaidoftheirfatherland_01_44935658-48B8-4F73-BC4C-8971570EE160.xml", "1.2.3.4.nowisthetimeforallgoodmentocometheaidoftheirfatherland_01.xml")]
-        public void TestStripGuid(string input, string expectedResult)
+        [InlineData("filename", "filename")]
+        [InlineData("filename_1234", "filename_1234")]
+        [InlineData("filename_fr-FR", "filename")]
+        [InlineData("filename_fr-FRR", "filename_fr-FRR")]
+        public void TestRemoveLocale(string input, string expectedResult)
         {
-            Assert.Equal(input.StripGuid(), expectedResult);
+            Assert.Equal(input.RemoveLocale(), expectedResult);
         }
     }
 }
