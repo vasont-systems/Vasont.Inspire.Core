@@ -360,6 +360,25 @@ namespace Vasont.Inspire.Core.Extensions
         }
 
         /// <summary>
+        /// This method is used to remove a locale from the end of a file name.
+        /// </summary>
+        /// <param name="fileName">Contains the file name that does not include an extension and ends with a GUID value.</param>
+        /// <returns>Returns the value of the file name with the GUID value removed.</returns>
+        public static string RemoveLocale(this string fileName)
+        {
+            string pattern = @"_[a-zA-Z][a-zA-Z]-[a-zA-Z][a-zA-Z]$";
+            Regex fileNameRegex = new Regex(pattern, RegexOptions.IgnoreCase);
+
+            if (fileNameRegex.IsMatch(fileName))
+            {
+                // remove it
+                fileName = Regex.Replace(fileName, pattern, "");
+            }
+
+            return fileName;
+        }
+
+        /// <summary>
         /// This method is used to append a value to a file name before the existing GUID.
         /// </summary>
         /// <param name="filePathName">Contains the file path name that ends with a GUID value.</param>
