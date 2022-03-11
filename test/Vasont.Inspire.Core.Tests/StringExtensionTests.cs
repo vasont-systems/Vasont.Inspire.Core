@@ -102,5 +102,20 @@ namespace Vasont.Inspire.Core.Tests
         {
             Assert.Equal(input.RemoveGuid(), expectedResult);
         }
+
+        /// <summary>
+        /// This test method tests file names remove locale extension method.
+        /// </summary>
+        /// <param name="input">Contains the input file name string.</param>
+        /// <param name="expectedResult">Contains the expected output from Remove GUID extension.</param>
+        [Theory]
+        [InlineData("filename", "filename")]
+        [InlineData("filename_1234", "filename_1234")]
+        [InlineData("filename_fr-FR", "filename")]
+        [InlineData("filename_fr-FRR", "filename_fr-FRR")]
+        public void TestRemoveLocale(string input, string expectedResult)
+        {
+            Assert.Equal(input.RemoveLocale(), expectedResult);
+        }
     }
 }
