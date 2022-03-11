@@ -302,7 +302,7 @@ namespace Vasont.Inspire.Core.Extensions
                 {
                     int delimiterPosition = fileNameOnly.LastIndexOf('_');
 
-                    if (delimiterPosition > 0)
+                    if (delimiterPosition >= 0)
                     {
                         fileNameOnly = fileNameOnly.Substring(delimiterPosition + 1);
                     }
@@ -528,17 +528,7 @@ namespace Vasont.Inspire.Core.Extensions
         /// <returns>Returns the filename without a GUID value.</returns>
         public static string StripGuid(this string fileName)
         {
-            string originalFileNameNoExtension = Path.GetFileNameWithoutExtension(fileName);
-            string originalExtension = Path.GetExtension(fileName);
-
-            // if the original has a GUID...
-            if (originalFileNameNoExtension.ContainsGuid())
-            {
-                // remove the GUID
-                originalFileNameNoExtension = originalFileNameNoExtension.RemoveGuid();
-            }
-
-            return originalFileNameNoExtension + originalExtension;
+            return fileName.ContainsGuid() ? fileName.RemoveGuid() : fileName;
         }
 
         /// <summary>
