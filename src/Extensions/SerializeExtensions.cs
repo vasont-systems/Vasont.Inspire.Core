@@ -66,10 +66,17 @@ namespace Vasont.Inspire.Core.Extensions
             string result;
 
             XmlSerializer objectSerializer = new XmlSerializer(typeof(T));
-            
-            using (MemoryStream ms = new MemoryStream())
+
+            XmlWriterSettings settings = new XmlWriterSettings
             {
-                objectSerializer.Serialize(ms, value);
+                Encoding = new UTF8Encoding(false),
+                OmitXmlDeclaration = true
+            };
+
+            using (MemoryStream ms = new MemoryStream())
+            using (var writer = XmlWriter.Create(ms, settings))
+            {
+                objectSerializer.Serialize(writer, value);
                 result = Encoding.UTF8.GetString(ms.ToArray());
             }
 
