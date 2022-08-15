@@ -230,9 +230,23 @@ namespace Vasont.Inspire.Core.Storage
             { "zip", "application/zip" }
         };
 
+        /// <summary>
+        /// Contains a dictionary of known markdown content types.
+        /// </summary>
+        private static readonly Dictionary<string, string> MarkDownMap = new Dictionary<string, string>
+        {
+            { "md", "text/markdown" },
+            { "mkd", "text/markdown" },
+            { "mdwn", "text/markdown" },
+            { "mdown", "text/markdown" },
+            { "mdtxt", "text/markdown" },
+            { "mdtext", "text/markdown" },
+            { "markddown", "text/markdown" }
+       };
+
         #endregion Private Static Fields
 
-            #region Public Static Methods
+        #region Public Static Methods
 
         /// <summary>
         /// This extension method is used to add a specified GUID to the component file name.
@@ -494,3 +508,4 @@ namespace Vasont.Inspire.Core.Storage
         #endregion Public Static Methods
     }
 }
+
