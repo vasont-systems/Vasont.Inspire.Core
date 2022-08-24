@@ -230,9 +230,23 @@ namespace Vasont.Inspire.Core.Storage
             { "zip", "application/zip" }
         };
 
+        /// <summary>
+        /// Contains a dictionary of known markdown content types.
+        /// </summary>
+        private static readonly Dictionary<string, string> MarkDownMap = new Dictionary<string, string>
+        {
+            { "md", "text/markdown" },
+            { "mkd", "text/markdown" },
+            { "mdwn", "text/markdown" },
+            { "mdown", "text/markdown" },
+            { "mdtxt", "text/markdown" },
+            { "mdtext", "text/markdown" },
+            { "markddown", "text/markdown" }
+       };
+
         #endregion Private Static Fields
 
-            #region Public Static Methods
+        #region Public Static Methods
 
         /// <summary>
         /// This extension method is used to add a specified GUID to the component file name.
@@ -381,6 +395,26 @@ namespace Vasont.Inspire.Core.Storage
         }
 
         /// <summary>
+        /// This method will determine if a file is a markdown file based on the file extension.
+        /// </summary>
+        /// <param name="fileName">Contains the file name.</param>
+        /// <returns>Returns a value indicating whether the file is a markdown file.</returns>
+        public static bool FileIsMarkDown(this string fileName)
+        {
+            bool isMarkDown = false;
+
+            // determine if we are dealing with an XML file by file extension
+            string fileExtension = Path.GetExtension(fileName);
+
+            if (!string.IsNullOrWhiteSpace(fileExtension))
+            {
+                isMarkDown = MarkDownMap.ContainsValue(fileExtension.ToLowerInvariant());
+            }
+
+            return isMarkDown;
+        }
+
+        /// <summary>
         /// This method is used to determine if the MIME content type specified matches that for a
         /// known image type.
         /// </summary>
@@ -494,3 +528,4 @@ namespace Vasont.Inspire.Core.Storage
         #endregion Public Static Methods
     }
 }
+
