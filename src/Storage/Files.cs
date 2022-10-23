@@ -40,6 +40,7 @@ namespace Vasont.Inspire.Core.Storage
             { "mac", "image/x-macpaint" },
             { "pbm", "image/x-portable-bitmap" },
             { "pct", "image/pict" },
+            { "pdf", "application/pdf" },
             { "pgm", "image/x-portable-graymap" },
             { "pic", "image/pict" },
             { "pict", "image/pict" },
@@ -459,7 +460,7 @@ namespace Vasont.Inspire.Core.Storage
         /// </returns>
         public static bool IsBrowserImage(string fileName)
         {
-            string[] supportedExtensions = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "png", "svg" };
+            string[] supportedExtensions = { "apng", "bmp", "gif", "ico", "jfif", "jpeg", "jpe", "jpg", "pdf", "png", "svg" };
             return supportedExtensions.Contains(Path.GetExtension(fileName)?.Replace(".", string.Empty).ToLowerInvariant() ?? string.Empty, StringComparer.OrdinalIgnoreCase);
         }
 
