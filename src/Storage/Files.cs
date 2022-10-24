@@ -162,7 +162,6 @@ namespace Vasont.Inspire.Core.Storage
             { "oda", "application/oda" },
             { "ogg", "application/ogg" },
             { "pdb", "chemical/x-pdb" },
-            { "pdf", "application/pdf" },
             { "pgn", "application/x-chess-pgn" },
             { "ppt", "application/vnd.ms-powerpoint" },
             { "pptx", "application/vnd.openxmlformats-officedocument.presentationml.presentation" },
