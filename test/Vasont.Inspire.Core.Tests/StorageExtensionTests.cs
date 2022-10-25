@@ -68,6 +68,7 @@ namespace Vasont.Inspire.Core.Tests
         [InlineData("image/GIF", true)]
         [InlineData("image/randomValue", false)]
         [InlineData("application/xml", false)]
+        [InlineData("application/pdf", true)]
         public void IsImageTest(string contentType, bool expectedResult)
         {
             Assert.Equal(expectedResult, Files.IsImageContent(contentType));

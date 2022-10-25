@@ -5,6 +5,8 @@
 //-------------------------------------------------------------
 namespace Vasont.Inspire.Core.Extensions
 {
+    using PdfLibCore;
+    using PdfLibCore.Enums;
     using Svg;
     using System;
     using System.Drawing;
@@ -213,6 +215,28 @@ namespace Vasont.Inspire.Core.Extensions
                         // Now create thumbnail from png data
                         bitmap.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Png);
                         contents = memoryStream.ToArray();
+                    }
+                }
+                else if (fileMimeType.StartsWith("application/pdf"))
+                {
+                    var dpiX = 300D;
+                    var dpiY = 300D;
+                    
+                    var pdfDocument = new PdfDocument(contents);
+                    foreach (var page in pdfDocument.Pages)
+                    {
+                        using var pdfPage = page;
+                        var pageWidth = (int)(dpiX * pdfPage.Size.Width / 72);
+                        var pageHeight = (int)(dpiY * pdfPage.Size.Height / 72);
+
+                        using var bitmap = new PdfiumBitmap(pageWidth, pageHeight, true);
+                        Stream stream = bitmap.AsBmpStream(dpiX, dpiY);
+
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            stream.CopyTo(memoryStream);
+                            contents = memoryStream.ToArray();
+                        }
                     }
                 }
 
