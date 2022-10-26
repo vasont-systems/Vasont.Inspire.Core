@@ -196,7 +196,6 @@ namespace Vasont.Inspire.Core.Extensions
         {
             byte[] returnValue;
             string fileMimeType = Files.FindMimeContentTypeByExtension(fileName);
-            bool createThumbnail = true;
 
             try
             {
@@ -231,6 +230,7 @@ namespace Vasont.Inspire.Core.Extensions
                         var pageHeight = (int)(dpiY * pdfPage.Size.Height / 72);
 
                         using var bitmap = new PdfiumBitmap(pageWidth, pageHeight, true);
+                        pdfPage.Render(bitmap, PageOrientations.Normal, RenderingFlags.LcdText);
                         Stream stream = bitmap.AsBmpStream(dpiX, dpiY);
 
                         using (var memoryStream = new MemoryStream())
@@ -238,12 +238,10 @@ namespace Vasont.Inspire.Core.Extensions
                             stream.CopyTo(memoryStream);
                             contents = memoryStream.ToArray();
                         }
-
-                        createThumbnail = false;
                     }
                 }
 
-                returnValue = createThumbnail ? contents.CreateThumbnail() : contents;
+                returnValue = contents.CreateThumbnail();
             }
             catch
             {
