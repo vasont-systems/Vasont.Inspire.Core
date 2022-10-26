@@ -196,6 +196,7 @@ namespace Vasont.Inspire.Core.Extensions
         {
             byte[] returnValue;
             string fileMimeType = Files.FindMimeContentTypeByExtension(fileName);
+            bool createThumbnail = true;
 
             try
             {
@@ -237,10 +238,12 @@ namespace Vasont.Inspire.Core.Extensions
                             stream.CopyTo(memoryStream);
                             contents = memoryStream.ToArray();
                         }
+
+                        createThumbnail = false;
                     }
                 }
 
-                returnValue = contents.CreateThumbnail();
+                returnValue = createThumbnail ? contents.CreateThumbnail() : contents;
             }
             catch
             {
