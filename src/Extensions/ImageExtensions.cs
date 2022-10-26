@@ -221,23 +221,20 @@ namespace Vasont.Inspire.Core.Extensions
                 {
                     var dpiX = 300D;
                     var dpiY = 300D;
-                    
-                    var pdfDocument = new PdfDocument(contents);
-                    foreach (var page in pdfDocument.Pages)
+
+                    using var pdfDocument = new PdfDocument(contents);
+                    using var pdfPage = pdfDocument.Pages[0];
+                    var pageWidth = (int)(dpiX * pdfPage.Size.Width / 72);
+                    var pageHeight = (int)(dpiY * pdfPage.Size.Height / 72);
+
+                    using var bitmap = new PdfiumBitmap(pageWidth, pageHeight, true);
+                    pdfPage.Render(bitmap, PageOrientations.Normal, RenderingFlags.LcdText);
+                    Stream stream = bitmap.AsBmpStream(dpiX, dpiY);
+
+                    using (var memoryStream = new MemoryStream())
                     {
-                        using var pdfPage = page;
-                        var pageWidth = (int)(dpiX * pdfPage.Size.Width / 72);
-                        var pageHeight = (int)(dpiY * pdfPage.Size.Height / 72);
-
-                        using var bitmap = new PdfiumBitmap(pageWidth, pageHeight, true);
-                        pdfPage.Render(bitmap, PageOrientations.Normal, RenderingFlags.LcdText);
-                        Stream stream = bitmap.AsBmpStream(dpiX, dpiY);
-
-                        using (var memoryStream = new MemoryStream())
-                        {
-                            stream.CopyTo(memoryStream);
-                            contents = memoryStream.ToArray();
-                        }
+                        stream.CopyTo(memoryStream);
+                        contents = memoryStream.ToArray();
                     }
                 }
 
