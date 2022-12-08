@@ -66,7 +66,7 @@
     <EmbeddedResource Include="Resources\imagedefaulticon.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="PdfLibCore" Version="2.3.0" />
     <PackageReference Include="Svg" Version="3.2.3" />
     <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
