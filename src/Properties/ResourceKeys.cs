@@ -179,7 +179,12 @@ namespace Vasont.Inspire.Core.Properties
         /// <summary>
         /// Gets the key for the LockedForTranslationByText resource string.
         /// </summary>
-        public const string LockedForTranslationByText = "LockedForTranslationByText"; 
+        public const string LockedForTranslationByText = "LockedForTranslationByText";
+
+        /// <summary>
+        /// Gets the key for the LockedForApproveByText resource string.
+        /// </summary>
+        public const string LockedForApproveByText = "LockedForApproveByText";
 
         /// <summary>
         /// Gets the key for the RuntimeMessageText resource string.
