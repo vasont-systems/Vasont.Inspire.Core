@@ -24,7 +24,7 @@
     <Copyright>Copyright (c) 2025, GlobalLink Vasont. All rights reserved.</Copyright>
     <PackageProjectUrl>https://vasont.com/</PackageProjectUrl>
     <PackageTags />
-    <PackageReleaseNotes>Updated packages.</PackageReleaseNotes>
+	<PackageReleaseNotes>Fix Package Vulnerabilities and Deprecations.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Version>1.0.34</Version>
     <SignAssembly>false</SignAssembly>
